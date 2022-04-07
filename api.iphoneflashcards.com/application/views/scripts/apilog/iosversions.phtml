@@ -1,0 +1,57 @@
+<a href="http://api.iphoneflashcards.com/apilog/">API Log</a> | 
+<a href="http://api.iphoneflashcards.com/apilog/versions">App Versions</a> | 
+<a href="http://api.iphoneflashcards.com/apilog/iosversions">iOS Versions</a> |
+<a href="http://api.iphoneflashcards.com/apilog/websites">Websites</a>
+<hr />
+<br /><br />
+<a href="iosversions?see=percent&groupby=<?php echo urlencode($_GET['groupby']); ?>">Percent</a> |
+<a href="iosversions?see=numbers&groupby=<?php echo urlencode($_GET['groupby']); ?>">Numbers</a>
+<br />
+<a href="iosversions?see=<?php echo urlencode($_GET['see']);?>&groupby=day">By Day</a> |
+<a href="iosversions?see=<?php echo urlencode($_GET['see']);?>&groupby=week">By Week</a> |
+<a href="iosversions?see=<?php echo urlencode($_GET['see']);?>&groupby=month">By Month</a>
+
+<div id="view-content">
+    <table border="2">
+        <tr>
+            <th></th>
+            <?php
+            foreach ($this->app_versions as $version) {
+                ?><th><?php echo htmlspecialchars($version); ?></th><?php
+            } ?>
+            <th>TOTAL</th>
+        </tr>
+        <?php
+        foreach ($this->results as $day => $data) {
+            $total = 0;
+            foreach ($data as $d) {
+                $total += $d;
+            }
+            ?>
+        <tr>
+            <td><?php echo htmlspecialchars($day); ?></td>
+            <?php
+            foreach ($this->app_versions as $version) {
+                if (!isset($data[$version])) {
+                    ?><td>&nbsp;</td><?php
+                    continue;
+                }
+                ?><td><?php
+                    if ($_GET['see'] == 'percent') {
+                        echo round($data[$version] / $total * 100, 2);
+                        echo '%';
+                    } else {
+                        echo htmlspecialchars($data[$version]);
+                    }
+                    ?></td>
+                <?php
+            } ?>
+            <td><?php
+            echo $total;
+            ?></td>
+        </tr>
+            <?php
+        }
+        ?>
+    </table>
+</div>

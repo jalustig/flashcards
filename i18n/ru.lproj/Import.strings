@@ -1,0 +1,463 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"Saving" = 
+"Сохранение";
+
+"Completing Authentication" = 
+"Аутентификация";
+
+"My Quizlet Sets" =
+"Мои наборы Quizlet";
+
+"Browse Quizlet Sets" =
+"Просмотр наборов Quizlet";
+
+"Search Quizlet Sets" = 
+"Поиск наборов Quizlet";
+
+"Download Set" = 
+"Скачать набор";
+
+"Downloading Sets" = 
+"Скачивание наборов";
+
+"My Groups" = 
+"Мои группы";
+
+"My Quizlet Groups" = 
+"Мои группы Quizlet";
+
+"Search Groups" = 
+"Поиск групп";
+
+"Search Quizlet Groups" = 
+"Поиск групп Quizlet";
+
+"Hosted on Dropbox" = 
+"Размещ. на Dropbox";
+
+"You have previously imported the card set \"%@\"." = 
+"Предварительно вы уже импортировали набор карточек \"%@\".";
+
+"Excel or CSV (Spreadsheet) Files" = 
+"Excel or CSV (Spreadsheet) Files";
+
+"Downloading Cards" = 
+"Скачивание карточек";
+
+"Downloading Groups" = 
+"Скачивание групп";
+
+"Downloading Images" = 
+"Скачивание изображений";
+
+"No .XSL or .CSV Files Found" = 
+"Не найден файл .XSL или .CSV";
+
+"Import" = 
+"Импорт";
+
+"Import Now" = 
+"Импорт. сейчас";
+
+"Importing Cards" = 
+"Импорт карточек";
+
+"Reverse Front & Back" = 
+"Поменять стороны";
+
+"Alphabetical" = 
+"Алфавит";
+
+"Most Recent" = 
+"Новейшие";
+
+"Highest Rated" = 
+"С наивысшей оценкой";
+
+"Best Match" = 
+"Лучшее совпадение";
+
+"Most Studied" = 
+"Наиболее изучаемые";
+
+"Studied Sets" = 
+"Изученные наборы";
+
+"Favorite Sets" = 
+"Любимые наборы";
+
+"My Sets" = 
+"Мои наборы";
+
+"Return to Card Set" = 
+"Вернуться к набору карточек";
+
+"Return to Collection" = 
+"Вернуться к Коллекции";
+
+"Return to Dropbox" = 
+"Вернуться в Dropbox";
+
+"Return to My Sets" = 
+"Вернуться в Мои Наборы";
+
+"Return to Search" = 
+"Вернуться к Поиску";
+
+"Return to Group" = 
+"Вернуться к Группе";
+
+"Edit Cards" = 
+"Редактировать карточки";
+
+"Study Now" = 
+"Изучение";
+
+"Log in to Quizlet" = 
+"Войти в Quizlet";
+
+"Login to Access Private Card Sets" = 
+"Вход для доступа к Личным наборам карточек";
+
+"Login to Access Private Groups" = 
+"Вход для доступа к Личным группам";
+
+"Logout (%@)" = 
+"Выйти (%@)";
+
+"No Results Found" = 
+"Результаты не найдены";
+
+"Processing Duplicates" = 
+"Обработка повторов";
+
+"Check for Duplicates" = 
+"Проверка повторов";
+
+"Mark Cards Related?" = 
+"Отметить карточки как связанные?";
+
+"Merge Card?" = 
+"Объединить карточки?";
+
+"Merge + Edit" = 
+"Объединить + Редакт.";
+
+"Current Card" = 
+"Текущая карточка";
+
+"New Card" = 
+"Новая карточка";
+
+"Current" = 
+"Текущая";
+
+"New" = 
+"Новая";
+
+"Tap to Cancel" = 
+"Нажать для отмены";
+
+"Checking Quizlet Plus" = 
+"Проверка Quizlet Plus";
+
+"Syncing Data" = 
+"Синхронизация данных";
+
+"FlashCards++ Sets" = 
+"Наборы FlashCards++";
+
+"FlashCards++ Collections" = 
+"Коллекции FlashCards++";
+
+"Subscribe to Online Changes" = 
+"Подписаться на онлайн изменения";
+
+"Would you like to turn Sync on for this already-existing set, import these cards into this already-existing set without turning on Sync, or would you like to create a new card set?" = 
+"Вы хотели бы включить синхронизацию для этого существующего набора, импортировать карточки в этот существующий набор без включения синхронизации или вы бы хотели создать новый набор?";
+
+"Would you like to Subscribe to online changes for this already-existing set, import these cards into this already-existing set without Subscribing to online changes, or would you like to create a new card set? NOTE: If you subscribe to online changes, any changes you have made locally will be erased." = 
+"Вы хотели бы подписаться на онлайн изменения для этого набора, импортировать карточки в этот существующий набор без Подписки на онлайн изменения или вы бы хотели создать новый набор? Примечание: Если вы подпишетесь на онлайн изменения, все изменения, сделанные на этом устройстве, будут удалены.";
+
+"You have set this card set to be Subscribed to %@. Any changes made online will be automatically downloaded to your device. Because of this, you cannot edit or import cards to this Card Set." = 
+"Вы подписали этот набор карточек на %@. Любые онлайн изменения будут автоматически приходить на ваше устройство. Поэтому вы не можете редактировать или импортировать карточки в этот Набор.";
+
+"Don't Import This Set" = 
+"Не импортировать этот Набор";
+
+"Set Previously Imported" = 
+"Прежде импорт. Набор";
+
+"Sync With Existing Set" = 
+"Синхр. с существующим Набором";
+
+"You have set this card set to be Subscribed to %@. Any changes made online will be automatically downloaded to your device. Because of this, you cannot edit or import cards to this Card Set." = 
+"You have set this card set to be Subscribed to %@. Any changes made online will be automatically downloaded to your device. Because of this, you cannot edit or import cards to this Card Set.";
+
+"You have chosen to sync the current card and the new card set with %@. By merging these cards, any changes you make to either card will be uploaded automatically to both of the original card sets on %@." = 
+"Вы выбрали синхронизировать текущий и новый наборы карточек с %@. После объедения этих карточек любые изменения с ними будут автоматически закачаны в оба исходных Набора на %@.";
+
+"You have chosen to sync the new card set with %@." = 
+"Вы выбрали синхронизировать новый набор с %@.";
+
+"You have chosen to sync the current card with %@." = 
+"Вы выбрали синхронизировать текущий набор с %@.";
+
+"By merging these cards, any changes you make will be uploaded automatically to the internet." = 
+"После объедения этих карточек любые изменения с ними будут автоматически закачаны в Интернет.";
+
+"Please select at least one set to import" = 
+"Пожалуйста, выберите хотя бы один набор для импорта";
+
+"Refreshing Authentication" = 
+"Обновление аутентификации";
+
+"Downloading Images: %d of %d" = 
+"Загрузка изображений: %1$d из %2$d";
+
+"Find Online Card Matches" = 
+"Найти онлайн совпадения";
+
+"Save and Proceed to Next Card" = 
+"Сохранить и перейти к след. карточке";
+
+"Save and Import Cards" = 
+"Сохранить и импортировать карточки";
+
+"Card Doesn't Exist On Web" = 
+"Карточки нет в Сети";
+
+"Local Card: %d of %d" = 
+"Локальная карточка: %1$d из %2$d";
+
+"Match with Card on the Web" = 
+"Подобрать карточку в Сети";
+
+"Best Matches:" = 
+"Лучшие совпадения:";
+
+"Other Potential Matches:" = 
+"Другие возможные совпадения:";
+
+"Merging" = 
+"Объединение";
+
+"Some of the cards in the set \"%@\" aren't matched up with cards saved on %@. Please match your local cards with the cards on the internet, so that they can be kept in sync." = 
+"Некоторые карточки набора \"%1$@\" не совпадают с сохранёнными на %2$@. Пожалуйста, подберите вашим локальным карточки из Интернета, чтобы они могли синхронизироваться.";
+
+"Log in to import card sets, upload and share cards on Quizlet, and access your groups. You can now access both public and private groups and sets." = 
+"Войдите чтобы импортировать наборы, закачивать и делиться карточками на Quizlet и иметь доступ к своим группам. Сейчас у вас есть доступ к публичным и персональным группам и наборам.";
+
+"Select Collection" = 
+"Выбрать коллекцию";
+
+"Other Topic" = 
+"Другая тема";
+
+"Current Collections" = 
+"Текущая коллекция";
+
+"Import Multiple" = 
+"Импорт нескольких";
+
+"Import One" = 
+"Импорт одной";
+
+"Import Selected" =
+"Импорт выбранные";
+
+"Import All Sets" = 
+"Импорт всех наборов";
+
+"Import as Separate Sets" = 
+"Импорт как отдельные наборы";
+
+"Please select at least one set to import." = 
+"Пожалуйста, выберите хотя бы один набор для импорта.";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"Duplicate Set Found" = 
+"Найден дублирующийся Набор";
+
+"You already have a card set entitled \"%@\". Would you like to import these cards into this already-existing set, or would you like to create a new card set?" = 
+"У вас уже есть Набор с именем \"%@\". Хотите ли вы импортировать карточки в этот существующий набор или создать новый?";
+
+"Create New Set" = 
+"Создать новый набор";
+
+"Import to Existing Set" = 
+"Иморт в существующий";
+
+"Created On" = 
+"Создано";
+
+"Creator" = 
+"Автор";
+
+"Folders" = 
+"Папки";
+
+"Go To Parent Folder" = 
+"На уровень выше";
+
+"Home Folder" = 
+"Главный каталог";
+
+"Return to Home Folder" = 
+"Выйти в главный каталог";
+
+"Your search term must be at least two characters in length." = 
+"Объект поиска должен быть минимум два символа.";
+
+"Your username must be at least two characters in length." = 
+"Ваше имя пользователя должно быть минимум два символа.";
+
+"At this time, password-protected card sets cannot be synced with Quizlet." = 
+"Сейчас защищённые паролем наборы не могут быть синхронизированы с Quizlet.";
+
+"Group Password" = 
+"Пароль группы";
+
+"Join Group" = 
+"Присоединиться к группе";
+
+"Joining Group" = 
+"Вход в группу";
+
+"Leave Group" = 
+"Покинуть группу";
+
+"Leaving Group" = 
+"Выход из группы";
+
+"No Sets In Group" = 
+"Нет наборов в группе";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"Tag: %@" = 
+"Tag: %@";
+
+"Topics" = 
+"Topics";
+
+"The password you entered is not valid. Please enter the group's password (case-sensitive) to join:" = 
+"The password you entered is not valid. Please enter the group's password (case-sensitive) to join:";
+
+"The password you entered is not valid. Please enter the set's password (case-sensitive) to access:" = 
+"The password you entered is not valid. Please enter the set's password (case-sensitive) to access:";
+
+"This group does not exist." = 
+"This group does not exist.";
+
+"This group was either deleted by its owner or because it had inappropriate content." = 
+"This group was either deleted by its owner or because it had inappropriate content.";
+
+"This is a \"private\" card set and is password-protected. Please enter the set's password (case-sensitive) to access:" = 
+"This is a \"private\" card set and is password-protected. Please enter the set's password (case-sensitive) to access:";
+
+"Set Password" = 
+"Set Password";
+
+"This is a \"private\" group and is password-protected. Please enter the group's password (case-sensitive) to join:" = 
+"This is a \"private\" group and is password-protected. Please enter the group's password (case-sensitive) to join:";
+
+"This is a \"private\" group. Please log in to Quizlet to access or join this group." = 
+"This is a \"private\" group. Please log in to Quizlet to access or join this group.";
+
+"This is a \"private\" group. You do not have access to this group, and at this time password-protected groups are not supported." = 
+"This is a \"private\" group. You do not have access to this group, and at this time password-protected groups are not supported.";
+
+"This set does not exist." = 
+"This set does not exist.";
+
+"This file exceeds the maximum file size for processing (8 megabytes). Please select a smaller file." = 
+"This file exceeds the maximum file size for processing (8 megabytes). Please select a smaller file.";
+
+"This set was either deleted by its owner or because it had inappropriate content." = 
+"This set was either deleted by its owner or because it had inappropriate content.";
+
+"This user does not exist; make sure you did not misspell the name." = 
+"This user does not exist; make sure you did not misspell the name.";
+
+"You may only join a maximum of 8 Quizlet groups (you have 8). Please remove some before adding new ones, or subscribe to the Quizlet PLUS service to have unlimited groups. (This is a limitation of Quizlet, not FlashCards++, please consult the FAQ on www.Quizlet.com.)" = 
+"You may only join a maximum of 8 Quizlet groups (you have 8). Please remove some before adding new ones, or subscribe to the Quizlet PLUS service to have unlimited groups. (This is a limitation of Quizlet, not FlashCards++, please consult the FAQ on www.Quizlet.com.)";
+
+"You have been invited to join this group. Would you like to join?" = 
+"You have been invited to join this group. Would you like to join?";
+
+"You have joined this group successfully." = 
+"You have joined this group successfully.";
+
+"You have left this group successfully." = 
+"You have left this group successfully.";
+
+"The is a \"private\" group. Please enter a quick message to the group to ask to join:" = 
+"The is a \"private\" group. Please enter a quick message to the group to ask to join:";
+
+"Your Message" = 
+"Your Message";
+
+"The administrator of this group has been notified of your application." = 
+"The administrator of this group has been notified of your application.";
+
+"Due to technical difficulties or site maintenance, access to private Quizlet sets and groups is not currently available. It will be available again shortly." = 
+"Due to technical difficulties or site maintenance, access to private Quizlet sets and groups is not currently available. It will be available again shortly.";
+
+"There has been an error with your Quizlet authentication; please re-authenticate with Quizlet." = 
+"There has been an error with your Quizlet authentication; please re-authenticate with Quizlet.";
+
+"There was an error reading your data file, please ensure that it has not been corrupted: %@ (%d)" = 
+"There was an error reading your data file, please ensure that it has not been corrupted: %1$@ (%2$d)";
+
+"# Cards" = 
+"# Cards";
+
+"Choose Spreadsheet" = 
+"Choose Spreadsheet";
+
+"Description" = 
+"Description";
+
+"Your Email Address" = 
+"Your Email Address";
+
+"Your Quizlet Username" = 
+"Your Quizlet Username";
+
+"An administrator of this group has removed you." = 
+"An administrator of this group has removed you.";
+
+"Added to group %@" = 
+"Added to group %@";
+
+"Please log in to Quizlet to access or join this group." = 
+"Please log in to Quizlet to access or join this group.";
+
+"Processing File" = 
+"Processing File";
+
+"Validating Purchase Receipts" = 
+"Validating Purchase Receipts";
+
+"Compressing Database" = 
+"Compressing Database";
+
+"Import Without Images" = 
+"Import Without Images";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+
+"Excel or CSV (Spreadsheet) File" = 
+"Эл.таблица Excel или CSV";
+

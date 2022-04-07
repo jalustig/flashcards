@@ -1,0 +1,104 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"Do You Like This App?" = 
+"Нравится это приложение?";
+
+"I Like This App" = 
+"Мне нравится";
+
+"There's a problem..." = 
+"Есть проблема...";
+
+"ThereIsAProblemText" = 
+"I am an independent developer and while my apps are translated into many languages, I only understand the following languages:
+- English
+- Deutsch
+- Русский
+
+If you can write in any of these languages, you will get an answer much faster.
+
+Thanks for your understanding.";
+
+"Would you like to attach a copy of your FlashCards++ data file? If you are sending feedback about a bug or crash, attaching your data file will help to solve your issue more quickly." = 
+"Вы хотели бы приложить копию файла данных FlashCards++? Если вы посылаете информацию об ошибке или сбое, ваш прилагаемый файл данных поможет быстрее решить ваш вопрос.";
+
+"Feedback about FlashCards++" = 
+"Обратная связь FlashCards++";
+
+"Rate in App Store" = 
+"Дать оценку в App Store";
+
+"Send Feedback" = 
+"Отправить отзыв";
+
+"Yes, Attach" = 
+"Да, приложить";
+
+"OK, I Understand" = 
+"Да, я понимаю";
+
+"Thank You :-)" = 
+"Спасибо :-)";
+
+"Leave an App Store Review" = 
+"Оставить отзыв в App Store";
+
+"Thank you for sending your message. We will be in touch shortly." = 
+"Спасибо за отправку сообщения. Мы скоро свяжемся с вами.";
+
+"Send Love" = 
+"Send Love";
+
+"Your love makes us work harder. Please review this app." = 
+"Your love makes us work harder. Please review this app.";
+
+"Not Now" = 
+"Не сейчас";
+
+"Review" = 
+"Отзыв";
+
+"Thank You" = 
+"Спасибо";
+
+"No, thank you" = 
+"Нет, спасибо";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"Tell Friends About FlashCards++" = 
+"Рассказать другу о FlashCards++";
+
+"Share by Email" = 
+"Послать по Email";
+
+"Share with Facebook" = 
+"Поделиться по Facebook";
+
+"Share with Twitter" = 
+"Поделиться по Twitter";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"Feedback about FlashCards++ Lite" = 
+"Отзыв о FlashCards++ Lite";
+
+"FlashCards++ on Facebook" = 
+"FlashCards++ в Facebook";
+
+"FlashCards++ on Twitter" = 
+"FlashCards++ в Twitter";
+
+"Feedback about FlashCards++ [Renewing Subscription]" = 
+"Feedback about FlashCards++ [Renewing Subscription]";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

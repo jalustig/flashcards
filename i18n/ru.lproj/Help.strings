@@ -1,0 +1,489 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"LearnMoreUploadDatabase" = 
+"
+FlashCards++ syncs your flash cards and sync data between your different iOS devices, like your iPhone and iPad, based off the initial upload of your flash card database, which you upload when you first set up the sync function.
+
+Changes that you make, by editing cards or studying for example, are uploaded to the web server and shared with your other devices. However, over time, the initial upload becomes more and more out of date with the most recent versions of your data, and more and more of your current data is stored in the change sets. This slows down the sync function.
+
+To best maintain the sync functionality and also to create a backup, it is recommended that you upload a new copy of your database every so often.
+";
+
+"About Subscriptions" = 
+"О подписке";
+
+"AboutSubscriptionsFreeHelp" = 
+"
+**What are the benefits?**
+
+Subscribers have access to all FlashCards++ features and can have an unlimited number of cards. These features include text-to-speech audio, recording your own audio for flash cards, and keep your flash cards automatically synced between different iOS devices such as iPad and iPhone.
+
+In addition, you're supporting the ongoing and future feature development of FlashCards++.
+
+**How much does it cost?**
+
+$3 for 3 months, so it's only $1 per month.
+
+If FlashCards++ is worth that to you, I'd be grateful to have your support as a Subscriber.
+
+**Why sell Subscriptions?**
+
+FlashCards++ isn't the product of a huge company. It's a one-man shop: I am the one and only developer, designer, and handle all customer support. Thankfully there are many, many people who have found FlashCards++ helpful, but for this reason there are some features that I want to build that are unfortunately too complex or expensive to operate for all users so I've needed to limit them or omit them entirely. With Subscriptions, I can offer features that were previously impractical.
+
+Subscriptions also build sustainable income to help ensure FlashCards++'s continued operation and future development.
+
+**Do I need to buy a Subscription?**
+
+No, but you will not have access to the majority of the FlashCards++ features. Especially if you want to support future development, I would appreciate your support.";
+
+"AboutSubscriptionsHelp" = 
+"
+**What are the benefits?**
+
+Subscribers can use text-to-speech offline, record their own audio for flash cards, and keep their flash cards automatically synced between different iOS devices such as iPad and iPhone.
+
+In addition, you're supporting the ongoing and future feature development of FlashCards++. Some future features may be Subscriber-only, but the prime reason to buy a subscription is because you want to support FlashCards++.
+
+**How much does it cost?**
+
+$3 for 3 months, so it's only $1 per month.
+
+If FlashCards++ is worth that to you, I'd be grateful to have your support as a Subscriber.
+
+**Why sell Subscriptions?**
+
+FlashCards++ isn't the product of a huge company. It's a one-man shop: I am the one and only developer, designer, and handle all customer support. Thankfully there are many, many people who have found FlashCards++ helpful, but for this reason there are some features that I want to build that are unfortunately too complex or expensive to operate for all users so I've needed to limit them or omit them entirely. With Subscriptions, I can offer features that were previously impractical.
+
+Subscriptions also build sustainable income to help ensure FlashCards++'s continued operation and future development.
+
+**Do I need to buy a Subscription?**
+
+No. Almost all of FlashCards++'s features will continue to be available to non-Subscribers. Especially because this is a paid app, I am committed to providing a full experience to all users. But if you want to support future development, I would appreciate your support.";
+
+"Help & FAQ" = 
+"Помощь и ЧаВо";
+
+"Frequently Asked Questions" = 
+"Часто задаваемые вопросы";
+
+"Getting Started" = 
+"Приступая к работе";
+
+"Help" = 
+"Справка";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"Studying Chemistry ANSWER" =
+"You can create chemistry math cards with superscripts and subscripts using the LaTeX formatting options. Please see 'Studying Math' for instructions on how to use the special formatting for math and chemistry.";
+
+"Studying Math ANSWER" = "
+Studying math with FlashCards++ is easy! You can now enter math equations (also useful for chemistry) using LaTeX or MathML (Math Markup Language). Here's how:
+
+1. Go to the Collection (top level group) for your math flash cards, and tap 'Edit.' You will see options for the 'Language' of the front & back sides of the cards. Select 'Math' as the language for the side of the card that will have math.
+2. Type in math equations using the proper markup language in the side of the card that you selected would include math equations.
+
+How does it work? Here is an example of LaTeX and how it turns into a math equation:
+
+*^3/_7* becomes: $ ^3/_7 $
+
+... or something more complicated:
+
+*a^2 = \\frac{b^2 - c^2}{3}* becomes $ a^2 = \\frac{b^2 - c^2}{3} $
+
+[You can read a short tutorial on using LaTeX at Wikimedia which explains in more detail how to lay out math.](http://en.wikibooks.org/wiki/LaTeX/Mathematics) But here are some quick pointers:
+
+1. Encapsulate your math around \"\$\" and \"\$\" so the app knows it's math.
+2. Many of your basic math annotations will work. E.g. a ^ is an exponent. ! is !.
+3. You can display some very complex math, and it will look really nice. This includes fractions, square roots, equations, calculus (derivatives and limits), sums, probabilities, and more.
+4. Two of the most important elements are the carat (^) and underscore (_). Carats indicate things that go up (exponents, upper limits in integrals, etc.) and also the numerator in a fraction. Underscores (_) indicate things that go down: subscript, denomintators in fractions, etc.
+
+I generally believe in learning by example. So here are some examples of common math problems that you might want to put into a flash card:
+
+**Fractions**
+
+There are 3 main ways to do fractions:
+
+1. For simple fractions, you can use a short notation of a carat (^) followed by the numerator, then forwardslash (/), then an underscore (_), then the denomintator:
+
+*^a/_b* becomes $ ^a/_b $
+
+2. More complicated: Use a curly bracket followed by the numerator, then *\\over*, then the denomintator, then a final curly bracket.
+
+*{n! \\over k!(n-k)!}* becomes $ {n! \\over k!(n-k)!} $
+
+3. Or, begin with *\\frac* and then two sections *{a}* and *{b}*, like this: *\\frac{a}{b}*. The first item in curly-braces will go on top, the second on the bottom.
+
+*\\frac{a^2}{b}* becomes $ \\frac{a^2}{b} $
+
+**Square Roots**
+
+Begin with \\sqrt. An optional [a] gives the power, and then {a} gives what goes under the root.
+
+*\\sqrt{9} = 3* becomes $ \\sqrt{9} = 3 $
+
+*\\sqrt[3]{27} = 3* becomes $ \\sqrt[3]{27} $
+
+**Sums**
+
+*\\sum_{i=1}^{10} t_i* becomes $ \\sum_{i=1}^{10} t_i $
+
+**Calculus**
+
+*\\int y: \\mathrm{d}x^2* becomes $ \\int y: \\mathrm{d}x^2 $
+
+*\\int\\limits_b^a* becomes $ \\int\\limits_b^a $
+
+**Special Characters**
+
+These are only some of the special characters you can use:
+
+*<* and *>* $ \\to < and > $
+*\\leq* $ \\to \\leq $
+*\\pm*  $ \\to \\pm $
+*\\times* and *\\div* $ \\to \\times and \\div $
+*\\alpha* $ \\to \\alpha $
+*\\beta* $ \\to \\beta $
+*\\delta* $ \\to \\delta $
+*\\pi* $ \\to \\pi $ (and more or less all the other Greek letters)
+*\\infty* $ \\to \\infty $
+*\\implies* $ \\to \\implies $
+*\\iff* $ \\to \\iff $
+*\\forall* $ \\to \\forall $
+
+If you read the tutorial on Wikimedia you\'ll learn more about how the math can be laid out. This will give you a taste for what can be done, if you want to make math flash cards that look great.
+";
+
+
+"Apply to be a Beta Tester" =
+"Подать заявление на бета-тестера";
+
+"Would you like to help make FlashCards++ a better app? I am always working on new updates and am looking for customers who want to help to beta test them by reporting bugs and making suggestions. I am inviting you to apply to be a beta tester. Would you like to join us? -- Jason, FlashCards++ Developer" = 
+"Хотели бы вы помочь сделать FlashCards++ лучше? Я всегда работаю над новыми обновлениями и ищу пользователей, которые хотят помочь с бета-тестированием: найти ошибки и внести предложения. Я приглашаю вас подать заявление на бета-тестера. Хотели бы вы присоединиться к нам? -- Jason, разработчик FlashCards++";
+
+"Apply Now" = 
+"Подать заявление";
+
+"Beta Tester Application for FlashCards++" = 
+"Заявление на бета-тестера FlashCards++";
+
+"Thank you for your application. We will be in touch shortly." = 
+"Спасибо за ваше заявление. Мы скоро с вами свяжемся.";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"Importing Flash Cards" = 
+"Импорт Flash Cards";
+
+"Importing Flash Cards - ANSWER" = 
+"You can import flash cards from [Quizlet](http://www.quizlet.com/). You can also choose to import cards from Excel files hosted on Dropbox.
+
+Go to Your Collection (e.g. German) -> Import. You may import cards into an already-existing card set by clicking on Your Collection -> View Card Sets -> Your Card Set (e.g. Lesson 3) -> Import.
+
+At this point you can choose which service (Quizlet or Dropbox) you wish to import from.
+
+If you are importing from CSV or Excel, make sure that you have entered the front card value in Column A, and the back card value in Column B.";
+
+"Importing from Excel" = 
+"Импорт из Excel";
+
+"Importing from Excel - ANSWER" = 
+"It's very easy to import from Excel. Put the front card value in column A of your spreadsheet, and the back card value in column B. If you have images, you can import them via CSV or Excel by uploading them to a website and putting the URL for the image for the front side in column C, and the URL for the image on the back side in column D. Then save the file in your Dropbox. (You can also save the file as a CSV.) You will then be able to find it in the Import screen. Alternately, you can email the file to yourself and import it from the Mail app, or you can open Excel files from Mobile Safari or the Dropbox app.";
+
+"Importing Tips & Tricks" = 
+"Советы и способы импорта";
+
+"Importing Tips & Tricks - ANSWER" = 
+" - **Use a systematic convention** for your cards. That way, you will be more likely to find duplicate cards. For example, in German, I use a forwardslash to indicate a separable prefix, e.g. mit/bringen (to bring with).
+ - Put separate notes, such as past tense forms of verbs, in parantheses. When searching for duplicates, FlashCards++ ignores text in parentheses or brackets.";
+
+"Moving Cards to a Different Card Set" = 
+"Перемещение карточек в другой Набор";
+
+"Moving Cards to a Different Card Set - ANSWER" = 
+"There are two ways to move cards between card sets.
+
+**Moving Individual Cards from One Set to Another**
+
+ 1. Go to edit the card that you want to move from card set A to card set B.
+ 2. Tap \"Card Sets,\" which will show you the list of all card sets in the collection. Any card sets with a checkmark currently include this card.
+ 3. Tap your new card set to include the card in this set. If you don't want the card to be in the old card set, tap that card set to remove it.
+ 
+**Move Multiple Cards by Merging Sets or Collections**
+ 
+ If you want to completely merge two Card Sets into one, or move a Card Set into a different Collection:
+ 1. Go to the destination Card Set or Colletion.
+ 2. Tap \"Import Cards\"
+ 3. At the bottom will be the option to import from FlashCards++ Card Sets or Collections. Select the Card Set or Collection you want to import from, and FlashCards++ will merge that Card Set or Collection into the desination.";
+
+"RootVCHelp" = 
+"Thanks for downloading FlashCards++! Tap the button above to create a new \"Collection\" of flash cards, e.g. French, Human Anatomy, or Constitutional Law.\n\nTo create flash cards, enter your Collection and tap \"Create Cards.\n\nTo import cards, enter your Collection and tap \"Import Cards.\" You can import from Quizlet, or CSV or Excel files.";
+
+"SettingsStudyVCHelp" = 
+"
+**Study Settings**
+
+ - *Text Size:* Increase or decrease the font size when studying.
+ - *Text Justification:* Align text to the center, left, or right when studying.
+ - *Text Font:* Select which font you want to use when viewing your cards. You can select any of the fonts which come on your iPhone, iPad, or iPod touch, but unfortunately you cannot upload your own fonts.
+ - *Display as Index Card:* You can view cards in a manner which looks like a paper index card (the default), or you can turn this feature off and view your cards as text on a solid background.
+ - *Background Color:* If you choose to view your cards as text on a solid background, you can change the background color when studying your cards.
+ - *Auto-Browse Speed:* Set how fast you want cards to flip, and proceed to the next card, when using auto-browse mode.
+ - *Go To Next On Score:* FlashCards++ can automatically proceed to the next card when you tap on a score, rather than making you swipe to go to the next card.
+ 
+**General Settings**
+
+ - *Display Badge:* By default, FlashCards++ displays a \"badge\" on your device's home screen telling you how many cards are currently due to review. You can choose to turn this off.
+ - *Auto-correct text:* If you choose, you can have FlashCards++ use your device's auto-correct functionality to fix your spelling errors while you type out your cards. This may not be so useful if you are typing in a foreign language and *every* word looks like a typo. *Note: If you change your keyboard to a foreign langauge keyboard, iOS's auto-correct will use the correct language dictinoary.*
+ - *Auto-capitalize text:* You can choose whether or not, when you create or edit new cards, the words should be capitalized by default at the beginning.
+ 
+**Import Settings**
+
+ - *Merge Exact Matches:* When importing cards, FlashCards++ will automatically merge new cards with previously existing cards when both the front and back sides of the card match exactly.";
+
+"Sharing Flash Cards" = 
+"Поделиться флэш-карточками";
+
+"Studying Cards Again" = 
+"Учить карточки снова";
+
+"Studying Cards Again - ANSWER" = 
+"After you study your cards for the first time, FlashCards++ waits a certain period of time before prompting you to re-study and review those cards. Each card's repetition time is determined based on how easy or difficult it is.  However, you can re-study cards as often as you like. Whenever you tap *Learn Cards* or *Test Cards*, if  all cards have been marked as \"Memorized\" (i.e. it got a passing score in the Test Cards stage), then  FlashCards++ will alert you and allow you to \"Re-Study\" your cards.";
+
+"Studying Flash Cards - ANSWER" = 
+"You can easily share flash cards with your friends via e-mail: Go to the collection or card set which you would like to share, and tap \"Share.\" You can share by uploading cards to Quizlet, or in one of two file formats. Both formats are great options, but there are some differences. Here's what you should know:
+
+ - *FlashCards++ Format:* This is the preferred format for sharing cards. It is the native application format and can be imported directly into FlashCards++. It also holds images, record audio, and retains information about which cards are related to one another.
+ - *CSV (Comma-Separated Value):* This format creates a spreadsheet compatible with Microsoft Excel. You can open it on your computer. Your friends can also import it directly to FlashCards++, but there are two downsides: (1) CSV can contain only text, not images or recorded audio, and (2)  CSV cannot contain information about which cards are a part of which card set, and which cards are related to one another.";
+
+"StudyScoresText" = 
+"When you score your answer to each card, you help calibrate the spaced repetition system. The five options generally mean:
+
+**FORGETTING**
+
+ - *Fail:* Cannot recall the material at all; it is totally unfamiliar.
+ - *Almost:* Cannot recall the material, but it did not feel completely unfamiliar.
+ 
+**REMEMBERING**
+
+ - *Barely:* Can recall the material, but only with a great deal of effort or thought; perhaps, slightly incorrect.
+ - *Okay:* Can recall with no more than a slight hesitation.
+ - *Easy:* Can recall with absolutely no difficulty; it comes to you immediately.
+ 
+You can also choose not to score your answer.";
+
+"The FlashCards++ Method" = 
+"Методы FlashCards++";
+
+"The FlashCards++ Method - ANSWER" = 
+" 1. Import cards into a Card Set, and de-dupe the cards.
+ 2. Edit the cards to find typos.
+ 3. Study cards for a few rounds in Random or Smart study modes to memorize them.
+ 4. \"Test\" the cards to enter them into the Spaced Repetition algorithm. 
+ 5. Study cards when you are prompted, and also study when you need to refresh before a test.
+ 6. Re-study cards which scored less than 4 (\"OK\") so that you will still remember them later.
+ 7. After re-studying cards with scores less than 4, tap \"Begin Test\" to re-test the cards and re-enter them into the spaced repetition algorithm.
+ 8. Re-learn any Lapsed cards which you didn't immediately re-test, which are cards you memorized and then forgot, and re-test them to enter them into the Spaced Repetition algorithm.";
+
+"Try FlashCards++ for iPhone and iPod Touch!" = 
+"Попробуйте FlashCards++ для iPhone и iPod Touch!";
+
+"Unicode Support" = 
+"Поддержка юникода";
+
+"Unicode Support - ANSWER" = 
+"FlashCards++ supports all languages by using Unicode. To type in languages other than your device's default language (usually English), you need to enable foreign keyboards. Here's how:
+
+ 1. Open the Settings app.
+ 2. Tap *General*.
+ 3. Tap *Keyboard*.
+ 4. Tap *International Keyboards*.
+ 5. Tap *Add New Keyboard*.
+ 6. Tap on any keyboard to add it.
+ 7. When you return to FlashCards++, whenever you see a keyboard on screen, there will be an \"international\" icon to the left of the space bar. Tap and hold this icon to see a list of international keyboards which you can use to type in FlashCards++.";
+
+"Video Tutorials" = 
+"Виде-урок";
+
+"What Do the Scores Mean?" = 
+"Что значат баллы?";
+
+"What is FlashCards++?" = 
+"Что такое FlashCards++?";
+
+"What is FlashCards++? ANSWER" = 
+"FlashCards++ is the premier flash card app for iPhone, iPod touch, and iPad. Using FlashCards++, you can study effectively by building a database of your knowledge and determining the best time to study. FlashCards++ currently supports text and image cards, and supports any language.";
+
+"What is Spaced Repetition?" = 
+"Что такое долгосрочное повторение?";
+
+"What is Spaced Repetition? ANSWER" = 
+"To enable the most effective long-term memory retention, you should \"space out\" when you study. If you study every vocabulary word every day, you might remember them, but you'll spend all day studying. In fact, if you wait between each study session, your memorization will become deeper as the information shifts from short-term to long-term memory.
+
+In other words, the best time to study something is when you are about to forget it. FlashCards++ utilizes an effective and proven algorithm, pioneered by SuperMemo, to decide when to test you.
+
+Note that FlashCards++ is not affiliated or associated with SuperMemo.";
+
+"Get Started" = 
+"Начать";
+
+"Would you like to read the 'Getting Started' tour for FlashCards++?" = 
+"Хотели бы вы прочитать начальный обзор FlashCards++?";
+
+"Go to Tour" = 
+"Перейти к обзору";
+
+"Importing from Excel & CSV" = 
+"Импорт из Excel и CSV";
+
+"Glossary" = 
+"Глоссарий";
+
+"About/Licensing" = 
+"О нас/Лицензии";
+
+"<p>Hey there!</p><p>I thought you might like to try <a href=\"http://bit.ly/iphoneflashcards\">FlashCards++ for iPhone and iPod Touch</a>, the best way to study on the go. Import flash cards from Quizlet, or create them on your phone.</p><p>To learn more about FlashCards++, visit <a href=\"http://www.iphoneflashcards.com/\">www.iphoneflashcards.com</a>.<p>Also, there is a free demo available if you want to try the app before you buy it.</p>" =
+"<p>Hey there!</p><p>I thought you might like to try <a href=\"http://bit.ly/iphoneflashcards\">FlashCards++ for iPhone and iPod Touch</a>, the best way to study on the go. Import flash cards from Quizlet, or create them on your phone.</p><p>To learn more about FlashCards++, visit <a href=\"http://www.iphoneflashcards.com/\">www.iphoneflashcards.com</a>.<p>Also, there is a free demo available if you want to try the app before you buy it.</p>";
+
+"BackupRestoreListFilesVCHelp" = 
+"To back up your flash cards, tap \"Backup Now\" below.
+
+You can restore your backup by returning to this screen and selecting the backup to restore.
+
+By default, backups are stored in a folder called \"FlashCards++ Backups.\" You can change this location in the Backup Settings.";
+
+"Can I add photos or audio?" = 
+"Могу ли я добавить фото или аудио?";
+
+"Can I add photos or audio? ANSWER" = 
+"You can add both pictures and audio to your flash cards. You can choose photos from your library or, if your mobile device has a camera, you can take pictures with your camera and put them into your flash cards.
+
+To record audio, simply tap the speaker icon while editing any card. Recording audio is a Subscriber-only feature. In addition, if you tap the speaker icon while studying, FlashCards++ will use a text-to-speech engine to speak the card to you.";
+
+"CardListDuplicatesVCHelp" = 
+"This screen displays a list of duplicate cards based on the front.
+
+Yellow cards have been entered into the Spaced Repetition System; clear ones have not.";
+
+"CollectionCardsDueByDayVCHelp" = 
+"Based on your self-assessments, cards are assigned a date for the next repetition. This chart displays how many cards are scheduled to be studied on which days.";
+
+"CollectionCardsStudiedByDayVCHelp" = 
+"A graph of how many cards you actually studied by day, week, or month.";
+
+"CollectionEFactorChartViewController" = 
+"Based upon your self-assessments, each card is assigned an \"e-factor\" between 1.2 to 2.5, which represents how easy or difficult it is. A lower e-factor means that it is more difficult, and higher means that it is easier. This chart displays the distribution of e-factors amongst cards in this collection.";
+
+"CollectionGeneralStatisticsVCHelp" = 
+"These statistics try to sum up information about your flash cards and study habits, including:
+
+ - First Day - Date you created the collection
+ - # Days - Total days you have been studying
+ - # Cards - Total cards in your collection
+ - # Cards Memorized - How many of the cards have been memorized and entered into Spaced Repetition
+ - # Memorized / Day - Total cards you have memorized per day
+ - # Cards Pending - How many cards remain to enter into the Spaced Repetition regiment
+ - Retention Rate - Estimated knowledge retention based on your self-assessments
+ - Avg. Repetition Time - Average time spent on each card repetition
+ - Total Repetition Time - Combined total time spent on all card repetitions
+ - Burden - Estimation of how many cards you study per day
+ - Workload - Estimation of how much time you spend studying per day
+ - Speed - Average knowledge acquisition rate, measured in number of memorized items per year per daily minute of work
+ - Avg. Interval - Average current interval for memorized items
+ - Avg. Repetitions - Average number of repetitions for memorized item";
+
+"CollectionOFMatrixVCHelp" = 
+"To estimate the best time to study, FlashCards++ uses an advanced algorithm, based on SuperMemo's SM-5, which at its core utilizes a tool called the matrix of Optimal Factors (OF-Matrix). This matrix auto-adjusts to keep track of how long you should study a card depending on its difficulty (E-Factor) and repetition. E-Factors are listed across the top, and the repetition number is listed down the left.
+
+This matrix is used as follows: When you study a card, if you get it right (score > 3), then the next repetition is calculated to be: previousRepetitionLength * OF-Value, based on this table.
+
+When you create a new collection, we begin with a univalent matrix of optimal factors built directly upon the values of the E-Factors. As you study, this matrix is auto-adjusted to better calculate the best spacing. Cells with a red background indicate that this item has been auto-adjusted.";
+
+"CollectionScoreChartVC" = 
+"Displays the average score for cards in each E-Factor range by repetition number. Scores range from 1-5.";
+
+"GettingStartedText" = 
+"The quickest way to get started is to just start studying. FlashCards++ comes with a set of GRE vocabulary, so tap the GRE Vocabulary \"Collection,\" and tap \"Study Cards.\" You can choose between three study modes--[\"smart\" study, linear, and random](#study)--and whether you want to study all cards or a random subset. Then get to work! Read below for detaileds about [FlashCard++'s philosophy](#philosophy), [creating a collection](#collection), [importing cards](#import), [studying](#studying), [making sense of the statistics](#stats), and a [glossary](#glossary).
+
+**<a name=\"philosophy\"></a>The FlashCards++ Philosophy: Creating Your Database of Knowledge**
+
+With FlashCards++, you create a \"database of knowledge\" about a subject (such as foreign vocabulary) and establish a study regiment to learn and retain as much as possible. To accomplish this, you create a \"Collection\" of flash cards and study them at optimal intervals using the Spaced Repetition System, based on the pioneering SuperMemo.
+
+Information should not be duplicated. If you have two identical cards, the cards should be \"merged\" so you only have one copy. Otherwise you will spend twice as much time studying two cards!
+
+After creating many cards you will have an invaluable tool--a database of your knowledge that will enable you to study it over time so that you can develop long-term memory and gain mastery of the subject.
+
+**<a name=\"\"></a>The FlashCards++ Method: Spaced Repetition**
+
+FlashCards++ has one goal: enable you to study vast amounts of material with minimal amount of time investment, *and still maintain good memory retention!* This goal is achieved through the Spaced Repetition System, a studying model to approximate the amount of time between when you learn something and when you will forget it.
+
+The \"optimal interval\" is calculated by assigning each card an \"E-Factor\" between 1.2 and 2.5, which represents how easy or difficult it is. FlashCards++ uses this data to estimate how long you should wait between your current study session and the next time you should study.
+
+**<a name=\"collection\"></a>Creating a Collection**
+
+The first step is to create a \"Collection\" to house your database of knowledge. You can have as many collections as you want, you should separate them based on content, e.g. you may have one collection for Russian vocabulary, one for Chinese, another one for math. Simply tap the \"+\" on the home screen. If it is a language, turn on \"Language Tools\" which auto-adjust E-Factors based on word length and other variables.
+
+**<a name=\"import\"></a>Importing Cards**
+
+You can import cards from [Quizlet](http://www.quizlet.com/), one of the most popular flash card sites. You can also import from Excel and CSV files via Dropbox. Here's how:
+
+ 1. Enter cards into a two-column spreadsheet, with column A as the front side and column B as the back side. If you have images, you can import them via CSV or Excel by uploading the images to a website and putting the URL for the image for the front side in column C, and the URL for the image on the back side in column D. Upload the cards to Quizlet or Dropbox.    On Quizlet, choose \"bulk-import cards\" and then paste your spreadsheet into the text field.
+ 2. Go back to FlashCards++, and go to your collection. Then, click \"Import Cards,\" where you will have options to import from Quizlet, or Dropbox:
+     a. **To import from Quizlet:** you can browse a list of your personal card sets, or browse/search through the Quizlet database. Click on a card set to view its contents and download it.
+     b. **To import from Dropbox:** navigate your Dropbox to where the file can be found, and select your CSV or Excel file.
+ 3. If any of the cards already exist in your collection, you will be prompted to \"merge\" them. If you choose to merge the cards, you can select which version of the front or back sides to keep from the new vs. the old card. If you choose not to merge them, you can mark them as \"related,\" which will show them together while you study. Click \"Next &gt;\" until you have processed all the duplicates. Then click \"Save\" again.
+ 4. You will next be prompted to edit the new cards. This is a great way to begin studying because you will sequence through the cards and you can also look for any typos you may find. For collections with Language Tools, you can also mark words as cognates or \"false friends.\"
+ 
+**<a name=\"study\"></a>Studying Cards**
+
+After importing a set of cards, you can get started studying. There are four study modes:
+
+ - **Learn Cards** lets you study all cards or a random set of 30. There are three main methods, linear, random, and \"smart study,\" which will show you a card more or less often based on its difficulty and your responses. At the end of each round of studying in **Learn** mode you will be prompted to begin testing; shift to this mode when you feel ready.
+ - **Test Cards** sends you straight to test the cards.
+ - **Review (Spaced Repetition)** forces you to study cards which you are ready to study based on the optimal interval.
+ - **Study Lapsed Cards** allows you to study cards which are \"lapsed\"--i.e. you memorized them and tested them, but when it came time to review them you failed the test. This is a quick way to re-learn cards and re-insert them into the Spaced Repetition system.
+ 
+The suggested study method is to (1) import cards, (2) study using Smart Study method, and then (3) test. Then (4) review cards when they arise, (5) study cards which scored less than 4 (to review them), and then (6) study lapsed cards when you have a decent number to review.
+
+Remember: **swipe right-to-left** goes to the next card; **swipe left-to-right** goes to the previous card; and **tap** flips the card.
+
+*NB: Lock your device when you are not studying to improve the accuracy of the study time statistics, which help determine which cards are easier or more difficult. While your device is locked, the timer is paused.
+
+When studying cards you can give five different types of responses: Fail (cannot remember at all); Almost (cannot remember, but it feels familiar); Barely (can recall, but with great difficulty); OK (can recall but no more than slight hesitation); and Easy (can recall with absolutely no hesitation). You can also choose not to grade your card.
+
+**<a name=\"stats\"></a>Making Sense of Statistics**
+
+FlashCards++ gives you access to a great many statistics; here is a quick rundown of the most important:
+
+ - **Cards Due By Day**: How many cards you will have to study in the future based on the Spaced Repetition schedule.
+ - **Cards Studied (by day, week, or month)**: A graph of how many cards you actually studied on particular days, weeks, or months.
+ - **Retention Rate**: An estimation of how well you are retaining information based on how you score on Spaced Repetition review tests.
+ - **Total Repetition Time**: The total amount of time you have spent studying the information in repetitions.
+ - **Workload**: An estimation of the average amount of time per day you will spend per day studying the material, based upon the statistics
+ - **E-Factors**: A chart showing you the distribution of the E-Factors for cards in the card set or collection.
+ - **Optimal Factors (OF-Matrix)**: A chart showing you the current adjusted OF-Matrix based on your learning style. You can to reset the OF-Matrix to factory settings if you want.
+ 
+**<a name=\"glossary\"></a>Glossary**";
+
+"Glossary" = 
+"Glossary";
+
+"GlossaryText" = 
+"
+ - **Card**: A discrete piece of information, with a front and back \"side\" (a \"question\" and \"answer\").
+ - **Collection**: A group of cards, constituting a body of knowledge.
+ - **Card Set**: A group of cards, grouped into a set. Because FlashCards++ \"auto de-dupes\" your cards as you import them, sometimes a card may be in multiple Card Sets due to merging.
+ - **E-Factor:** A mathematical coefficient to represent how easy or difficult a card is. Ranges between 1.2 to 2.5. A higher E-Factor represents an easier card.
+ - **Optimal Interval**: The calculated \"optimal\" time between when you study a card, and the time when FlashCards++ next prompts you to study it. This interval is based upon the card's E-Factor--easier cards are studied less often than difficult cards--and the matrix of Optimal Factors (OF-Matrix).
+ - **Optimal Factor (OF) Matrix**: A mathematical construct which attempts to best calculate when you should study cards based on their difficulty and the particular study interval at which you have arrived. This matrix is auto-adjusted to match your learning habits and specifically whether certain \"optimal\" intervals were too long (i.e. you forgot the card) or too short (the card could have been studied later, making your studying more efficient).";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

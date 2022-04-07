@@ -1,0 +1,28 @@
+//
+// Prefix header for all source files of the 'FlashCards' target in the 'FlashCards' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <CoreData/CoreData.h>
+    #import "CorePlot-CocoaTouch.h"
+    #import "TargetConditionals.h"
+    #import <DropboxSDK/DropboxSDK.h>
+    #import "Constants.h"
+    #import "FlashCardsCore.h"
+    #import "ImportSDK.h"
+    #import "Flurry.h"
+    #import "TICoreDataSync.h"
+    #import "SMCore.h"
+    #import "DTCoreText.h"
+    #import "BlocksKit/BlocksKit.h"
+    #import "BlocksKit/BlocksKit+UIKit.h"
+    #import "BlocksKit/BlocksKit+MessageUI.h"
+#endif
+

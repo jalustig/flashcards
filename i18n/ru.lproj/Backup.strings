@@ -1,0 +1,139 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"Backup & Restore" = 
+"Восстановление";
+
+"No Backups Found" = 
+"Бэкапы не найдены";
+
+"Restore Backup Now" = 
+"Восстановить сейчас";
+
+"Restore Now" = 
+"Восстановить";
+
+"Restore Successful" = 
+"Восстановление прошло успешно";
+
+"Uploaded: %1.1f%%" = 
+"Загружен: %1.1f%%";
+
+"Uploaded: %1.2f%%" = 
+"Загружен: %1.2f%%";
+
+"Downloaded: %1.2f%%" = 
+"Скачан: %1.2f%%";
+
+"Load Backup File" = 
+"Загрузить бэкап";
+
+"Are you sure you want to load this backup file? It will overwrite ALL of your current FlashCards++ data." = 
+"Вы уверены, что хотите загрузить этот бэкап? Это заменит ВСЕ ваши данные FlashCards++.";
+
+"Load File Now" = 
+"Скачать файл";
+
+"Make A Backup First" = 
+"Сначала сделать бэкап";
+
+"Backup Now" = 
+"Сделать бэкап сейчас";
+
+"Are you sure you want to restore this database file? Please make sure that your current database is backed up before restoring to a previous version." = 
+"Вы уверены, что хотите восстановить этот файл базы данных? Пожалуйста, удостоверьтесь, что ваша текущая база данных сохранена перед восстановлением предыдущей версии.";
+
+"Are you sure you want to restore this database file? It will turn off automatic sync and replace your current data with this backup version." = 
+"Вы уверены, что хотите восстановить этот файл базы данных? Это выключит автоматическую синхронизацию и заменит ваши данные этим бэкапом.";
+
+"Upload Database Now" = 
+"Закачать базу данных";
+
+"Do you want to optimize your FlashCards++ database before uploading it?" = 
+"Вы хотите оптимизировать базу данных FlashCards++ перед её закачкой?";
+
+"FlashCards++ uses the free Dropbox service to store backups in the cloud. Please sign in or create a free Dropbox account below to set up backups." =
+"FlashCards++ использует бесплатную службу Dropbox для хранения резервных копий на облаке. Пожалуйста, войдите или создайте Dropbox аккаунт ниже для настройки резервного копирования.";
+
+"Downloading Restore File" = 
+"Скачивание файла восстановления";
+
+"Backup Settings" = 
+"Настройки бэкапа";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"FlashCards++ has successfully backed up its database to Dropbox." = 
+"FlashCards++ успешно создал бэкап базы данных на Dropbox.";
+
+"FlashCards++ has successfully restored its database." = 
+"FlashCards++ успешно восстановила свою базу данных.";
+
+"Create a new folder and use it to store your FlashCards++ backup files:" = 
+"Создайте новую папку и используйте её для хранения бэкапов FlashCards++:";
+
+"Name of New Folder:" = 
+"Имя новой папки:";
+
+"No Sub-Folders Found" = 
+"Подпапки не найдены";
+
+"Backup Information" = 
+"Информация о бэкапе";
+
+"Backup Location" = 
+"Расположение бэкапа";
+
+"Backup Date" = 
+"Дата бэкапа";
+
+"Size" = 
+"Размер";
+
+"Current Backup Location" = 
+"Текущее расположение бэкапа";
+
+"Last Backup" = 
+"Последний бэкап";
+
+"Backup to Current Folder" = 
+"Сделать бэкап в текущую папку";
+
+"Backups" = 
+"Бэкапы";
+
+"Choose Backup Location" = 
+"Выбрать место бэкапа";
+
+"Create Folder" = 
+"Создать папку";
+
+"Duplicate File" = 
+"Дублировать файл";
+
+"Invalid Folder Name" = 
+"Неверное имя папки";
+
+"Overwrite File" = 
+"Перезаписать файл";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"It appears that a backup file already exists in this location with the name \"%@\". Continuing with your backup will overwrite this file. Would you like to overwrite this file?" = 
+"Оказалось, что в этом месте уже существует бэкап с именем \"%@\". Выполение вашего резервного копирования перепишет этот файл заново. Хотите ли вы заменить его?";
+
+"Please enter a valid name for your new folder; it may not contain forward-slashes, back-slashes, or periods." = 
+"Пожалуйста, укажите корректное имя для новой папки; оно не может содержать наклонных слэшей или точек";
+
+"You did not enter a name for your new folder." = 
+"Вы не указали имя для новой папки";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

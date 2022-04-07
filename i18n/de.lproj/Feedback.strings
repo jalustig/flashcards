@@ -1,0 +1,104 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"Do You Like This App?" = 
+"Gefällt Ihnen diese App?";
+
+"I Like This App" = 
+"Mir gefällt diese App";
+
+"There's a problem..." = 
+"Es gibt ein Problem...";
+
+"ThereIsAProblemText" = 
+"Ich bin ein unabhängiger Entwickler und während meine Apps in viele Sprachen übersetzt worden sind, verstehe ich nur den folgenden Sprachen:
+- English
+- Deutsch
+- Русски
+
+Wenn Sie in einer dieser Sprachen schreiben können, werden Sie eine Antwort sehr viel schneller.
+
+Vielen Dank für Ihr Verständnis.";
+
+"Would you like to attach a copy of your FlashCards++ data file? If you are sending feedback about a bug or crash, attaching your data file will help to solve your issue more quickly." = 
+"Möchtest du eine Kopie deiner FlashCards++ Daten anhängen? Wenn du einen Fehler meldest, sind diese Daten hilfreich, um das Problem schnell zu identifizieren und zu beheben.";
+
+"Feedback about FlashCards++" = 
+"Feedback zu FlashCards++";
+
+"Rate in App Store" = 
+"Im App Store bewerten";
+
+"Send Feedback" = 
+"Feedback senden";
+
+"Yes, Attach" = 
+"Ja, anhängen";
+
+"OK, I Understand" = 
+"Ich verstehe";
+
+"Thank You :-)" = 
+"Danke :-)";
+
+"Leave an App Store Review" = 
+"Bewerten diese App";
+
+"Thank you for sending your message. We will be in touch shortly." = 
+"Danke für deine Nachricht. Ich werde mich in Kürze melden.";
+
+"Send Love" = 
+"Liebe senden";
+
+"Your love makes us work harder. Please review this app." = 
+"Ihre Liebe macht uns, härter zu arbeiten. Bitte bewerten diese App.";
+
+"Not Now" = 
+"Nicht jetzt";
+
+"Review" = 
+"Bewerten";
+
+"Thank You" = 
+"Danke";
+
+"No, thank you" = 
+"Nein danke";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"Tell Friends About FlashCards++" = 
+"Berichte Freunden von FlashCards++";
+
+"Share by Email" = 
+"Diese App teilen bei Email";
+
+"Share with Facebook" = 
+"Diese App teilen bei Facebook";
+
+"Share with Twitter" = 
+"Diese App teilen bei Twitter";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"Feedback about FlashCards++ Lite" = 
+"Feedback zu FlashCards++ Lite";
+
+"FlashCards++ on Facebook" = 
+"FlashCards++ bei Facebook";
+
+"FlashCards++ on Twitter" = 
+"FlashCards++ bei Twitter";
+
+"Feedback about FlashCards++ [Renewing Subscription]" = 
+"Feedback about FlashCards++ [Renewing Subscription]";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

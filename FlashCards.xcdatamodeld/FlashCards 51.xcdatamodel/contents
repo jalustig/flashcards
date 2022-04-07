@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="11G63b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Card" representedClassName="FCCard" syncable="YES">
+        <attribute name="backAudioData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="backImageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="backImageId" optional="YES" attributeType="String" elementID="backImageFlashcardExchangeId" syncable="YES"/>
+        <attribute name="backImageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="backValue" attributeType="String" syncable="YES"/>
+        <attribute name="currentIntervalCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="dateCreated" attributeType="Date" defaultDateTimeInterval="378583200" defaultValueString="&quot;now&quot;" syncable="YES"/>
+        <attribute name="dateModified" attributeType="Date" defaultDateTimeInterval="327524400" defaultValueString="2011-05-19 12:00:00 -0700" syncable="YES"/>
+        <attribute name="eFactor" attributeType="Double" minValueString="1.2" maxValueString="2.5" defaultValueString="2.5" syncable="YES"/>
+        <attribute name="frontAudioData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="frontImageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="frontImageId" optional="YES" attributeType="String" elementID="frontImageFlashcardExchangeId" syncable="YES"/>
+        <attribute name="frontImageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="frontValue" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="frontValueFirstChar" attributeType="String" syncable="YES"/>
+        <attribute name="hasAudio" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="hasImages" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isDeletedObject" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="isLapsed" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="isSpacedRepetition" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="isSubscribed" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="lastIntervalOptimalFactor" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastRepetitionDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="nextRepetitionDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="numLapses" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="offlineTTS" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="offlineTTSBackAttempted" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="offlineTTSFrontAttempted" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="shouldSync" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="syncStatus" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="userCanEditOnline" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="wordPartOfSpeech" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="wordType" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="cardSet" toMany="YES" deletionRule="No Action" destinationEntity="CardSet" inverseName="cards" inverseEntity="CardSet" indexed="YES" syncable="YES"/>
+        <relationship name="cardSetsDeletedFrom" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CardSet" inverseName="cardsDeleted" inverseEntity="CardSet" indexed="YES" syncable="YES"/>
+        <relationship name="collection" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Collection" inverseName="cards" inverseEntity="Collection" indexed="YES" syncable="YES"/>
+        <relationship name="collectionStudyState" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Collection" inverseName="studyStateCardList" inverseEntity="Collection" indexed="YES" syncable="YES"/>
+        <relationship name="flashcardExchangeCardIds" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FlashcardExchangeCardId" inverseName="card" inverseEntity="FlashcardExchangeCardId" indexed="YES" syncable="YES"/>
+        <relationship name="quizletCardIds" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="QuizletCardId" inverseName="card" inverseEntity="QuizletCardId" indexed="YES" syncable="YES"/>
+        <relationship name="relatedCards" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Card" inverseName="relatedCards" inverseEntity="Card" indexed="YES" syncable="YES"/>
+        <relationship name="repetitions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CardRepetition" inverseName="card" inverseEntity="CardRepetition" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="CardRepetition" representedClassName="FCCardRepetition" syncable="YES">
+        <attribute name="date" attributeType="Date" syncable="YES"/>
+        <attribute name="dateScheduled" attributeType="Date" syncable="YES"/>
+        <attribute name="eFactor" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastRepetitionDate" attributeType="Date" syncable="YES"/>
+        <attribute name="nextRepetitionDate" attributeType="Date" syncable="YES"/>
+        <attribute name="repetitionNumber" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="repetitionTime" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="score" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="card" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Card" inverseName="repetitions" inverseEntity="Card" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="CardSet" representedClassName="FCCardSet" syncable="YES">
+        <attribute name="creatorUsername" optional="YES" attributeType="String" elementID="flashcardExchangeCreatorUsername" syncable="YES"/>
+        <attribute name="dateCreated" attributeType="Date" defaultDateTimeInterval="378583200" defaultValueString="&quot;now&quot;" syncable="YES"/>
+        <attribute name="dateModified" attributeType="Date" defaultDateTimeInterval="327524400" defaultValueString="2011-05-19 12:00:00 -0700" syncable="YES"/>
+        <attribute name="didReverseFrontAndBack" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="flashcardExchangeSetId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hasAudio" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="hasImages" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="importSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDeletedObject" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="isMasterCardSet" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isSubscribed" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="lastSyncDate" optional="YES" attributeType="Date" elementID="flashcardExchangeLastSyncDate" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quizletSetId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="shouldSync" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="syncStatus" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="cards" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Card" inverseName="cardSet" inverseEntity="Card" indexed="YES" syncable="YES"/>
+        <relationship name="cardsDeleted" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Card" inverseName="cardSetsDeletedFrom" inverseEntity="Card" indexed="YES" syncable="YES"/>
+        <relationship name="cardSets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CardSet" inverseName="parentCardSet" inverseEntity="CardSet" indexed="YES" syncable="YES"/>
+        <relationship name="collection" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Collection" inverseName="cardSets" inverseEntity="Collection" indexed="YES" syncable="YES"/>
+        <relationship name="flashcardExchangeIds" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FlashcardExchangeCardId" inverseName="cardSet" inverseEntity="FlashcardExchangeCardId" syncable="YES"/>
+        <relationship name="parentCardSet" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="CardSet" inverseName="cardSets" inverseEntity="CardSet" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Collection" representedClassName="FCCollection" syncable="YES">
+        <attribute name="backValueLanguage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateCreated" attributeType="Date" defaultDateTimeInterval="378583200" defaultValueString="&quot;now&quot;" syncable="YES"/>
+        <attribute name="dateModified" attributeType="Date" defaultDateTimeInterval="327524400" defaultValueString="2011-05-19 12:00:00 -0700" syncable="YES"/>
+        <attribute name="defaultFirstSide" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="frontValueLanguage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isLanguage" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="numCases" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="offlineTTS" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="offlineTTSBack" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="offlineTTSFront" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="ofMatrix" attributeType="Transformable" syncable="YES"/>
+        <attribute name="ofMatrixAdjusted" attributeType="Transformable" syncable="YES"/>
+        <attribute name="studyStateDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="studyStateDone" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="studyStateShowFirstSide" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="studyStateStudyAlgorithm" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="studyStateStudyOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="cards" toMany="YES" deletionRule="Cascade" destinationEntity="Card" inverseName="collection" inverseEntity="Card" indexed="YES" syncable="YES"/>
+        <relationship name="cardSets" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CardSet" inverseName="collection" inverseEntity="CardSet" indexed="YES" syncable="YES"/>
+        <relationship name="masterCardSet" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="CardSet" indexed="YES" syncable="YES"/>
+        <relationship name="studyStateCardList" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Card" inverseName="collectionStudyState" inverseEntity="Card" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="FlashcardExchangeCardId" representedClassName="FCFlashcardExchangeCardId" syncable="YES">
+        <attribute name="flashcardExchangeCardId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="card" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Card" inverseName="flashcardExchangeCardIds" inverseEntity="Card" indexed="YES" syncable="YES"/>
+        <relationship name="cardSet" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="CardSet" inverseName="flashcardExchangeIds" inverseEntity="CardSet" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="QuizletCardId" representedClassName="NSManagedObject" elementID="CardQuizletIds" syncable="YES">
+        <attribute name="quizletCardId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="card" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Card" inverseName="quizletCardIds" inverseEntity="Card" indexed="YES" syncable="YES"/>
+        <relationship name="cardSet" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="CardSet" indexed="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Card" positionX="486" positionY="18" width="128" height="660"/>
+        <element name="CardRepetition" positionX="711" positionY="423" width="128" height="180"/>
+        <element name="CardSet" positionX="268" positionY="27" width="128" height="390"/>
+        <element name="Collection" positionX="18" positionY="117" width="128" height="375"/>
+        <element name="FlashcardExchangeCardId" positionX="250" positionY="576" width="128" height="90"/>
+        <element name="QuizletCardId" positionX="72" positionY="459" width="128" height="90"/>
+    </elements>
+</model>

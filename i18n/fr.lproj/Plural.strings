@@ -1,0 +1,70 @@
+"%d duplicate cards found. You can now merge them with already existing cards in this collection.;0" = 
+"%d carte double trouvé. Vous pouvez maintenant les fusionner avec des cartes déjà existantes dans cette collection.";
+"%d duplicate cards found. You can now merge them with already existing cards in this collection.;1" = 
+"%d cartes double trouvé. Vous pouvez maintenant les fusionner avec des cartes déjà existantes dans cette collection.";
+
+"Successfully imported %d cards.;0" = 
+"%d carte importée avec succès.";
+"Successfully imported %d cards.;1" = 
+"%d cartes importées avec succès";
+
+"%d Cards;0" = "%d carte";
+"%d Cards;1" = "%d cartes";
+           
+"%d terms;0" = "%d terme";
+"%d terms;1" = "%d termes";
+
+"Download Next %d Sets;0" = 
+"Télécharger le prochain %d ensemble";
+"Download Next %d Sets;1" = 
+"Télécharger les prochaines %d ensembles";
+
+"It seems you have a study session (%d cards) from %@ which you never finished. Would you like to reload those cards now?;0" = 
+"Il semble que vous avez une session d'étude (%d carte) de %@ que vous n'avez jamais fini. Aimeriez-vous de recharger ces cartes maintenant?";
+"It seems you have a study session (%d cards) from %@ which you never finished. Would you like to reload those cards now?;1" =
+"Il semble que vous avez une session d'étude (%d cartes) de %@ que vous n'avez jamais fini. Aimeriez-vous de recharger ces cartes maintenant?";
+
+"%1.1f Secs;0" = "%1.1f Sec";
+"%1.1f Secs;1" = "%1.1f Secs";
+
+"%1.1f Seconds;0" = "%1.1f Second";
+"%1.1f Seconds;1" = "%1.1f Secondes";
+
+"%d cards due;0" = "%d carte attendu";
+"%d cards due;1" = "%d cartes attendus";
+
+"%d cards lapsed;0" = "%d carte échouée";
+"%d cards lapsed;1" = "%d cartes échouées";
+
+"%d Matches;0" = "%d égal";
+"%d Matches;1" = "%d égales";
+
+"%d Duplicates;0" = "%d double";
+"%d Duplicates;1" = "%d doubles";
+
+"%d minutes;0" = "%d minute";
+"%d minutes;1" = "%d minutes";
+
+"%1.2f hours;0" = "%1.2f houre";
+"%1.2f hours;1" = "%1.2f houres";
+
+"%d hours;0" = "%d houre";
+"%d hours;1" = "%d houres";
+
+"%d days;0" = "%d jour";
+"%d days;1" = "%d jours";
+
+"%d months;0" = "%d mois";
+"%d months;1" = "%d mois";
+
+"Download Next %d Groups;0" = 
+"Télécharger le prochain %d groupe";
+"Download Next %d Groups;1" = 
+"Télécharger les prochaines %d groupes";
+
+"%d sets;0" = "%d ensemble";
+"%d sets;1" = "%d ensembles";
+
+"%d users;0" = "%d identifiant";
+"%d users;1" = "%d identifiants";
+

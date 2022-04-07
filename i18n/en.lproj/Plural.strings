@@ -1,0 +1,101 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"You have %d new flashcards to review today;0" =
+"You have %d new flashcard to review today";
+"You have %d new flashcards to review today;1" =
+"You have %d new flashcards to review today";
+
+"%d Cards;0" = "%d Card";
+"%d Cards;1" = "%d Cards";
+
+"%d terms;0" = "%d term";
+"%d terms;1" = "%d terms";
+
+"Download Next %d Sets;0" = "Download Next %d Set";
+"Download Next %d Sets;1" = "Download Next %d Sets";
+
+"Download Next %d Groups;0" = "Download Next %d Groups";
+"Download Next %d Groups;1" = "Download Next %d Groups";
+
+"It seems you have a study session (%d cards) from %@ which you never finished. Would you like to reload those cards now?;0" = "It seems you have a study session (%d card) from %@ which you never finished. Would you like to reload those cards now?";
+"It seems you have a study session (%d cards) from %@ which you never finished. Would you like to reload those cards now?;1" = "It seems you have a study session (%d cards) from %@ which you never finished. Would you like to reload those cards now?";
+
+"%d minutes;0" = "%d minute";
+"%d minutes;1" = "%d minutes";
+
+"%1.2f hours;0" = "%1.2f hour";
+"%1.2f hours;1" = "%1.2f hours";
+
+"%d hours;0" = "%d hour";
+"%d hours;1" = "%d hours";
+
+"%d days;0" = "%d day";
+"%d days;1" = "%d days";
+
+"%d months;0" = "%d month";
+"%d months;1" = "%d months";
+
+"%d duplicate cards found in \"%@.\" You can now merge them with already existing cards in this collection.;0" = "%d duplicate card found in \"%@.\" You can now merge them with already existing cards in this collection.";
+"%d duplicate cards found in \"%@.\" You can now merge them with already existing cards in this collection.;1" = "%d duplicate cards found in \"%@.\" You can now merge them with already existing cards in this collection.";
+
+"Successfully imported %d cards.;0" = "Successfully imported %d card.";
+"Successfully imported %d cards.;1" = "Successfully imported %d cards.";
+
+
+"%d cards due;0" = "%d card due";
+"%d cards due;1" = "%d cards due";
+
+"%d cards lapsed;0" = "%d card lapsed";
+"%d cards lapsed;1" = "%d cards lapsed";
+
+"%d sets;0" = "%d sets";
+"%d sets;1" = "%d sets";
+
+"The free version of FlashCards++ has a limit of 150 cards. You can become a Subscriber for unlimited cards, or you can import the first %d cards in this set.;0" =
+"The free version of FlashCards++ has a limit of 150 cards. You can become a Subscriber for unlimited cards, or you can import the first %d card in this set.";
+"The free version of FlashCards++ has a limit of 150 cards. You can become a Subscriber for unlimited cards, or you can import the first %d cards in this set.;1" =
+"The free version of FlashCards++ has a limit of 150 cards. You can become a Subscriber for unlimited cards, or you can import the first %d cards in this set.";
+
+"Import First %d Cards;0" = "Import First %d Card";
+"Import First %d Cards;1" = "Import First %d Cards";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"You now have %d of %d Subscriptions available for your students.;0" =
+"You now have %d of %d Subscription available for your students.";
+"You now have %d of %d Subscriptions available for your students.;1" =
+"You now have %d of %d Subscriptions available for your students.";
+
+
+"%d Matches;0" = "%d Match";
+"%d Matches;1" = "%d Matches";
+
+"%d Duplicates;0" = "%d Duplicate";
+"%d Duplicates;1" = "%d Duplicates";
+
+"%1.1f Secs;0" = "%1.1f Sec";
+"%1.1f Secs;1" = "%1.1f Secs";
+
+"%1.1f Seconds;0" = "%1.1f Second";
+"%1.1f Seconds;1" = "%1.1f Seconds";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"%d users;0" = "%d users";
+"%d users;1" = "%d users";
+
+"Your set \"%@\" (%d terms) has been uploaded successfully.;0" =
+"Your set \"%@\" (%d terms) has been uploaded successfully.";
+"Your set \"%@\" (%d terms) has been uploaded successfully.;1" =
+"Your set \"%@\" (%d terms) has been uploaded successfully.";
+
+
+/**********************************************/
+/* PRIORITY END */
+

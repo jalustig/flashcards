@@ -1,0 +1,241 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"Settings" = 
+"Einstellungen";
+
+"Study Settings" = 
+"Lern-Einstellungen";
+
+"Swipe to Next Card" = 
+"Gestensteuerung";
+
+"Text Justification" = 
+"Text-Ausrichtung";
+
+"Center" = 
+"Mitte";
+
+"Left" = 
+"Links";
+
+"Right" = 
+"Rechts";
+
+"Background Color" = 
+"Hintergrundfarbe";
+
+"Black" = 
+"Schwarz";
+
+"Blue" = 
+"Blau";
+
+"Brown" = 
+"Braun";
+
+"Cyan" = 
+"Cyan";
+
+"Gray" = 
+"Grau";
+
+"Green" = 
+"Grün";
+
+"Orange" = 
+"Orange";
+
+"Purple" = 
+"Purpur";
+
+"Red" = 
+"Rot";
+
+"White" = 
+"Weiß";
+
+"Yellow" = 
+"Gelb";
+
+"Text Size" = 
+"Textgröße";
+
+"Small" = 
+"Klein";
+
+"Normal" = 
+"Normal";
+
+"Large" = 
+"Groß";
+
+"Extra Large" = 
+"Große Schrift";
+
+"Extra-Extra Large" = 
+"Sehr große Schrift";
+
+"Display As Index Card" = 
+"Als Karteikarte";
+
+"Go To Next On Score" = 
+"Weiter mit Bewertung";
+
+"Renew Subscription" = 
+"Renew Subscription";
+
+"Use Cellular Data" = 
+"Use Cellular Data";
+
+"Ignore Parentheses" = 
+"Ignore Parentheses";
+
+"Log In to Restore Purchases" = 
+"Log In to Restore Purchases";
+
+"Active" = 
+"Active";
+
+"Inactive" = 
+"Inactive";
+
+"Subscribe" = 
+"Subscribe";
+
+"Active Until" = 
+"Active Until";
+
+"Reset Cache" = 
+"Reset Cache";
+
+"Reset All Settings" = 
+"Reset All Settings";
+
+"Reset Settings" = 
+"Reset Settings";
+
+"Advanced Settings" = 
+"Advanced Settings";
+
+"Are you sure you want to reset all settings? You will be logged out of Dropbox and Quizlet. If you are a FlashCards++ Subscriber, you will need to log in again to restore your subscription. All of your flash card and study data will remain." =
+"Are you sure you want to reset all settings? You will be logged out of Dropbox and Quizlet. If you are a FlashCards++ Subscriber, you will need to log in again to restore your subscription. All of your flash card and study data will remain.";
+
+"Your settings have been reset." = 
+"Your settings have been reset.";
+
+"Your Account" = 
+"Your Account";
+
+"Text-to-Speech" = 
+"Text-to-Speech";
+
+"FlashCards++ will use cellular data to cache offline text-to-speech data." = 
+"FlashCards++ will use cellular data to cache offline text-to-speech data.";
+
+"FlashCards++ will only use a wifi connection to cache offline text-to-speech data." = 
+"FlashCards++ will only use a wifi connection to cache offline text-to-speech data.";
+
+"Create Account" = 
+"Create Account";
+
+"Name" = 
+"Name";
+
+"Subscription Status" = 
+"Subscription Status";
+
+"Status" = 
+"Status";
+
+"Deleting Cache..." = 
+"Deleting Cache...";
+
+"No Cards" = 
+"No Cards";
+
+"Calculating..." = 
+"Calculating...";
+
+"%d of %d Cached" = 
+"%d of %d Cached";
+
+"Reset Text-To-Speech Cache" = 
+"Reset Text-To-Speech Cache";
+
+"Are you sure you want to reset the text-to-speech cache?" = 
+"Are you sure you want to reset the text-to-speech cache?";
+
+"Do you want to log out of your FlashCards++ account?" = 
+"Do you want to log out of your FlashCards++ account?";
+
+"Optimizing Database" = 
+"Optimizing Database";
+
+"Optimize Database" = 
+"Optimize Database";
+
+"Are you sure you want to optimize your database? It is highly recommended that you first make a backup, just in case." = 
+"Are you sure you want to optimize your database? It is highly recommended that you first make a backup, just in case.";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"Auto-Browse Speed" = 
+"Auto-Browse Geschw.";
+
+"Import Settings" = 
+"Import-Einstellungen";
+
+"Merge Exact Matches" = 
+"Identische zusammenfügen";
+
+"General Settings" = 
+"Allgemeine-Einstellungen";
+
+"Display Badge" = 
+"Kennzeich anzeigen";
+
+"Auto-correct Text" = 
+"Auto-Korrektur Text";
+
+"Auto-capitalize Text" = 
+"Auto-Kapital Text";
+
+"Text Font" = 
+"Textschriftart";
+
+"Reset Exact Match Statistics" = 
+"Statistik zurücksetzen exakter";
+
+"Enter Code" = 
+"Enter Code";
+
+"Validate In-App Purchase Receipts" = 
+"Validate In-App Purchase Receipts";
+
+"Completely Disable Sync" = 
+"Completely Disable Sync";
+
+"Checking Code" = 
+"Checking Code";
+
+"Code accepted. FlashCards++ will now be usable without a subscription, because you purchased the app before it was available for free." = 
+"Code accepted. FlashCards++ will now be usable without a subscription, because you purchased the app before it was available for free.";
+
+"Invalid code." = 
+"Invalid code.";
+
+"This will disable Automatic Sync on all your devices and remove all sync data from this device. Your currently existing flash cards and card sets will not be affected." = 
+"This will disable Automatic Sync on all your devices and remove all sync data from this device. Your currently existing flash cards and card sets will not be affected.";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

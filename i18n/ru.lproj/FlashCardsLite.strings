@@ -1,0 +1,43 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+
+"Continue" = 
+"Continue";
+
+"No Thanks" = 
+"No Thanks";
+
+"Notice" = 
+"Notice";
+
+"Purchase Full App" = 
+"Purchase Full App";
+
+"You are using FlashCards++ Lite. There are a maximum of %d collections and %d cards per collection. Importing these cards will put you over the limit, so FlashCards++ will only import the first %d cards. If you upgrade to the full version, you can have an infinite number of collections & cards." = 
+"You are using FlashCards++ Lite. There are a maximum of %1$d collections and %2$d cards per collection. Importing these cards will put you over the limit, so FlashCards++ will only import the first %3$d cards. If you upgrade to the full version, you can have an infinite number of collections & cards.";
+
+"You are using FlashCards++ Lite, which has a maximum of %d collections and %d cards per collection. You also cannot restore backup files. If you upgrade to the full version, you can have an infinite number of collections & cards, and can restore backups." = 
+"You are using FlashCards++ Lite, which has a maximum of %1$d collections and %2$d cards per collection. You also cannot restore backup files. If you upgrade to the full version, you can have an infinite number of collections & flash cards, and can restore backups.";
+
+"Text-to-speech is only available on the full version of FlashCards++." = 
+"Text-to-speech is only available on the full version of FlashCards++.";
+
+"You can download your public Quizlet card sets, but access to private sets and groups on Quizlet is only available on the full version of FlashCards++." = 
+"You can download your public Quizlet card sets, but access to private sets and groups on Quizlet is only available on the full version of FlashCards++.";
+
+"You are using the free version of FlashCards++, which has a limit of %d cards. Importing these cards will put you over the limit, so FlashCards++ will only import the first %d cards. If you subscribe to FlashCards++, you can have an infinite number of collections & cards." = 
+"You are using the free version of FlashCards++, which has a limit of %d cards. Importing these cards will put you over the limit, so FlashCards++ will only import the first %d cards. If you subscribe to FlashCards++, you can have an infinite number of collections & cards.";
+

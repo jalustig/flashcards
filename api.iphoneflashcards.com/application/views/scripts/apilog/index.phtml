@@ -1,0 +1,73 @@
+<a href="http://api.iphoneflashcards.com/apilog/">API Log</a> | 
+<a href="http://api.iphoneflashcards.com/apilog/versions">App Versions</a> | 
+<a href="http://api.iphoneflashcards.com/apilog/iosversions">iOS Versions</a> |
+<a href="http://api.iphoneflashcards.com/apilog/websites">Websites</a>
+<hr />
+<br /><br />
+<div id="view-content">
+    <table border="2">
+        <tr>
+            <th>ID</th>
+            <th>App Version</th>
+            <th>iOS Version</th>
+            <th>Time</th>
+            <th>IP</th>
+            <th>UserName</th>
+            <th>Controller</th>
+            <th>Action</th>
+            <th>SearchTerm</th>
+        </tr>
+        <?php
+        foreach ($this->results as $result) {
+            ?>
+        <tr style="background-color:<?php 
+            if (!$result['is_authenticated']) {
+                echo 'yellow';
+            } else {
+                echo ($result['is_logged_in'] ? 'green' : 'red'); 
+            }
+            ?>">
+            <td><?php echo htmlspecialchars($result['api_access_id']); ?></td>
+            <td><?php echo htmlspecialchars($result['app_version']); ?></td>
+            <td><?php echo htmlspecialchars($result['ios_version']); ?></td>
+            <td><?php echo htmlspecialchars($result['datestamp_tz']); ?></td>
+            <td><?php echo htmlspecialchars($result['ip_address']); ?></td>
+            <td><?php echo htmlspecialchars($result['username']); ?></td>
+            <td><?php echo htmlspecialchars($result['controller']); ?></td>
+            <td><?php echo htmlspecialchars($result['action']); ?></td>
+            <td><?php if (strtolower($result['controller']) == 'quizlet') { ?>
+            <a style="color:black;" target="_new" href="<?php
+            switch (strtolower($result['action'])) {
+                default:
+                case 'cardset':
+                    echo 'http://quizlet.com/'.urlencode($result['search_term']);
+                    break;
+                case 'group':
+                case 'joingroup':
+                case 'leavegroup':
+                    echo 'http://quizlet.com/group/'.urlencode($result['search_term']);
+                    break;
+                case 'search':
+                    echo 'http://quizlet.com/subject/'.urlencode($result['search_term']);
+                    break;
+                case 'searchgroups':
+                    echo 'http://quizlet.com/groups/'.urlencode($result['search_term']);
+                    break;
+                case 'usergroups':
+                case 'user':
+                    echo 'http://quizlet.com/user/'.urlencode($result['search_term']);
+                    break;
+            }
+            ?>">
+            <?php } ?>
+            <?php echo htmlspecialchars($result['search_term']); ?>
+            <?php if (strtolower($result['controller']) == 'quizlet') { ?>
+            </a>
+            <?php } ?>
+            </td>
+        </tr>
+            <?php
+        }
+        ?>
+    </table>
+</div>

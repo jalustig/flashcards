@@ -1,0 +1,229 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"# Cards Lapsed" = 
+"# Cards Lapsed";
+
+"# Cards Memorized" = 
+"# Карточек выучено";
+
+"# Cards Pending" = 
+"# Карточек ожадает";
+
+"# Cards Studied" = 
+"# Карточек пройдено";
+
+"# Cases" = 
+"# Cases";
+
+"# Days" = 
+"# Дней";
+
+"# Lapses" = 
+"# Lapses";
+
+"# Memorized / Day" = 
+"# Memorized / Day";
+
+"# Repetitions" = 
+"# Repetitions";
+
+"Are you sure you want to reset the matrix of Optimal Factors? This matrix has been adjusted to match the knowledge stored in this Collection and your individual study habits." = 
+"Вы уверены, что хотите сбросить матрицу Оптимальных Факторов? Эта матрица была адаптирована под содержание этой Коллекции и индивидуальные особенности.";
+
+"Are you sure you want to reset the statistics for this Card Set? Doing this will remove your entire study history and cannot be undone." = 
+"Вы уверены, что хотите сбросить статистику для этого набора? Эта операция удалит всю вашу историю занятий и не может быть отменена.";
+
+"Are you sure you want to reset the statistics for this Collection? Doing this will remove your entire study history and cannot be undone." = 
+"Вы уверены, что вы хотите сбросить статистику для этой Коллекции? Эта операция удалит всю вашу историю занятий и не может быть отменена.";
+
+"Avg. Interval" = 
+"Ср. интервал";
+
+"Avg. Lapses / Card" = 
+"Avg. Lapses / Card";
+
+"Avg. Repetition Delay" = 
+"Ср. задержка повторения";
+
+"Avg. Repetition Time" = 
+"Ср. время повторения";
+
+"Avg. Repetitions" = 
+"Avg. Repetitions";
+
+"Avg. Scores" = 
+"Ср. балл";
+
+"Burden" = 
+"Burden";
+
+"Calculating Statistics..." = 
+"Подсчёт статистики…";
+
+"Card Statistics" = 
+"Статистика карточек";
+
+"Cards Due By Day" = 
+"Cards Due By Day";
+
+"Cards Lapsed" = 
+"Cards Lapsed";
+
+"Cards Lapsed By Day" = 
+"Cards Lapsed By Day";
+
+"Cards Lapsed By Month" = 
+"Cards Lapsed By Month";
+
+"Cards Lapsed By Week" = 
+"Cards Lapsed By Week";
+
+"Cards Studied" = 
+"Карточек выучено";
+
+"Cards Studied By Day" = 
+"Карточек выучено в день";
+
+"Cards Studied By Month" = 
+"Карточек выучено в месяц";
+
+"Cards Studied By Week" = 
+"Карточек выучено в неделю";
+
+"Date" = 
+"Дата";
+
+"Date Created" = 
+"Дата создания";
+
+"Don't Reset" = 
+"Не сбрасывать";
+
+"E-Factors (All Cards)" = 
+"E-Факторы (Все карточки)";
+
+"E-Factors (Lapsed Only)" = 
+"E-Факторы (Lapsed Only)";
+
+"E-Factors (Memorized Only)" = 
+"E-Факторы (Memorized Only)";
+
+"First Day" = 
+"1-й день";
+
+"Future" = 
+"Future";
+
+"General Statistics" = 
+"General Statistics";
+
+"Lapsed" = 
+"Lapsed";
+
+"Lapsed By Day" = 
+"Lapsed By Day";
+
+"Last Repetition" = 
+"Last Repetition";
+
+"Memorized" = 
+"Memorized";
+
+"Month Ending" = 
+"Month Ending";
+
+"Next Repetition" = 
+"Next Repetition";
+
+"Next Week" = 
+"Next Week";
+
+"Not Memorized" = 
+"Not Memorized";
+
+"Optimal Factors" = 
+"Optimal Factors";
+
+"Optimal Factors (OF-Matrix)" = 
+"Optimal Factors (OF-Matrix)";
+
+"Repetition Scores" = 
+"Repetition Scores";
+
+"Repetitions" = 
+"Repetitions";
+
+"Reset All Statistics" = 
+"Reset All Statistics";
+
+"Reset Statistics?" = 
+"Reset Statistics?";
+
+"Reset Optimal Factor Matrix" = 
+"Reset Optimal Factor Matrix";
+
+"Rest of" = 
+"Rest of";
+
+"Retention Rate" = 
+"Retention Rate";
+
+"Speed" = 
+"Speed";
+
+"Statistics" = 
+"Statistics";
+
+"Studied By Day" = 
+"Studied By Day";
+
+"The matrix of Optimal Factors has been reset to its default settings." = 
+"The matrix of Optimal Factors has been reset to its default settings.";
+
+"The statistics have been reset to their default settings." = 
+"The statistics have been reset to their default settings.";
+
+"Today" = 
+"Today";
+
+"Total" = 
+"Total";
+
+"Total Repetition Time" = 
+"Total Repetition Time";
+
+"Week Ending" = 
+"Week Ending";
+
+"Workload" = 
+"Workload";
+
+"Yes, Reset" = 
+"Yes, Reset";
+
+"Last Modified" = 
+"Last Modified";
+
+"By Day" = 
+"By Day";
+
+"By Week" = 
+"By Week";
+
+"By Month" = 
+"By Month";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

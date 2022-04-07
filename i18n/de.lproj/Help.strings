@@ -1,0 +1,323 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"LearnMoreUploadDatabase" = 
+"
+FlashCards++ syncs your flash cards and sync data between your different iOS devices, like your iPhone and iPad, based off the initial upload of your flash card database, which you upload when you first set up the sync function.
+
+Changes that you make, by editing cards or studying for example, are uploaded to the web server and shared with your other devices. However, over time, the initial upload becomes more and more out of date with the most recent versions of your data, and more and more of your current data is stored in the change sets. This slows down the sync function.
+
+To best maintain the sync functionality and also to create a backup, it is recommended that you upload a new copy of your database every so often.
+";
+
+"About Subscriptions" = 
+"About Subscriptions";
+
+"AboutSubscriptionsFreeHelp" = 
+"
+**What are the benefits?**
+
+Subscribers have access to all FlashCards++ features and can have an unlimited number of cards. These features include text-to-speech audio, recording your own audio for flash cards, and keep your flash cards automatically synced between different iOS devices such as iPad and iPhone.
+
+In addition, you're supporting the ongoing and future feature development of FlashCards++.
+
+**How much does it cost?**
+
+$3 for 3 months, so it's only $1 per month.
+
+If FlashCards++ is worth that to you, I'd be grateful to have your support as a Subscriber.
+
+**Why sell Subscriptions?**
+
+FlashCards++ isn't the product of a huge company. It's a one-man shop: I am the one and only developer, designer, and handle all customer support. Thankfully there are many, many people who have found FlashCards++ helpful, but for this reason there are some features that I want to build that are unfortunately too complex or expensive to operate for all users so I've needed to limit them or omit them entirely. With Subscriptions, I can offer features that were previously impractical.
+
+Subscriptions also build sustainable income to help ensure FlashCards++'s continued operation and future development.
+
+**Do I need to buy a Subscription?**
+
+No, but you will not have access to the majority of the FlashCards++ features. Especially if you want to support future development, I would appreciate your support.";
+
+"AboutSubscriptionsHelp" = 
+"
+**What are the benefits?**
+
+Subscribers can use text-to-speech offline, record their own audio for flash cards, and keep their flash cards automatically synced between different iOS devices such as iPad and iPhone.
+
+In addition, you're supporting the ongoing and future feature development of FlashCards++. Some future features may be Subscriber-only, but the prime reason to buy a subscription is because you want to support FlashCards++.
+
+**How much does it cost?**
+
+$3 for 3 months, so it's only $1 per month.
+
+If FlashCards++ is worth that to you, I'd be grateful to have your support as a Subscriber.
+
+**Why sell Subscriptions?**
+
+FlashCards++ isn't the product of a huge company. It's a one-man shop: I am the one and only developer, designer, and handle all customer support. Thankfully there are many, many people who have found FlashCards++ helpful, but for this reason there are some features that I want to build that are unfortunately too complex or expensive to operate for all users so I've needed to limit them or omit them entirely. With Subscriptions, I can offer features that were previously impractical.
+
+Subscriptions also build sustainable income to help ensure FlashCards++'s continued operation and future development.
+
+**Do I need to buy a Subscription?**
+
+No. Almost all of FlashCards++'s features will continue to be available to non-Subscribers. Especially because this is a paid app, I am committed to providing a full experience to all users. But if you want to support future development, I would appreciate your support.";
+
+"Help & FAQ" = 
+"Hilfe & FAQ";
+
+"Frequently Asked Questions" = 
+"Häufig gestellte Fragen";
+
+"Getting Started" = 
+"So geht's los";
+
+"Help" = 
+"Hilfe";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+
+"Studying Chemistry ANSWER" =
+"You can create chemistry math cards with superscripts and subscripts using the LaTeX formatting options. Please see 'Studying Math' for instructions on how to use the special formatting for math and chemistry.";
+
+"Studying Math ANSWER" = "
+Studying math with FlashCards++ is easy! You can now enter math equations (also useful for chemistry) using LaTeX or MathML (Math Markup Language). Here's how:
+
+1. Go to the Collection (top level group) for your math flash cards, and tap 'Edit.' You will see options for the 'Language' of the front & back sides of the cards. Select 'Math' as the language for the side of the card that will have math.
+2. Type in math equations using the proper markup language in the side of the card that you selected would include math equations.
+
+How does it work? Here is an example of LaTeX and how it turns into a math equation:
+
+*^3/_7* becomes: $ ^3/_7 $
+
+... or something more complicated:
+
+*a^2 = \\frac{b^2 - c^2}{3}* becomes $ a^2 = \\frac{b^2 - c^2}{3} $
+
+[You can read a short tutorial on using LaTeX at Wikimedia which explains in more detail how to lay out math.](http://en.wikibooks.org/wiki/LaTeX/Mathematics) But here are some quick pointers:
+
+1. Encapsulate your math around \"\$\" and \"\$\" so the app knows it's math.
+2. Many of your basic math annotations will work. E.g. a ^ is an exponent. ! is !.
+3. You can display some very complex math, and it will look really nice. This includes fractions, square roots, equations, calculus (derivatives and limits), sums, probabilities, and more.
+4. Two of the most important elements are the carat (^) and underscore (_). Carats indicate things that go up (exponents, upper limits in integrals, etc.) and also the numerator in a fraction. Underscores (_) indicate things that go down: subscript, denomintators in fractions, etc.
+
+I generally believe in learning by example. So here are some examples of common math problems that you might want to put into a flash card:
+
+**Fractions**
+
+There are 3 main ways to do fractions:
+
+1. For simple fractions, you can use a short notation of a carat (^) followed by the numerator, then forwardslash (/), then an underscore (_), then the denomintator:
+
+*^a/_b* becomes $ ^a/_b $
+
+2. More complicated: Use a curly bracket followed by the numerator, then *\\over*, then the denomintator, then a final curly bracket.
+
+*{n! \\over k!(n-k)!}* becomes $ {n! \\over k!(n-k)!} $
+
+3. Or, begin with *\\frac* and then two sections *{a}* and *{b}*, like this: *\\frac{a}{b}*. The first item in curly-braces will go on top, the second on the bottom.
+
+*\\frac{a^2}{b}* becomes $ \\frac{a^2}{b} $
+
+**Square Roots**
+
+Begin with \\sqrt. An optional [a] gives the power, and then {a} gives what goes under the root.
+
+*\\sqrt{9} = 3* becomes $ \\sqrt{9} = 3 $
+
+*\\sqrt[3]{27} = 3* becomes $ \\sqrt[3]{27} $
+
+**Sums**
+
+*\\sum_{i=1}^{10} t_i* becomes $ \\sum_{i=1}^{10} t_i $
+
+**Calculus**
+
+*\\int y: \\mathrm{d}x^2* becomes $ \\int y: \\mathrm{d}x^2 $
+
+*\\int\\limits_b^a* becomes $ \\int\\limits_b^a $
+
+**Special Characters**
+
+These are only some of the special characters you can use:
+
+*<* and *>* $ \\to < and > $
+*\\leq* $ \\to \\leq $
+*\\pm*  $ \\to \\pm $
+*\\times* and *\\div* $ \\to \\times and \\div $
+*\\alpha* $ \\to \\alpha $
+*\\beta* $ \\to \\beta $
+*\\delta* $ \\to \\delta $
+*\\pi* $ \\to \\pi $ (and more or less all the other Greek letters)
+*\\infty* $ \\to \\infty $
+*\\implies* $ \\to \\implies $
+*\\iff* $ \\to \\iff $
+*\\forall* $ \\to \\forall $
+
+If you read the tutorial on Wikimedia you\'ll learn more about how the math can be laid out. This will give you a taste for what can be done, if you want to make math flash cards that look great.
+";
+
+
+"Apply to be a Beta Tester" =
+"Apply to be a Beta Tester";
+
+"Would you like to help make FlashCards++ a better app? I am always working on new updates and am looking for customers who want to help to beta test them by reporting bugs and making suggestions. I am inviting you to apply to be a beta tester. Would you like to join us? -- Jason, FlashCards++ Developer" = 
+"Would you like to help make FlashCards++ a better app? I am always working on new updates and am looking for customers who want to help to beta test them by reporting bugs and making suggestions. I am inviting you to apply to be a beta tester. Would you like to join us? -- Jason, FlashCards++ Developer";
+
+"Apply Now" = 
+"Apply Now";
+
+"Beta Tester Application for FlashCards++" = 
+"Beta Tester Application for FlashCards++";
+
+"Thank you for your application. We will be in touch shortly." = 
+"Thank you for your application. We will be in touch shortly.";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"Importing Flash Cards" = 
+"Karteikarten importieren";
+
+"Importing Flash Cards - ANSWER" = 
+"<p>Du kannst Karten von <a href=\"http://www.quizlet.com/\">Quizlet</a> importieren, zwei der populärsten Dienste im Internet für den Austausch von Lern-Karteikarten. Du kannst auch CSV-Dateien oder Excel-Dateien importieren, die du in deiner Dropbox abgelegt hast.</p><p>Wähle einfach deine Sammlung (z.B. Französisch) und wähle dort \"Karten importieren\". Alternativ kannst du Karten auch gezielt in einen bestimmten Kartensatz importieren. Wähle hierfür deine Sammlung -> Kartensätze anzeigen -> dein Kartensatz (z.B. Lektion 3) und wähle dort \"Karten importieren\".</p><p>Als nächstes kannst du auswählen von wo (Quizlet or Dropbox) du Karten importieren möchtest.</p><p>Wenn du eine CSV-Datei oder Excel-Datei importierst, stelle sicher, dass du die Karten im Format 'Spalte A - Vorderseite, Spalte B - Rückseite' eingegeben hast.</p>";
+
+"Importing from Excel" = 
+"Karten aus Excel-Dateien importieren";
+
+"Importing from Excel - ANSWER" = 
+"<p>Es ist ganz einfach Karten aus einer Excel-Datei oder CSV-Datei zu importieren. Du brauchst lediglich eine Tabelle (Excel oder Openoffice) mit zwei Spalten. Einer ersten Spalte mit der Vorderseite und eine zweite Spalte mit der Rückseite der Karten. Speichere diese dann als Excel-Datei oder CSV-Datei (Wichtig!) und lege sie in deiner Dropbox ab. Im Import-Dialog sollten dir deine CSV-Dateien oder Excel-Datei dann angezeigt werden.</p>";
+
+"Importing Tips & Tricks" = 
+"Tips & Tricks zum Importieren";
+
+"Importing Tips & Tricks - ANSWER" = 
+"<ul><li>Lege Karten immer nach dem gleichen Schema an. Auf die Art kannst du doppelte Karten leichter finden. Zum Beispiel speichere ich französische reflektive Verben wie \"s'asseoir\" konsequent als \"asseoir (refl.)\" ab, damit sie alphabetisch korrekt unter \"A\" einsortiert werden.</li><li>Zusätzliche Hinweise zum Wort, wie z.B. die Erläuterung, das es sich um ein reflektives Verb handelt, sind in Klammern gut aufgehoben, da der Inhalt von Klammern von FlashCards++ bei der Suche nach doppelten Karten ignoriert wird. \"s'asseoir\" cund \"asseoir (refl.) wird als das gleiche Wort erkannt.</li></ul>";
+
+"Moving Cards to a Different Card Set" = 
+"Karten in einen anderen Kartensatz verschieben";
+
+"Moving Cards to a Different Card Set - ANSWER" = 
+"<p>Karten von einem Kartensatz in eien anderen zu verschieben ist sehr einfach, und so geht's:</p><ol>   <li>Bearbeite die Karte, die du verschieben möchtest.</li>   <li>Klicke auf \"Kartensätze\" - du erhälst eine Liste aller Kartensätze in der aktuellen Sammlung. Jeder Kartensatz, dem diese Karte zugeordnet ist, hat einen Haken.</li>   <li>Klicke auf einen Kartensatz, um einen Haken zu setzen oder zu entfernen. So kannst du die Karte einem neuen oder auch verschiedenen Kartensätzen zuordnen.</li></ol>";
+
+"RootVCHelp" = 
+"Danke, dass du FlashCards++ runtergeladen hast! Klicke oben auf den Knopf um eine neue \"Sammlung\" von Karteikarten anzulegen, e.g. Französisch, Anatomie, oder Verfassungsrecht.\n\nUm Karteikarten anzulegen gehe in deine Sammlung und wähle dort \"Neue Karte\".\n\nUm Karteikarten zu importieren, gehe in deine Sammlung und wähle \"Karten importieren\". Karten können von Quizlet oder als CSV oder Excel aus der Dropbox importiert werden.";
+
+"SettingsStudyVCHelp" = 
+"<p><strong>Erklärung der FlashCards++ Einstellungen</strong></p><ul>    <li><i>Großer Text:</i> Benutze beim Lernen der Karten eine größere Schriftart.</li>    <li><i>Hintergrundfarbe:</i> Ändere die Hintergrungfarbe beim Lernen der Karten.</li>    <li><i>Auto-Browse Geschw.:</i> Gib an wie schnell im Auto-Browse-Modus die Karten umgedreht und gewechselt werden.</li>    <li><i>Weiter mit Bewertung:</i> Anstatt selber zur nächsten Karte zu wechseln, kannst du es FlashCards++ überlassen automatisch zur nächsten Karte wechseln wenn du eine Bewertung abgibst.</li>    <li><i>Identische zusammenfügen:</i> Ist diese Option aktiv, dann fügt FlashCards++ beim Importieren doppelte Karten automatisch zusammen, wenn deren Vor- und Rückseite absolut identisch sind.</li></ul>";
+
+"Sharing Flash Cards" = 
+"Karteikarten teilen";
+
+"Studying Cards Again" = 
+"Erneut lernen";
+
+"Studying Cards Again - ANSWER" = 
+"<p>Nachdem du Karten ein erstes Mal erfolgreich gelernt hast (Bewertung > 3) wird FlashCards++ dir diese Karten nach einer angemessenen Zeit automatisch wieder vorlegen. Wann dies der Fall ist wird auf der Basis des Schwierigkeitsgrades jeder Karte und deiner Lerngewohnheiten bestimmt. Hast du alle Karten bereit ein Mal gelernt, musst du nicht warten, dass FlashCards++ sie dir wieder vorlegt. Du kannst jederzeit <i>Karten lernen</i> oder <i>Test</i> auswählen um deine Karten erneut durchzugehen.</p>";
+
+"Studying Flash Cards - ANSWER" = 
+"<p>Du kannst deine Karteikarten bequem mit Freunden teilen, und so geht's: Wähle eine Sammlung oder einen Kartensatz aus, den du gerne mit jemandem Teilen möchtest und wähle dann \"Teilen\". Du hast nun zwei Möglichkeiten:</p><ul> <li><i>FlashCards++ Format:</i> Idealerweise teilst du deine Karten in diesem Format mit deinen Freunden. Das es das FlashCards++ eigene Format ist gehen hierbei keine Informationen (z.B. verwandte Karten oder Bilder) verloren. Außerdem kann dieses Format nahtlos wieder in FlashCards++ importiert werden.</li> <li><i>CSV (Comma-Separated Value) Format:</i> Hiermit erhälst du eine Excel/Openoffice kompatible Datei. Diese beinhaltet allerdings nur die reinen Textinformationen deiner Karten, KEINE Bilder und KEINE weiteren Karteninformationen wie z.B. verwandte Karten.</li></ul>";
+
+"StudyScoresText" = 
+"<p>Jede Bewertung die du zu einer Karte abgibst hilft das Spaced Repetition System zu kalibrieren. Du hast dabei fünf Abstufungen:</p><p><b>VERGESSEN</b></p><ol> <li> Falsch: Du kannst dich gar nicht erinnern oder hast dich völlig falsch erinnert. <li> Fast: Du konntest dich nicht richtig daran erinnern, aber es kam dir bekannt vor.</ol><p><b>ERINNERN</b></p><ol start=3> <li> Kaum: Du konntest dich nur mit Müh und Not erinnern; ggf. auch nicht vollständig korrekt. <li> OK: Du hast dich korrekt erinnert. <li> Einfach: Du beherrschst die Karte aus dem Effeff.</ol><p>Du kannst auch auf eine Bewertung verzichten</p>";
+
+"The FlashCards++ Method" = 
+"Die FlashCards++ Methode";
+
+"The FlashCards++ Method - ANSWER" = 
+"<ol> <li>Importiere Karten in einen Kartensatz und bereinige die Karten.</li> <li>Bearbeite die Karten um Tippfehler zu finden.</li> <li>Absolviere ein paar Lernrunden ineinem Lernmodus deiner Wahl, bis du sie dir gemerkt hast.</li> <li>Mach einen \"Test\" um sie dem Spaced Repetition System zuzuführen.</li> <li>Wiederhole Karten wenn du dazu aufgefordert wirst, oder lerne erneut wenn du dich auf einen Test vorbereiten musst.</li> <li>Wiederhole Karten mit einem Ergebnis < 4 (\"OK\"), um sie dir längerfristig zu merken.</li> <li>Nachdem du Karten mit einer Bewertung < 4 wiederholt hast, mache erneut einen Test um sie wieder dem Spaced Repetition System zuzuführen.</li> <li>Lerne erneut Karten, die bei Wiedervorlage durchgefallen sind (wenn du das nicht gleich getan hast) und teste sie erneut, um sie wieder dem Spaced Repetition System zuzuführen.</li></ol>";
+
+"Try FlashCards++ for iPhone and iPod Touch!" = 
+"Probiere FlashCards++ für iPhone and iPod Touch aus!";
+
+"Unicode Support" = 
+"Unicode Unterstützung";
+
+"Unicode Support - ANSWER" = 
+"FlashCards++ unterstützt Unicode und somit alle Sprachen. Um Zeichen einer Fremdsprache eingeben zu können wirst du allerdings die entsprechenden Tastaturen aktivieren müssen.Und so geht's:<ol><li>Gehe in die Einstellungen deines Gerätes.</li><li>Wähle <i>Allgemein - Tastatur - Internationale Tastaturen - Tastaturen hinzufügen ...</i> und aktiviere dort die Tasatur die du brauchst.</li><li>Wann immer du in FlashCards++ Text eingeben musst, hast du links neben der Leertaste eine Taste zur Auswahl einer internationalen Tastatur.</li></ol>";
+
+"Video Tutorials" = 
+"Video Tutorials";
+
+"What Do the Scores Mean?" = 
+"Was bedeuten die Bewertungen?";
+
+"What is FlashCards++?" = 
+"Was ist FlashCards++?";
+
+"What is FlashCards++? ANSWER" = 
+"<p>FlashCards++ is DAS Karteikarten Programm für iPhone und iPod touch. Mit FlashCards++ kannst du dir deine persönliche Wissensdatenbank aufbauen und effektiv lernen. FlashCards++ unterstützt Bild und Text in allen Sprachen.</p>";
+
+"What is Spaced Repetition?" = 
+"Was ist Spaced Repetition?";
+
+"What is Spaced Repetition? ANSWER" = 
+"<p>Um effektiv sein Langzeitgedächtnis auszubauen sollte man beim lernen \"Pausen\" einlegen. Wenn du jeden Tag die gesamtheit all deiner Vokabeln lernst, wirst du sie irgendwann alle auswendig können. Aber du wirst Tag ein, Tag aus deine gesamte Zeit mit dem Lernen von Vokabeln zubringen. Tatsache ist, wenn du beim Lernen zwischen den einzelnen Wiederholungen Pausen einlegst, merkst du dir die Sachen besser, weil sie sich allmählich vom Kurzzeitgedächtnis ins Langzeitgedächtnis verlagern.</p><p>Anders ausgedrückt, der beste Zeitpunkt etwas zu wiederholen ist dann, wenn man drauf und dran war es zu vergessen. FlashCards++ benutzt einen effektiven und bewährten Algorithmus von SuperMemo, um zu entscheiden wann dieser Zeitpunkt ist.</p><p>Hinweis: FlashCards++ ist unabhängig und steht in keiner Beziehung zu SuperMemo.</p>";
+
+"Get Started" = 
+"So geht's los";
+
+"Would you like to read the 'Getting Started' tour for FlashCards++?" = 
+"Möchtest du die die FlashCards++ Führung lesen?";
+
+"Go to Tour" = 
+"Gehen zur Führung";
+
+"Importing from Excel & CSV" = 
+"Importing from Excel & CSV";
+
+"Glossary" = 
+"Glossary";
+
+"About/Licensing" = 
+"About/Licensing";
+
+"<p>Hey there!</p><p>I thought you might like to try <a href=\"http://bit.ly/iphoneflashcards\">FlashCards++ for iPhone and iPod Touch</a>, the best way to study on the go. Import flash cards from Quizlet, or create them on your phone.</p><p>To learn more about FlashCards++, visit <a href=\"http://www.iphoneflashcards.com/\">www.iphoneflashcards.com</a>.<p>Also, there is a free demo available if you want to try the app before you buy it.</p>" =
+"<p>Hi!</p><p>Ich dachte du hättest vielleicht Interesse an <a href=\"http://bit.ly/iphoneflashcards\">FlashCards++ für iPhone und iPod Touch</a>, die beste Art unterwegs zu lernen. Importiere Karteikarten von Quizlet, oder schreibe neue Karten auf deinem iPhone.</p><p>Um mehr über FlashCards++ zu erfahren, besuche <a href=\"http://www.iphoneflashcards.com/\">www.iphoneflashcards.com</a>.<p>Es gibt auch eine Lite-Version, falls du das Programm erst mal ausprobieren möchtest.</p>";
+
+"BackupRestoreListFilesVCHelp" = 
+"Um deine Karteikarten zu sichern tippe unten einfach auf \"Jetzt sichern\".\n\nDu kannst deine Daten jederzeit wiederherstellen in dem du hierher zurückkehrst und eine zuvorgemachte Sicherung zum wiederherstellen auswählst.\n\nStandardmäßig werden die Backups im Ordner \"FlashCards++ Backups\" gesichert. Dieser kann in den Backup-Optionen allerdings geändert werden.";
+
+"Can I add photos or audio?" = 
+"Kann ich Ton und Bilder hinzufüge?";
+
+"Can I add photos or audio? ANSWER" = 
+"<p>Du kannst den Karteikarten nun auch Bilder hinzufügen. Audiodaten werden leider noch nicht unterstützt. Du kannst Bilder aus deiner Bibliothek hinzufügen oder, wenn dein mobiles Gerät über eine Kamera verfügt, neue Fotos direkt deinen Kerteikarten hinzufügen.</p>";
+
+"CardListDuplicatesVCHelp" = 
+"<p>Diese Ansicht zeigt eine Liste doppelter Karten, basierend auf ihrer Vorderseite.</p><p>Gelbe Karten wurden bereits dem \"Spaced Repetition\" System zugeführt; weiße noch nicht.</p>";
+
+"CollectionCardsDueByDayVCHelp" = 
+"<p>Basierend auf deinen eigenen Bewertungen während der Tests und während der Wiederholungen wird den Karten ein bestimmtes Datum für die nächste Wiederholung zugewiesen. Diese Grafik zeigt wann in der Zukunft wieviele Karten zur Wiederholung anstehen.</p>";
+
+"CollectionCardsStudiedByDayVCHelp" = 
+"<p>Zeigt in einer Grafik wieviele Karten du gelernt hast, nach Tagen, Wochen und Monaten.</p>";
+
+"CollectionEFactorChartViewController" = 
+"<p>Basierend auf deinen Antworten in Tests und Wiederholungen bekommt jede Karte einen \"E-Faktor\" zwischen 1.2 (schwere Karten) und 2.5 (leichte Karten) zugewiesen. Diese Grafik zeigt die Verteilung der E-Faktoren über alle Karten dieser Sammlung.</p>";
+
+"CollectionGeneralStatisticsVCHelp" = 
+"<p>Diese allgemeine Statistik soll ein paar Informationen über deine Kartensammlung und deine Lerngewohnheiten zusammentragen. Im Einzelnen findest du:</p><ul>    <li>Erster Tag - Datum an den diese Sammlung erstellt wurde\n    <li># Tage - Wieviele Tage du bereits gelernt hast\n    <li># Karten - Anzahl der Karten in deiner Sammlung\n    <li># gemerkte Karten - Wieviele Karten du dir bereits gemerkt hast und der \"Spaced Repetition\" zugeführt wurden\n    <li># Gemerkt / Tag - Gemerkte Karten pro Tag an dem du gelernt hast\n    <li># austehende Karten - Anzahl der Karten, die noch nicht der \"Spaced Repetition\" zugeführt wurden\n    <li>Effektive Lernrate - Geschätzte Anzahl effektiv gelernter\gemerkter Karten basierend auf deinen Bewertungen\n    <li>Mittl. Wiederholungszeit - Mittlere Zeit, die du während der Wiederholungen pro Karte brauchst\n    <li>Gesamt Wiederholungszeit - Gesamte aufgebrachte Zeit für alle Wiederholungen aller Karten\n    <li>Last - Schätzung der Anzahl von dir täglich gelernter Karten\n    <li>Arbeitslast - Schätzung deines täglichen Zeitaufwandes für Wiederholungen\n    <li>Geschwindigkeit - Mittlere \"Wissensaufnahme\", gemessen in Anzahl gemerkter Karten pro Jahr pro Minute Lernzeit; kann anfänglich sehr hoch ausfallen, wird sich aber im Laufe der Zeit bei 50-500     Karten/Jahr/Minute einpendeln\n    <li>Mittl. Intervall - Das aktuelle mittlere Intervall für die Wiederholung der Karten in dieser Sammlung\n    <li>Mittl. Wiederholungen - Mittlere Anzahl an Wiederholungen für gemerkte Karten in dieser Sammlung\n</ul>";
+
+"CollectionOFMatrixVCHelp" = 
+"<p>FlashCards++ arbeitet nach dem Prinzip, dass der beste Zeitpunkt etwas Gelerntes zu wiederholen dann ist, wenn man kurz davor ist es wieder zu vergessen. Um nun den besten Zeitpunkt für das wiederholte Lernen von Karten zu finden, benutzt FlashCards++ einen fortschrittlichen Algorithmus, basierend auf SuperMemos SM-5 algorithmus. Kern dieses Algorithmus ist die OF-Matrix, die Matrix der optimalen Faktoren. Diese Matrix passt sich im Laufe der Zeit automatisch an und bestimmt die Lernintervalle der Karten abhängig davon wie schwer sie sind (angegeben durch die E-Faktoren) und wie oft sie bereits wiederholt wurden. Jeder Zeile ist eine bestimmte Anzahl an Wiederholungen, jeder Spalte ein E-Faktor zugeordnet. Hat man nun eine Karte richtig (Ergebnis > 3) beantwortet, so wird das nächste Lernintervall berechnet indem das aktuelle Lernintervall der Karte mit dem passenden OF-Wert aus der Matrix multipliziert wird.</p><p>Wenn du eine neue Sammlung anlegst wird eine neue Matrix mit Standardwerten auf der Basis der E-Faktoren erstellt. Sobald du dann mit dem Lernen anfängst wird sich die Matrix wieder deinen Lernerfolgen anpassen um die optimalen Lernintervalle zu bestimmen. Vom Lernalgorithmus angepasste Werte erkennt man daran, dass sie rot hinterlegt sind.</p>";
+
+"CollectionScoreChartVC" = 
+"<p>Diese Tabelle zeigt das durchschnittliche Ergebnis der Karten, in Abhängig von Wiederholungen und E-Faktor.</p>";
+
+"GettingStartedText" = 
+"<p>Der schnellste Weg anzufangen, ist einfach mit dem lernen zu beginnen. FlashCards++ kommt mit dem Kartensatz GRE (Graduate Record Examinations). Clicke auf die \"Sammlung\" GRE und anschließend auf \"Karten lernen\". Du hast die Wahl zwischen drei verschiedenen Lernmodi - <a href=\"#study\">smart, linear, und zufälig</a> - sowie die Wahl ob du alle Karten oder nur einen Teil lernen möchtest. An die Arbeit! Lies weiter, wenn du mehr über <a href=\"#philosophy\">die Philosophie von FlashCard++'s</a> wissen möchtest, <a href=\"#collection\">wie man eine Sammlung anlegt und anfängt</a>, <a href=\"#import\">wie man Karten importiert</a>, <a href=\"#study\">wie man lernt</a>, <a href=\"#stats\">wie man die Statistik versteht</a>. Oder gehe zum <a href=\"#glossary\">Glossar</a>.</p><h1><a name=\"philosophy\"></a>Die Philosophie von FlashCards++: Leg dir deine \"Wissensdatanbank\" an</h1><p>Mit FlashCards++ legst du zu einem bestimmten Thema (z.B. eine Fremdsprache) deine persönliche \"Wissensdatenbank\" an und erstellst einen Lernplan, um so effizient wie möglich zu lernen. Um dies zu erreichen legst du dir eine \"Sammlung\" von Karteikarten an und wiederholst diese, basierend auf dem System des Vorreiters SuperMemo, in optimalen Intervallen.</p><p>Information sollten nicht doppelt angelegt werden. Wenn du zwei identische Karten hast, z.B. die Definition für \"superannuated\" (überholt, veraltet), solltest du diese Karten  \"zusammenfügen\" um nur ein Exemplar zu behalten. Anderenfalls würdest du doppelt so viel Zeit auf das Lernen der Karten verwenden!</p><p>Hast du erst ein mal viele Karten erstellt, hast du dein persönliches Werkzeug, deine Datenbank des Wissens, welche dich in die Lage versetzt dir dieses Wissen mit der Zeit im Langzeitgedächtnis einzuprägen - bis du das jeweilige Thema beherrschst.</p> <h1><a name=\"\"></a>Die FlashCards++ Methode: Spaced Repetition</h1><p>FlashCards++ hat ein Ziel: so schnell wie möglich so viel wie Wissen wie möglich aufnehmen, <em>und zwar ins Langzeitgedächtnis!</em> Dieses Ziel wir durch das \"Spaced Repetition\" System erreicht, ein System, welches die Zeit abschätzt, wann man etwas gelerntes wieder vergessen würde.</p><p>Das \"optimale intervall\" für Wiederholungen wird berechnet, indem jeder Karte ein \"E-Faktor\" zugewiesen wird, der ausdrückt wie leicht oder schwer die jeweilige Karte ist. Auf der Basis dieses Faktors schätzt FlashCards++ die Zeit, nach der eine bereits gelernte Karte wiederholt werden sollte.</p><h1><a name=\"collection\"></a>Einer Sammlung anlegen</a></h1><p>Der erste Schritt besteht darin eine Sammlung anzulegen, die dein gesammeltes Wissen zu einem Thema beherbergen wird. Du kannst beliebig viele Sammlungen anlegen, solltest sie aber nach Themengebieten auftrennen, z.B. eine Sammlung für englische Vokabeln, eine für französische Vokabeln und eine für mathematische Definitionen. Klicke einfach auf \"+\" auf dem Startbildschirm. Wenn es sich um eine Sprache handelt, kannst du die \"Erweiterten Sprachwerkzeuge\" aktivieren, welche die E-Faktoren, basierend auf Wortlänge und anderen Faktoren, automatisch anpasst.</p><h1><a name=\"import\"></a>Karten importieren</h1><p>Du kannst Karten von <a href=\"http://www.quizlet.com/\">Quizlet</a> importieren, zwei der populärsten Dienste im Internet für den Austausch von Lern-Karteikarten. Um Karten von deinem Rechner auf dein mobiles Gerät zu bekommen gehe wie folgt vor:</p><ol>    <li>Erstelle mit Excel oder OpenOffice eine Tabelle mit zwei Spalten, Spalte A für die Vorderseite der Karten, Spalte B für die Rückseiten. Die so vorbereiteten Karten kannst du in Quizlet hochladen, oder als CSV-Datei oder Excel-Datei in deiner Dropbox speichern. In Quizlet kannst du die Karten mit der Funktion \"Von einer anderen Quelle kopieren und einfügen\" mittels Copy&Paste einfügen.</li>    <li>Wenn du auf \"Karten importieren\" klickst hast du die Auswahl von Quizlet zu importieren:        <ul>            <li><strong>Karten von Quizlet importieren:</strong> Du kannst eine Liste deine Kartensätze  oder alle Kartensätze auf Quizlet  durchsuchen. Wähle einen Kartensatz aus um ihn dir anzusehen und ihn ggf. runterzuladen.</li>             <li><strong>Karten aus der Dropbox importieren:</strong> Gehe in deine Dropbox dort hin, wo du die Dateien abgelegt hast und wähle die zu importierende CSV-Datei oder Excel-Datei.</li>        </ul>    </li>    <li>Werden beim Import Karten gefunden, die bereits in deiner Datenbank existieren, wirst du aufgefordert die doppelten Karten \"zusammenzufügen\". Für jede doppelte karte hast du drei Möglichkeiten:        <ul>            <li>Wähle <em>Zusammenfügen</em> wenn die Karte tatsächlich doppelt ist. Du kannst von den beiden doppelten Karten jeweils die Vorder- und Rückseite auswählen, die für die zusammengefügte Karte benutzt werden sollen.</li>            <li>Wähle <em>Zusammenfügen &amp; Bearbeiten</em> wenn es sich z.B. tatsächlich um die gleiche Vokabel handel, die beiden Karten aber zwei verschiedene Übersetzungen haben. Dann kannst du beim Zusammenfügen die Karte noch bearbeiten und die Rückseite neu schreiben.</li>            <li>Wähle <em>Nicht zusammenfügen</em> wenn die Karten nicht zusammengefügt werden sollen, z.B. weil es sich um Synonyme handelt.</li>        </ul>        Wähle \"Vor &gt;\" bis du alle doppelten Karten bearbeitet hast. Klicke dann auf \"Speichern\".</li>    <li>Als nächstes hast du die Möglichkeit, den Kartensatz zunächst zu bearbeiten. Das ist eine gute Gelegenheit mit dem Lernen zu beginnen. Auf diese Art kannst du alle Karten ein Mal durchgehen und ggf. den einen oder anderen Tippfehler ausmerzen. Wenn du für deine Sammlung die erweiterten Sprachwerkzeuge aktiviert hast kannst du Worte auch als Kognate oder als \"falsche Freunde\" markieren.</li></ol><h1><a name=\"study\"></a>Karten lernen</h1><p>Wenn du deine Karten importiert hast, kannst du mit dem Lernen beginnen. Dir stehen vier Lernmodi zur Auswahl:</p><ul>    <li><strong>Karten lernen</strong>: Hier hast du die möglichkeit alle Karten oder eine zufällige Auswahl von 30 Karten zu lernen. Hierzu gibt es drei Lernmethoden, linear, zuföllig und \"smart\". Linear and zufällig sind selbsterklärend \"smart\" (Standardeinstellung) präsentiert dir die Karten, basierend auf deinen Antworten und dem Schwierigkeitsgrad der Karte, öfter oder seltener. Am Ende jeder \"Lernrunde\"wirst du gefragt ob du einen <strong>Test</strong> machen möchtest; gehe zum Test über, wenn du dich dafür bereit fühlst.</li>    <li><strong>Test</strong>: Hier kannst du sofort einen \"Test\" machen und dein Wissen überprüfen.</li>    <li><strong>Wiederholung (Spaced Repetition)</strong>: Nutze die Vorteile des \"Spaced Repetition\" Systems, welches dir bereits gelernte Inhalte in geeigneten Intervallen wieder vorlegt um dein Wissen im Langzeitgedächtnis zu festigen.</li>    <li><strong>Durchgefallene Karten lernen</strong>: Durchgefallene Karten sind erfolgreich gelernte Karten, die du im Rahmen der \"Spaced Repetition\" allerdings falsch beantwortet hast. Hier kannst du diese Karten erneut lernen um sie wieder dem \"Spaced Repetition\" System zuzuführen.</li></ul><p>Zum erfolgreichen Lernen deiner Karten solltest du wie folgt vorgehen: (1) Karten importieren, (2) Karten im Modus \"smart\" lernen (3) Einen Test machen (4) Karten wiederholen, wenn sie dir vorgelegt werden (5) Karten mit einem Ergenis unter 4 wiederholen (6) Bei Gelegenheit Durchgefallene Karten die sich gesammelt haben erneut lernen.</p><p>Benutze folgende Gesten: <strong>von rechts nach links wischen</strong> geht zur nächsten Karte, <strong>von links nach rechts wischen</strong> geht eine Karte zurück und <strong>antippen</strong> dreht die Karte.</p><p><em>Wichtiger Hinweis:</em> Denk daran dein iPhone or iPod touch zu sperren, wenn du beim Lernen eine Pause machst, um die Statistik über deine Lernzeit nicht zu verfälschen. Der Timer wird angehalten solange das Gerät gesperrt ist.</p><p>Wenn du deine Karten lernst hast du fünf Möglichkeiten deine Antwort zu bewerten: Falsch (du konntest dich gar nicht erinnern oder deine Antwort war falsch); Fast (du konntest dich nicht erinnern, aber es kam dir bekannt vor); Kaum (du konntest dich nur mit Mühe erinnern); OK (du konntest dich spontan erinnern); und Einfach (aus dem Effeff). Du kannst auch auf eine Bewertung verzichten.</p><h1><a name=\"stats\"></a>Die Statistik verstehen</h1><p>FlashCards++ stellt dir diverse Statistiken zur Verfügung - hier ein schneller Überblick über die wichtigsten:</p><dl>    <dt>Fällige Karten nach Tagen</dt>    <dd>Zeigt wieviele Karten dir vom Spaced Repetition System in den kommenden Tagen vorgelegt werden.</dd>    <dt>Gelernte Karten (nach Tagen, Wochen, week oder Monaten)</dt>    <dd>Grafische Darstellung der Anzahl gelernter Karten nach Tage, Wochen, bzw. Monaten.</dd>    <dt>Effektive Lernrate</dt>    <dd>Eine Abschätzung, basierend auf den Ergebnissen der systematischen Wiederholungen, über deine effektiven Lernerfolge.</dd>    <dt>Gesamte Wiederholungs-Zeit</dt>    <dd>Gesamtzeit, die du für das Wiederholen von Lerninhalten aufgebracht hast.</dd>    <dt>Zeitaufwand</dt>    <dd>Eine Abschätzung wieviel Zeit du pro Tag für das Lernen von Lerninhalten aufbringen wirst.</dd>    <dt>E-Faktoren</dt>    <dd>Eine Grafische Darstellung der Verteilung der E-Faktoren in einem Kartensatz oder einer Sammlung.</dd>    <dt>Optimale Faktoren (OF-Matrix)</dt>    <dd>Deine persönliche, angepasste OF-Matrix. Wenn du willst kannst du sie hier auch zurücksetzen.</dd></dl><h1><a name=\"glossary\"></a>Glossar</h1>";
+
+"Glossary" = 
+"Glossary";
+
+"GlossaryText" = 
+"<dl>    <dt>Karte</dt>    <dd>Ein \"Stück\" Wissen in Form einer Karteikarte mit Vor- und Rückseite (z.B. \"Frage\" und \"Antwort\", \"Fremdwort\" und \"Übersetzung\", \"Begriff\" und \"Definition\",...).</dd>    <dt>Sammlung</dt>    <dd>Eine Thematische Gruppe von Karten/Kartensätzen.</dd>    <dt>Kartensatz</dt>    <dd>.Als Kartensatz werden Karten zusammengefasst, die zu verschiedenen Zeiten aus verschiedenen Quellen importiert wurden. Durch das Zusammenfügen von Karten beim Importieren können Karten auch schon Mal in verschiedenen Kartensätzen auftauchen.</dd>    <dt>E-Faktor</dt>    <dd>Ein Faktor, welcher abschätzt wie schwierig eine Karte ist. E-Faktor reichen von 1.2 (schwer) bis 2.5 (leicht).</dd>    <dt>Optimales Intervall</dt>    <dd>die berechnete \"optimal\" Zeit bis zu Wiedervorlage einer Karte. Dieses Intervall basiert auf dem E-Faktor (leichte Karten werden seltener wiederholt, schwierige Karten öfter) und auf der OF-Matrix, welche sich deinen persönlichen Lerngewohnheiten anpasst.</dd>    <dt>Optimaler Faktor (OF) Matrix</dt>    <dd>Die Matrix ist ein mathematisches Konstrukt, welches die Berechnung ermöglicht wann du Karten wieder lernen solltest. Um so effizient wie möglich zu lernen, wird die Matrix im Laufe des Studiums automatisch angepasst, um Lernintervalle zu optimieren (z.B. Intervalle verkürzen wenn du Karten bei einer Wiederholung wieder vergessen hast).</dd> </dl>";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

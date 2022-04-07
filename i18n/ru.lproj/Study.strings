@@ -1,0 +1,274 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"%d of %d" = 
+"%1$d из %2$d";
+
+"    Flip to Back    " = 
+"    Оборотная сторона    ";
+
+"    Flip to Front    " = 
+"    Лицевая сторона    ";
+
+"< Prev" = 
+"< Пред.";
+
+"Next >" = 
+"След. >";
+
+"No Score" = 
+"Без оценки";
+
+"1: Fail" = 
+"1: Провал";
+
+"2: Almost" = 
+"2:  Почти";
+
+"3: Barely" = 
+"3: Едва";
+
+"4: OK" = 
+"4: OK";
+
+"5: Easy!" = 
+"5: Легко!";
+
+"Next" = 
+"След.";
+
+"View Results" = 
+"Мои результаты";
+
+"Study Cards With Scores < 4" = 
+"Учить карточки с баллом < 4";
+
+"Return to Card Set" = 
+"Вернуться к набору";
+
+"Return to Collection" = 
+"Вернуться к коллекции";
+
+"Next Round" = 
+"След. раунд";
+
+"Study Again" = 
+"Учить снова";
+
+"All Cards" = 
+"Все карточки";
+
+"All Lapsed" = 
+"All Lapsed";
+
+"Are You Done Studying?" = 
+"Вы закончили занятие?";
+
+"Back" = 
+"Оборот";
+
+"Front" = 
+"Лиц. сторона";
+
+"Begin New Session" = 
+"Начать новый сеанс";
+
+"Begin Studying" = 
+"Начать занятие";
+
+"Begin Test" = 
+"Начать тест";
+
+"Continue Studying" = 
+"Продолжить занятие";
+
+"Edit" = 
+"Редакт.";
+
+"Finish Test" = 
+"Окончить тест";
+
+"First Side Shown" = 
+"First Side Shown";
+
+"Study Mode" = 
+"Study Mode";
+
+"Study Order" = 
+"Study Order";
+
+"Type of Cards" = 
+"Type of Cards";
+
+"Number of Cards" = 
+"Number of Cards";
+
+"It seems you have not finished studying all of your cards." = 
+"Видимо, вы не просмотрели все карточки в этом занятии.";
+
+"Saved Study Session Found" = 
+"Найдено сохранённое занятие";
+
+"Load Saved Cards (Study)" = 
+"Загрузить сохр. карточки (учить)";
+
+"Load Saved Cards (Test)" = 
+"Загрузить сохр. карточки (тест)";
+
+"Next Card" = 
+"След. карточка";
+
+"Previous Card" = 
+"Пред. карточка";
+
+"No Cards Found" = 
+"Карточки не найдены";
+
+"Only 15" = 
+"Только 15";
+
+"Only New" = 
+"Только новые";
+
+"Random" = 
+"Случайно";
+
+"Random %d" = 
+"Random %d";
+
+"Related" = 
+"Связанные";
+
+"Results" = 
+"Результаты";
+
+"Linear" = 
+"Последовательно";
+
+"Smart" = 
+"Интеллектуально";
+
+"Random Order" = 
+"Случайный выбор";
+
+"Speak Text" = 
+"Читать текст";
+
+"Stats" = 
+"Стат.";
+
+"Study" = 
+"Учить";
+
+"Note: Text-to-speech is limited to the first 100 characters. For any cards longer than 100 characters -- including this one -- text-to-speech will been truncated." = 
+"Примечание: Функция text-to-speech ограничена 100 символами. Для карточек длиннее 100 символов, включая эту, воспроизведение text-to-speech будет обрезано.";
+
+"Auto-Audio" = 
+"Авто-Аудио";
+
+"Auto-Browse" = 
+"Авто-Просмотр";
+
+"Auto-Browse with Audio" = 
+"Auto-Browse with Audio";
+
+"Manual Flip" = 
+"Переворот вручную";
+
+"Manual" = 
+"Вручную";
+
+"Automatically move from one card to the next, and text-to-speech automatically reads both sides." = 
+"Automatically move from one card to the next, and text-to-speech automatically reads both sides.";
+
+"Automatically move from one card to the next." = 
+"Automatically move from one card to the next.";
+
+"FlashCards++ learns which cards are easier or more difficult for you and presents the more difficult ones more frequently as you study." = 
+"FlashCards++ learns which cards are easier or more difficult for you and presents the more difficult ones more frequently as you study.";
+
+"Fail" = 
+"Провал";
+
+"Almost" = 
+"Почти";
+
+"Barely" = 
+"Едва";
+
+"OK" = 
+"OK";
+
+"Easy!" = 
+"Легко!";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"Round %d\n" = 
+"Раунд %d\n";
+
+"Test Results\n" = 
+"Результаты теста\n";
+
+"\nAverage Interval: %@" = 
+"\nСредний интервал: %@";
+
+"\nAverage Score: %@" = 
+"\nСредний бал: %@";
+
+"\nNo scores recorded" = 
+"\nНет результатов";
+
+"\nPercent Passed: %@" = 
+"\nПроходной процент: %@";
+
+"\nPercent Skipped: %@" = 
+"\nПроцент пропущ.: %@";
+
+"\nSmart Study Ratio: %@" = 
+"\nИнт. коэф. занятия: %@";
+
+"You may also choose to re-study your cards again by tapping \"Study Again\" below." = 
+"Вы также можете выбрать повторить занятие нажатием \"Учить снова\" снизу.";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"There are no cards in this card set, add some cards to begin studying." = 
+"В этом наборе нет карточек, добавьте их для начала обучения.";
+
+"There are no cards in this set which need to be tested at this time." = 
+"В этом наборе нет карточек, которые сейчас требуют теста.";
+
+"There are no cards which need to be studied with Spaced Repetition at this time." = 
+"Нет карточек, которые сейчас требуют повторения with Spaced Repetition.";
+
+"There are no lapsed cards which need to be studied at this time." = 
+"There are no lapsed cards which need to be studied at this time.";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+
+"First Side Shown:" = 
+"Начинать со стороны:";
+
+"Study Mode:" = 
+"Учить методом:";
+
+"Study Order:" = 
+"Последовательностью:";
+
+"Type of Cards:" = 
+"Тип карточек:";
+
+"Number of Cards:" = 
+"Количество карточек:";
+
+"Random 30" = 
+"30 случайных";
+

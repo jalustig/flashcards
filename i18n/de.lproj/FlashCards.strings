@@ -1,0 +1,112 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"FlashCards++" = 
+"FlashCards++";
+
+"OK" = 
+"OK";
+
+"Cancel" = 
+"Abbruch";
+
+"Updating Database" = 
+"Aktualisiere Datenbank";
+
+"May take a minute on large databases." = 
+"Kann eine Minute dauern bei großen Datenbanken.";
+
+"Options" = 
+"Optionen";
+
+"Are You Sure?" = 
+"Sicher?";
+
+"Your message has been sent successfully." = 
+"Deine Nachricht wurde erfolgreich gesendet.";
+
+"Loading..." = 
+"Laden...";
+
+"Uploading..." = 
+"Hochladen...";
+
+"FlashCards++ (Merge Sets)" = 
+"FlashCards++ (Merge Sets)";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"Other" = 
+"Andere";
+
+"E-Factor" = 
+"E-Faktor";
+
+"E-Factors" = 
+"E-Faktoren";
+
+"Log in" = 
+"Einloggen";
+
+"Downloading Images" = 
+"Downloading Images";
+
+"Search" = 
+"Suchen";
+
+"Type" = 
+"Typ";
+
+"Log In" = 
+"Log In";
+
+"Log In Now" = 
+"Log In Now";
+
+"Search Results" = 
+"Suchergebnis";
+
+"Thank you for Following!" = 
+"Thank you for Following!";
+
+"You are now following us on Twitter!" = 
+"You are now following us on Twitter!";
+
+"You currently do not have any Twitter accounts." = 
+"You currently do not have any Twitter accounts.";
+
+"Select Twitter Account" = 
+"Select Twitter Account";
+
+"Post to Facebook" = 
+"Post to Facebook";
+
+"Post to Twitter" = 
+"Post to Twitter";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"# Cards" = 
+"# Karten";
+
+"You are not currently online. Sync will complete when your internet connection is available." = 
+"You are not currently online. Sync will complete when your internet connection is available.";
+
+"You are not currently subscribed to Quizlet Plus, Quizlet's premium service. You can add images to flash cards, but they will not be uploaded to Quizlet." = 
+"You are not currently subscribed to Quizlet Plus, Quizlet's premium service. You can add images to flash cards, but they will not be uploaded to Quizlet.";
+
+"Quit" = 
+"Quit";
+
+"Restore Original Database" = 
+"Restore Original Database";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

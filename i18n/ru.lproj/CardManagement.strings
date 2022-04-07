@@ -1,0 +1,415 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"Learn Cards" = 
+"Учить карточки";
+
+"Review" = 
+"Просмотр";
+
+"Test Cards" = 
+"Тестирование";
+
+"Study Lapsed Cards" = 
+"Учить с ошибками";
+
+"Statistics" = 
+"Статистика";
+
+"Import Cards" = 
+"Импорт карточек";
+
+"View All Cards" = 
+"Просмотр всех карточек";
+
+"View Card Sets" = 
+"Просмотр коллекций карточек";
+
+"Subscribes to Online Changes from:" = 
+"Подписаться на обновления от:";
+
+"Syncs With:" = 
+"Синхронизация с:";
+
+"I'm Done" = 
+"Я закончил";
+
+"I'm Not Done" = 
+"Я не закончил";
+
+"It looks like you haven't checked all %d duplicate cards. Are you sure you want to exit the merging screen?" = 
+"По-видимому, вы не проверили все %d карт. с повторами. Вы уверены, что хотите выйти из режима объединения?";
+
+"It looks like you haven't edited all %d cards. Are you sure you want to exit the editing screen?" = 
+"По-видимому, вы не редактировали все %d карт. Вы уверены, что хотите выйти из режима редактирования?";
+
+"(blank)" = 
+"(пусто)";
+
+"(no image, tap to add)" = 
+"(нет изображения, нажми для добавления)";
+
+"(no audio, tap to record)" = 
+"(нет аудио, нажми для записи)";
+
+"Image" = 
+"Изображение";
+
+"Text" = 
+"Текст";
+
+"Audio" = 
+"Аудио";
+
+"(Spaced Repetition)" = 
+"(долгосрочное повторение)";
+
+"Select the languages of the front & back of cards in this Collection to use text-to-speech." = 
+"Для использования функции text-to-speech выберите язык обеих сторон карточек в этой Коллекции.";
+
+"Text-To-Speech Cache Paused; %d cards left. Restart app to continue." = 
+"Пауза кэша функции Text-To-Speech; %d карт. осталось. Перезапустите программу для продолжения.";
+
+"Save Recording" = 
+"Сохранить запись";
+
+"Clear Recording" = 
+"Очистить запись";
+
+"Record" = 
+"Запись";
+
+"Play" = 
+"Проиграть";
+
+"Are you done editing?" = 
+"Вы завершили редактирование?";
+
+"Are you done merging?" = 
+"Вы завершили объединение?";
+
+"Front Side" = 
+"Передняя сторона";
+
+"Back Side" = 
+"Задняя сторона";
+
+"Front Side of Card" = 
+"Передняя сторона карточки";
+
+"Back Side of Card" = 
+"Задняя сторона карточки";
+
+"Front Language" = 
+"Язык передней стороны";
+
+"Back Language" = 
+"Язык задней стороны";
+
+"Choose Photo" = 
+"Выберите фото";
+
+"Choose Photo Source" = 
+"Выберите источник фото";
+
+"Camera" = 
+"Камера";
+
+"Photo Library" = 
+"Фото библиотека";
+
+"Select Image" = 
+"Выберите изображение";
+
+"Remove Photo" = 
+"Удалить фото";
+
+"Edit Card" = 
+"Редактировать карточку";
+
+"Edit Card %d of %d" = 
+"Редактировать карточку %1$d из %2$d";
+
+"First Study Side:" = 
+"Начинать со стороны:";
+
+"Card Set Name:" = 
+"Имя коллекции карточек:";
+
+"Delete Card" = 
+"Удалить карточку";
+
+"Done Editing" = 
+"Завершить редактирование";
+
+"Edit Card Set" = 
+"Редактировать коллекцию карточек";
+
+"Edit Collection" = 
+"Редактировать коллекцию";
+
+"A-Z" = 
+"A-Z";
+
+"Newest" = 
+"Самые новые";
+
+"Merge" = 
+"Объединить";
+
+"Are you sure you want to merge these cards? These %d cards will be added to \"%@\" and the selected Collections will be removed." = 
+"Вы уверены, что хотите объединить эти карточки? Эти %d карточек будут добавлены к \"%@\" и выбранная Коллекция будет удалена.";
+
+"Yes, Merge" = 
+"Да, объединить";
+
+"Don't Merge" = 
+"Не объединять";
+
+"Merge successful!" = 
+"Успешно объединено!";
+
+"There are no other collections to import from." = 
+"Нет других коллекций для импорта.";
+
+"To merge card sets or collections, first go to that card set or collection, and then return to the import screen. Otherwise, Flashcards++ will not know where you want the cards to be moved to." = 
+"Для объединения коллекций карточек перейдите в одну из коллекций и затем вернитесь в пункт Импортирования. Иначе Flashcards++ не будет знать, куда вы ходите переместить свои карточки.";
+
+"There are no cards to merge." = 
+"Нет карточек для объединения.";
+
+"Merge All" = 
+"Объединить все";
+
+"Merge Selected" = 
+"Объединить выбранные";
+
+"Merge One" = 
+"Объединить одну";
+
+"Merge Multiple" = 
+"Объединить несколько";
+
+"Please select at least one card source." = 
+"Пожалуйста, выберите хотя бы один источник.";
+
+"This card set is configured to subscribe to online changes. For this reason, you cannot edit the card locally as your changes may be overwritten by changes to the online set. If you would like, you can turn off the subscription but it will disable future online updates." = 
+"Этот набор карточек подписан на онлайн обновления, поэтому вы не можете его редактировать. Ваши изменения могут быть переписаны при онлайн обновлении. Если вы хотите, вы можете отключить подписку, но это не позволит получать обновления в дальнейшем.";
+
+"Stop Subscription" = 
+"Остановить подписку";
+
+"Sync with Quizlet" =
+"Синхронизироваться с Quizlet";
+
+"Subscribe to Online Changes" = 
+"Подписаться на онлайн обновление";
+
+"Open on Quizlet" =
+"Открыть в Quizlet";
+
+"This set will automatically be synced with %@, as long as you are logged in. Any changes you make on your %@ will be uploaded to %@, and any changes you make on %@ will be downloaded to your %@." = 
+"Данный набор будет автоматически синхронизироваться с %1$@, пока вы находитесь под этим логином. Любые изменения выполненные вами с %2$@ будут закачаны в %3$@, любые изменения с %4$@ будут загружены на ваше устройство %5$@.";
+
+"This set will automatically download changes from %@. Because it is a subscribed set, you will not be able to edit the cards on your %@. Any changes made on %@ will automatically download to your %@." = 
+"Этот набор будет автоматически загружать изменения с %1$@. Поскольку вы подписаны на него, вы не сможете редактировать карточки на вашем %2$@. Любые выполненные изменения с %3$@ будут автоматически загружены на ваш %4$@.";
+
+"Sync with Internet" = 
+"Синхронизировать через Интернет";
+
+"This card set currently syncs with %@. Would you like to delete it from the website, or only from your mobile device?" = 
+"Сейчас этот набор карточек синхронизируется с %@. Вы хотите удалить его с вебсайта или только с вашего устройства?";
+
+"Upload to Quizlet" = 
+"Загрузить на Quizlet";
+
+"Building Export File" =
+"Создание файла для экспорта";
+
+"FlashCards++ Format" = 
+"Формат FlashCards++";
+
+"CSV File (Excel)" = 
+"Файл .CSV (Excel)";
+
+"Preview Card" = 
+"Предпросмотр карточки";
+
+"Related Cards" = 
+"Связанные карточки";
+
+"Share" = 
+"Поделиться";
+
+"Share Cards" = 
+"Поделиться карточками";
+
+"Swap Front & Back" = 
+"Поменять местами стороны";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"Note: At this time, you cannot upload image flash cards to Quizlet. Only the text will be uploaded." = 
+"Примечание: Сейчас вы не можете загружать карточки с изображениями на   Quizlet. Будет загружен только текст.";
+
+"Display All Cards" = 
+"Показать все карточки";
+
+"Display Duplicate Cards" = 
+"Показать повторы карточек";
+
+"Word Type" = 
+"Тип слова";
+
+"Normal" = 
+"Нормал.";
+
+"Cognate" = 
+"Однокоренное";
+
+"False Friend" = 
+"Ложный друг";
+
+"This card set is already uploaded to and synced with Quizlet. If you would like, you can share this set by sending an email to a friend with a link to the set on Quizlet." = 
+"Этот набор карточек уже загружен и синхронизирован с Quizlet. При необходимости вы можете поделиться им с другом по email ссылкой на Quizlet.";
+
+"Do you want to delete this card, or remove it from the card set \"%@\"?" = 
+"Вы хотите удалить или переместить эту карточку из набора \"%@\"?";
+
+"Are you sure you want to delete this card? Deleting it will remove it from all Card Sets in this Collection, and cannot be undone." = 
+"Вы уверены, что хотите удалить эту карточку? При удаление она будет безвозвратно удалена из всех Наборов этой Коллекции.";
+
+"Don't Delete" = 
+"Не удалять";
+
+"Yes, Delete" = 
+"Да, удалять";
+
+"Delete From Web" = 
+"Удалить из Сети";
+
+"Delete from Internet?" = 
+"Удалить из Интернета?";
+
+"Check Quizlet Status" = 
+"Проверить статус Quizlet";
+
+"Delete Local Only" = 
+"Удалить только локальное";
+
+"Set is already uploaded" = 
+"Набор закачан";
+
+"Card Sets" = 
+"Наборы карточек";
+
+"Card Statistics" = 
+"Статистика";
+
+"New Collection" = 
+"Новая коллекция";
+
+"All Collections" = 
+"Все коллекции";
+
+"You did not enter a name for your Card Set." = 
+"Вы не ввели имени для вашего набора.";
+
+"You did not enter a name for your Collection." = 
+"Вы не ввели имени для вашей Коллекции.";
+
+"Collection" = 
+"Коллекция";
+
+"Create Card" = 
+"Создать карточку";
+
+"Create Cards" = 
+"Создать Карточки";
+
+"Merge %d of %d" = 
+"Объедин. %1$d из %2$d";
+
+"My FlashCards++ Card Set: %@" = 
+"Мой набор My FlashCards++t: %@";
+
+"New Card Set" = 
+"Новый набор";
+
+"Other Cards in Same Card Set" = 
+"Другие карточки а том же наборе";
+
+"Remove from Card Set" = 
+"Убрать из набора";
+
+"View Cards" = 
+"Просмотр карточек";
+
+"Send Email" = 
+"Отправить Email";
+
+"I am sharing FlashCards++ cards on %@: %@" = 
+"Я расшариваю карточки FlashCards++ на %1$@: %2$@";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"You cannot mark a card as \"related\" to itself." = 
+"Вы не можете отметить карточку \"related\" самой себе.";
+
+"Dictionary Lookup" = 
+"Поиск в словаре";
+
+"To upload cards, you need at least three cards in this set." = 
+"Для загрузки должно быть минимум три карточки в наборе.";
+
+"E-Factors (All Cards)" = 
+"E-Фактор (Все карточки)";
+
+"E-Factors (Lapsed Only)" = 
+"E-Фактор (Lapsed Only)";
+
+"Allow Discussion?" = 
+"Разрешить обсуждение?";
+
+"Private Set?" = 
+"Личный набор?";
+
+"Uploading Cards" = 
+"Загрузка карточек";
+
+"Uploading Images" = 
+"Загрузка изображений";
+
+"Upload Cards" = 
+"Загрузить карточки";
+
+"To upload cards, you need at least two cards in this set." = 
+"Для загрузки должно быть минимум две карточки в наборе.";
+
+"<p>I just uploaded a set of flash cards called \"%@\" to %@ from FlashCards++ at <a href=\"%@\">%@</a>.</p><p>If you don't have FlashCards++, you can download it from the App Store to study flash cards on your iPhone or iPad at <a href=\"%@\">%@</a></p>" = 
+"<p>Я закачал набор карточек \"%@\" на %@ из FlashCards++ в <a href=\"%@\">%@</a>.</p><p>Если у вас нету FlashCards++, программу можно установить из App Store – для изучения флэш-карточек на вашем iPhone или iPad по <a href=\"%@\">%@</a></p>";
+
+"Your message has been sent successfully." = 
+"Ваше сообщение было успешно отправлено.";
+
+"Add Set to Group?" = 
+"Добавить набор в Группу?";
+
+"Here is a flash card set I created using FlashCards++, a flash card app for iPod touch, iPhone, and iPad.\n\nIf you have the app installed, touch and hold the attached card set to open it directly with FlashCards++.\n\nIf you don't have the app, you can purchase it at http://bit.ly/flashcardapp. Learn more at www.iphoneflashcards.com.\n" = 
+"Это нобор флэш-карточек, созданный с помощью FlashCards++, приложение для iPod touch, iPhone и iPad.\n\nЕсли вы уже имеете эту программу, открыть в ней набор можно нажатием с удерживнием на приложении.\n\nЕсли у вас нет программы, вы можете приобрести её на http://bit.ly/flashcardapp. Читать больше на www.iphoneflashcards.com.\n";
+
+"You cannot mark a card as \"related\" to itself." = 
+"You cannot mark a card as \"related\" to itself.";
+
+"Please enter text for the front value. You cannot perform a dictionary lookup on blank text." = 
+"Пожалуйста, введите текст для лицевого стороны. Вы не можете выполнить поиск по пустому полю.";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

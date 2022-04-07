@@ -1,0 +1,160 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"Error" = 
+"Ошибка";
+
+"No pronunciation found in speech database." = 
+"Произношение в языковой базе данных не найдено.";
+
+"This text-to-speech file has not yet been downloaded from the internet. It will be available when you have a working internet connection." = 
+"Этот text-to-speech файл ещё не был скачан из Интернета. Он будет доступен при наличии интернет-соединения.";
+
+"FlashCards++ has attempted to find the text-to-speech file for this text, but no pronunciation was found in speech database." = 
+"FlashCards++ попыталась найти файл text-to-speech для этого текста, но произношение было найдено базе данных.";
+
+"Sorry, you cannot currently make in-app purchases." = 
+"К сожалению сейчас вы не можете делать покупки в приложении.";
+
+"Error: %@" = 
+"Ошибка: %@";
+
+"Error: %@ (%d)" = 
+"Ошибка: %1$@ (%2$d)";
+
+"Error: %@ (%@)" = 
+"Ошибка: %1$@ (%2$@)";
+
+"You are not connected to the internet." = 
+"Вы не подключены к Интернету.";
+
+"No internet connection" = 
+"Нет соединения с Интернетом";
+
+"Try again once you have an internet connection." = 
+"Попробуйте снова при наличии Интернет-соединения.";
+
+"This feature will only work with an active internet connection." = 
+"Эта функция доступна только при наличии Интернет-соединения.";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"You have lost internet connectivity. Sync was canceled." =
+"You have lost internet connectivity. Sync was canceled.";
+
+"It appears that your FlashCards++ database has been corrupted. You can load a previous backup, reset your data to the initial install, or quit the app.\n\n%@" = 
+"It appears that your FlashCards++ database has been corrupted. You can load a previous backup, reset your data to the initial install, or quit the app.\n\n%@";
+
+"Unresolved error saving data: %@, %@" = 
+"Unresolved error saving data: %@, %@";
+
+"Please turn off Auto-Audio." = 
+"Пожалуйста, выключите Авто-Аудио.";
+
+"You are not currently logged in to Quizlet. Any sets you have synced with Quizlet will not sync until you log in to Quizlet on this device." = 
+"Вы не выполнили вход в Quizlet. Любые настройки Quizlet не будут синхронизированы до тех пор пока не выполните вход в Quizlet на этом устройстве.";
+
+"You must be connected to the internet to create a new account or log in." = 
+"Для входа или создания нового аккаунта вы должны быть подключены к Интернету ";
+
+"Please turn off Auto-Audio." = 
+"Please turn off Auto-Audio.";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"It appears that your backup location (\"%@\") is not a directory. Please select a new location for backups." = 
+"По-видимому, расположение резервного копирования (\"%@\") не является каталогом. Пожалуйста, выберите новое расположение для бэкапов.";
+
+"Thank you for sending an error report. We will work to fix the error as quickly as possible and will be in touch if we need more information to track it down. To find the bug more quickly, please tell us exactly what you did before you got this error message:" = 
+"Спасибо за отправку отчёта об ошибке. Мы исправим сбой как можно быстрее и свяжемся с вами при необходимости. Для быстрого определения причин случившегося, пожалуйста, напишите нам в деталях, что вы делали до получения сообщения об ошибке:";
+
+"Error creating initial data store: %@, %@" = 
+"Ошибка при начальном сохрании данных: %1$@, %2$@";
+
+"Error downloading data: %@, %@" = 
+"Ошибка при скачивании данных: %1$@, %2$@";
+
+"Error opening data source: %@, %@" = 
+"Ошибка при открытии источника данных: %1$@, %2$@";
+
+"There was an error reading your data file, please ensure that it has not been corrupted: %@ (%d)" = 
+"Произошла ошибка при чтении вашего файла с данными, пожалуйста, убедитесь, что он не повреждён: %1$@ (%2$d)";
+
+"Error: the file was empty." = 
+"Ошибка: файл пустой.";
+
+"There has been an error with your Quizlet authentication; please re-authenticate with Quizlet." = 
+"Произошла ошибка при аутентификациеи с Quizlet; пожалуйста повторите попытку.";
+
+"This is a \"private\" card set and is password-protected. To access this set, find this set on Quizlet.com to enter the password." = 
+"Этот \"личный\" набор карточек защищён паролем. Для доступа к нему и ввода пароля найдите набор на Quizlet.com.";
+
+"To use text-to-speech, select the language on the front and back side of your cards in the Collection settings." = 
+"Для использования функции text-to-speech, выберите язык лицевой и обратной сторон в настройках коллекции.";
+
+"You must be connected to the internet to log out." = 
+"Вы должны быть подключены к Интернету для выхода.";
+
+"No Internet Connection" = 
+"Нет соединения с Интернетом";
+
+"Quizlet Error" =
+"Ошибка Quizlet";
+
+"The connection to Quizlet timed out." =
+"Таймаут соединения с Quizlet.";
+
+"Connection Error" = 
+"Ошибка соединения";
+
+"Quizlet Authentication will only work with an active internet connection." = 
+"Аутентификация Quizlet работает только при активном Интернет-соединении.";
+
+"Your mobile device is not configured to send email." = 
+"Ваше мобильное устройство не настроено для отправки электронной почты.";
+
+"Error info:" = 
+"Информация ошибки:";
+
+"Error: Directory Not Found" = 
+"Ошибка: Каталог не найден";
+
+"Error: File Not Found" = 
+"Ошибка: Файл не найден";
+
+"Invalid CSV format on line #%lu immediately after \"%@\"" = 
+"Неверный CSV формат, строка #%lu сразу после \"%@\"";
+
+"The directory \"%@\" could not be found in your Dropbox.\n\nError info: %@ %@" = 
+"Каталог \"%1$@\" не был найден в вашем Dropbox.\n\nError info: %2$@ %3$@";
+
+"The file \"%@\" could not be found.\n\nError info: %@ %@" = 
+"Файл \"%1$@\" не был найден.\n\nИнфо ошибки: %2$@ %3$@";
+
+"A file or directory named \"%@\" already exists in this location in your Dropbox.\n\nError info: %@ %@" = 
+"Файл или каталог с именем \"%1$@\" уже существует в этом пути вашего Dropbox.\n\nДетали ошибки: %2$@ %3$@";
+
+"An error occurred sending your message: %@ %@" = 
+"Произошла ошибка при отправке вашего сообщения: %1$@ %2$@";
+
+"Error checking the file path:" = 
+"Ошибка проверки пути к файлу:";
+
+"Error downloading data: %@ %@" = 
+"Ошибка при скачивании данных: %1$@ %2$@";
+
+"Error loading the list of backup files:" = 
+"Ошибка загрузки списка бэкап файлов:";
+
+"Error: file not found.\n\nError info: %@ %@" = 
+"Ошибка: файл не найден.\n\nИнфо ошибки: %1$@ %2$@";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

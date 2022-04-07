@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StudyViewController">
+            <connections>
+                <outlet property="TTSActivityIndicator" destination="381" id="389"/>
+                <outlet property="TTSButton" destination="380" id="390"/>
+                <outlet property="backCardImageBottom" destination="358" id="359"/>
+                <outlet property="backCardImageTop" destination="356" id="357"/>
+                <outlet property="backDropshadowImage" destination="370" id="371"/>
+                <outlet property="backImage" destination="336" id="339"/>
+                <outlet property="backLabel" destination="192" id="194"/>
+                <outlet property="backScrollView" destination="189" id="196"/>
+                <outlet property="backView" destination="365" id="366"/>
+                <outlet property="backWebview" destination="MFs-ew-a7v" id="quL-OR-A6R"/>
+                <outlet property="bottomFrontFlipButton" destination="416" id="427"/>
+                <outlet property="bottomFrontRelatedButton" destination="417" id="426"/>
+                <outlet property="bottomFrontStatsButton" destination="415" id="425"/>
+                <outlet property="bottomToolbarResults" destination="101" id="137"/>
+                <outlet property="bottomToolbarStudy" destination="412" id="Al8-8y-tYf"/>
+                <outlet property="bottomToolbarTestResults" destination="156" id="161"/>
+                <outlet property="cardNumberLabel" destination="98" id="99"/>
+                <outlet property="cardView" destination="WVB-LE-G0y" id="vRb-DL-6RW"/>
+                <outlet property="editButton" destination="a2P-RM-tiM" id="uzp-mn-5eZ"/>
+                <outlet property="frontCardImageBottom" destination="361" id="362"/>
+                <outlet property="frontCardImageTop" destination="360" id="363"/>
+                <outlet property="frontDropshadowImage" destination="369" id="372"/>
+                <outlet property="frontImage" destination="337" id="338"/>
+                <outlet property="frontLabel" destination="187" id="188"/>
+                <outlet property="frontScrollView" destination="185" id="197"/>
+                <outlet property="frontView" destination="367" id="368"/>
+                <outlet property="frontWebview" destination="u2d-Mu-LPN" id="aYL-kH-YsJ"/>
+                <outlet property="fullScreenButton" destination="HMm-dy-eln" id="DuD-nf-QCY"/>
+                <outlet property="pausePlayAutoBrowseButton" destination="332" id="335"/>
+                <outlet property="relatedCardsTableView" destination="205" id="209"/>
+                <outlet property="resultsBeginTestButton" destination="105" id="350"/>
+                <outlet property="resultsNextRoundButton" destination="102" id="351"/>
+                <outlet property="resultsRandomOrderButton" destination="113" id="352"/>
+                <outlet property="studyCardsWithScoresLessThan4Button" destination="158" id="295"/>
+                <outlet property="testResultsFinishTestButton" destination="157" id="353"/>
+                <outlet property="testResultsStudyLessThan4Button" destination="158" id="354"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" userLabel="Front">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="412">
+                    <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <barButtonItem title="Flip Card" id="416">
+                            <connections>
+                                <action selector="flipCard:" destination="-1" id="420"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="418"/>
+                        <barButtonItem title="Related Cards" id="417">
+                            <connections>
+                                <action selector="relatedCardsAction:" destination="-1" id="421"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="419"/>
+                        <barButtonItem title="Card Statistics" id="415">
+                            <connections>
+                                <action selector="cardInfo:" destination="-1" id="423"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <toolbar hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="101" userLabel="Results">
+                    <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <barButtonItem title="Next Round" id="102">
+                            <connections>
+                                <action selector="continueNextRound:" destination="-1" id="110"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="fwM-zb-inG"/>
+                        <barButtonItem title="Random Order" id="113">
+                            <connections>
+                                <action selector="randomizeCardsAction:" destination="-1" id="114"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="103"/>
+                        <barButtonItem title="Begin Test" style="done" id="105">
+                            <connections>
+                                <action selector="beginTest:" destination="-1" id="109"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <toolbar hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="156" userLabel="TestResults">
+                    <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <barButtonItem title="Finish Test" style="done" id="157">
+                            <connections>
+                                <action selector="doneAction:" destination="-1" id="162"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="159"/>
+                        <barButtonItem title="Study Cards With Scores &lt; 4" id="158">
+                            <connections>
+                                <action selector="studyCardsWithScoresLessThan4:" destination="-1" id="164"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <view contentMode="scaleToFill" id="WVB-LE-G0y" userLabel="Card">
+                    <rect key="frame" x="0.0" y="10" width="320" height="430"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" contentMode="scaleToFill" indicatorStyle="white" id="185" userLabel="Front of Card" customClass="SwipeableScrollView">
+                            <rect key="frame" x="8" y="0.0" width="303" height="433"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FlashCard-background-top.png" id="360" customClass="SwipeableImageView">
+                                    <rect key="frame" x="0.0" y="165" width="303" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <view contentMode="scaleToFill" id="367" customClass="SwipeableView">
+                                    <rect key="frame" x="0.0" y="30" width="300" height="230"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" contentMode="left" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="10" adjustsFontSizeToFit="NO" id="187" customClass="SwipeableLabel">
+                                            <rect key="frame" x="0.0" y="-214" width="300" height="659"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <webView userInteractionEnabled="NO" contentMode="scaleToFill" allowsInlineMediaPlayback="NO" mediaPlaybackRequiresUserAction="NO" mediaPlaybackAllowsAirPlay="NO" keyboardDisplayRequiresUserAction="NO" id="u2d-Mu-LPN">
+                                            <rect key="frame" x="0.0" y="-214" width="300" height="659"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <dataDetectorType key="dataDetectorTypes"/>
+                                        </webView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="337" customClass="SwipeableImageView">
+                                            <rect key="frame" x="0.0" y="149" width="300" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </view>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="369">
+                                    <rect key="frame" x="300" y="30" width="3" height="277"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FlashCard-background-bottom.png" id="361" customClass="SwipeableImageView">
+                                    <rect key="frame" x="0.0" y="165" width="303" height="13"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="98" userLabel="Card #">
+                                    <rect key="frame" x="10" y="5" width="73" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </scrollView>
+                        <scrollView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" indicatorStyle="white" id="189" userLabel="Back of Card" customClass="SwipeableScrollView">
+                            <rect key="frame" x="8" y="0.0" width="303" height="295"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FlashCard-background-top.png" id="356" customClass="SwipeableImageView">
+                                    <rect key="frame" x="0.0" y="0.0" width="303" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <view contentMode="scaleToFill" id="365" customClass="SwipeableView">
+                                    <rect key="frame" x="0.0" y="30" width="300" height="230"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" contentMode="left" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="10" adjustsFontSizeToFit="NO" id="192" customClass="SwipeableLabel">
+                                            <rect key="frame" x="0.0" y="-180" width="300" height="590"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <webView userInteractionEnabled="NO" contentMode="scaleToFill" allowsInlineMediaPlayback="NO" mediaPlaybackRequiresUserAction="NO" mediaPlaybackAllowsAirPlay="NO" keyboardDisplayRequiresUserAction="NO" id="MFs-ew-a7v">
+                                            <rect key="frame" x="0.0" y="-180" width="300" height="590"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <dataDetectorType key="dataDetectorTypes"/>
+                                        </webView>
+                                        <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="205" customClass="SwipeableTableView">
+                                            <rect key="frame" x="0.0" y="-17" width="300" height="265"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" name="controlDarkShadowColor" catalog="System" colorSpace="catalog"/>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="207"/>
+                                                <outlet property="delegate" destination="-1" id="208"/>
+                                            </connections>
+                                        </tableView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="336" customClass="SwipeableImageView">
+                                            <rect key="frame" x="0.0" y="149" width="300" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </view>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="370">
+                                    <rect key="frame" x="300" y="30" width="3" height="235"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FlashCard-background-bottom.png" id="358" customClass="SwipeableImageView">
+                                    <rect key="frame" x="0.0" y="30" width="303" height="10"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                        </scrollView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="a2P-RM-tiM" userLabel="Button">
+                            <rect key="frame" x="239" y="4" width="28" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" image="187-pencil.png">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="editCardAction:" destination="-1" eventType="touchUpInside" id="vuw-ab-s6t"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="380" userLabel="Button">
+                            <rect key="frame" x="161" y="4" width="28" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" image="speaker-on.png">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="speakText:" destination="-1" eventType="touchUpInside" id="385"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="332">
+                            <rect key="frame" x="197" y="-3" width="34" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" image="pauseButton.png">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="pausePlayAutoBrowse:" destination="-1" eventType="touchUpInside" id="334"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HMm-dy-eln">
+                            <rect key="frame" x="278" y="4" width="21" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="Button" image="fullscreen-open.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="fullScreenButtonTapped:" destination="-1" eventType="touchUpInside" id="Yxs-P2-s45"/>
+                            </connections>
+                        </button>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" style="gray" id="381">
+                            <rect key="frame" x="205" y="4" width="20" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="59S-6c-uDz" appends="YES" id="Igf-5G-9sE"/>
+                        <outletCollection property="gestureRecognizers" destination="Bog-zU-stb" appends="YES" id="xwO-xN-ve2"/>
+                        <outletCollection property="gestureRecognizers" destination="RRO-C0-OpN" appends="YES" id="V9z-yw-Djz"/>
+                        <outletCollection property="gestureRecognizers" destination="iiY-I5-nKz" appends="YES" id="pSd-Qs-z5D"/>
+                        <outletCollection property="gestureRecognizers" destination="yXs-hQ-Nr9" appends="YES" id="S8l-Ap-czf"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" name="controlDarkShadowColor" catalog="System" colorSpace="catalog"/>
+            <gestureRecognizers/>
+        </view>
+        <tapGestureRecognizer id="59S-6c-uDz">
+            <connections>
+                <action selector="handleTap:" destination="-1" id="I5q-qf-S0x"/>
+                <outlet property="delegate" destination="-1" id="XnP-BS-F2p"/>
+            </connections>
+        </tapGestureRecognizer>
+        <swipeGestureRecognizer direction="left" id="Bog-zU-stb" userLabel="Swipe Right Gesture Recognizer">
+            <connections>
+                <action selector="handleSwipeRight:" destination="-1" id="n6H-9G-oTE"/>
+            </connections>
+        </swipeGestureRecognizer>
+        <swipeGestureRecognizer direction="right" id="RRO-C0-OpN" userLabel="Swipe Left Gesture Recognizer">
+            <connections>
+                <action selector="handleSwipeLeft:" destination="-1" id="HAo-5r-HFe"/>
+            </connections>
+        </swipeGestureRecognizer>
+        <swipeGestureRecognizer direction="up" id="iiY-I5-nKz" userLabel="Swipe Up Gesture Recognizer">
+            <connections>
+                <action selector="handleSwipeUp:" destination="-1" id="AIR-As-B8R"/>
+            </connections>
+        </swipeGestureRecognizer>
+        <swipeGestureRecognizer direction="down" id="yXs-hQ-Nr9" userLabel="Swipe Down Gesture Recognizer">
+            <connections>
+                <action selector="handleSwipeDown:" destination="-1" id="Bcd-2S-o4k"/>
+            </connections>
+        </swipeGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="187-pencil.png" width="23" height="23"/>
+        <image name="FlashCard-background-bottom.png" width="303" height="13"/>
+        <image name="FlashCard-background-top.png" width="303" height="32"/>
+        <image name="fullscreen-open.png" width="30" height="30"/>
+        <image name="pauseButton.png" width="21" height="24"/>
+        <image name="speaker-on.png" width="30" height="25"/>
+    </resources>
+</document>

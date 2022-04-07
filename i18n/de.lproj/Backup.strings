@@ -1,0 +1,145 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"Backup & Restore" = 
+"Backup";
+
+"No Backups Found" = 
+"Keine Backups gefunden";
+
+"Restore Backup Now" = 
+"Wiederherstellen";
+
+"Restore Now" = 
+"Wiederherstellen";
+
+"Restore Successful" = 
+"Wiederherstellung erfolgreich";
+
+"Uploaded: %1.1f%%" = 
+"Uploaded: %1.1f%%";
+
+"Uploaded: %1.2f%%" = 
+"Uploaded: %1.2f%%";
+
+"Downloaded: %1.2f%%" = 
+"Downloaded: %1.2f%%";
+
+"Load Backup File" = 
+"Daten-Backup laden";
+
+"Are you sure you want to load this backup file? It will overwrite ALL of your current FlashCards++ data." = 
+"Bist du sicher dass du dieses Daten-Backup laden willst? Es wird ALLE deine bisherigen FlashCards++ Daten überschreiben.";
+
+"Load File Now" = 
+"Daten laden";
+
+"Make A Backup First" = 
+"Erst speichern";
+
+"Backup Now" = 
+"Jetzt sichern";
+
+"Are you sure you want to restore this database file? Please make sure that your current database is backed up before restoring to a previous version." = 
+"Sicher, dass du diese Datenbank wiederherstellen möchtest? Stelle sicher, dass deine aktuelle Datenbank gesichert ist, bevor du einen früheren Stand wiederherstellst.";
+
+"Are you sure you want to restore this database file? It will turn off automatic sync and replace your current data with this backup version." = 
+"Bist du sicher dass du die Datenbank wiederherstellen möchtest? Es wird die automatische Synkronisation ausschalten und deine aktuellen Daten mit dieser gespeicherten Version ersetzen .";
+
+"Upload Database Now" = 
+"Datenbank laden";
+
+"Do you want to optimize your FlashCards++ database before uploading it?" = 
+"Willst du deine FlashCards++ Datenbank optimieren bevor du sie hochlädst?";
+
+"FlashCards++ uses the free Dropbox service to store backups in the cloud. Please sign in or create a free Dropbox account below to set up backups." =
+"FlashCards++ benutzt den kostenlosen Dienst Dropbox, um Backups in der Cloud zu sichern. Log dich ein oder lege ein kostenloses Konto an, um Daten zu sichern.";
+
+"Downloading Restore File" = 
+"Backup-Datei runterladen";
+
+"Backup Settings" = 
+"Backup-Einstellungen";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"FlashCards++ has successfully backed up its database to Dropbox." = 
+"FlashCards++ hat seine Datenbanken erfolgreich auf Dropbox gesichert.";
+
+"FlashCards++ has successfully restored its database." = 
+"FlashCards++ hat seine Datenbanken erfolgreich wiederhergestellt.";
+
+"Create a new folder and use it to store your FlashCards++ backup files:" = 
+"Erstelle ein neues Verzeichnis zum Abspeichern der FlashCards++ Backup-Dateien:";
+
+"Name of New Folder:" = 
+"Name des neuen Verzeichnisses:";
+
+"No Sub-Folders Found" = 
+"Keine Unterverzeichnisse gefunden";
+
+"Backup Information" = 
+"Backup Information";
+
+"Backup Location" = 
+"Ort des Backups";
+
+"Backup Date" = 
+"Backup Datum";
+
+"Size" = 
+"Größe";
+
+"Current Backup Location" = 
+"Aktuelles Backup-Verzeichnis";
+
+"Last Backup" = 
+"Letztes Backup";
+
+"Backup to Current Folder" = 
+"Backup in aktuelles Verzeichnis";
+
+"Backups" = 
+"Verzeichnis";
+
+"Choose Backup Location" = 
+"Verzeichnis wählen";
+
+"Create Folder" = 
+"Neuer Ordner";
+
+"Duplicate File" = 
+"Doppelte Datei";
+
+"Invalid Folder Name" = 
+"Ungültiger Ordnername";
+
+"Overwrite File" = 
+"Datei überschreiben";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"It appears that a backup file already exists in this location with the name \"%@\". Continuing with your backup will overwrite this file. Would you like to overwrite this file?" = 
+"Es scheint bereits ein Backup-Datei mit dem Namen \"%@\" zu existieren. Wenn du weiter machst, wird diese Datei überschrieben. Alte Datei überschreiben?";
+
+"Please enter a valid name for your new folder; it may not contain forward-slashes, back-slashes, or periods." = 
+"Bitte einen gültigen Verzeichnisnamen eingeben. Slash, Backslash, Doppelpunkt und Fragezeichen sind nicht erlaubt.";
+
+"You did not enter a name for your new folder." = 
+"Du hast keinen Namen für das neue Verzeichnis angegeben.";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+
+"Cancel" = 
+"Abbruch";
+
+"Loading Restore File..." = 
+"Lade Backup-Datei...";
+

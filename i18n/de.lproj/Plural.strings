@@ -1,0 +1,164 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"You have %d new flashcards to review today;0" =
+"You have %d new flashcard to review today";
+"You have %d new flashcards to review today;1" =
+"You have %d new flashcards to review today";
+
+"%d Cards;0" = 
+"%d Karte";
+
+"%d Cards;1" = 
+"%d Karten";
+
+"%d terms;0" = 
+"%d Begriff";
+
+"%d terms;1" = 
+"%d Begriffe";
+
+"Download Next %d Sets;0" = 
+"Nächstes %d Set runterladen";
+
+"Download Next %d Sets;1" = 
+"Nächsten %d Sets runterladen";
+
+"Download Next %d Groups;0" = 
+"Nächste %d Gruppe runterladen";
+
+"Download Next %d Groups;1" = 
+"Nächsten %d Gruppen runterladen";
+
+"It seems you have a study session (%d cards) from %@ which you never finished. Would you like to reload those cards now?;0" = 
+"Scheinbar hast du ein Lern-Session (%d Karte) vom %@ nicht beendet. Möchtest du diese fortsetzen?";
+
+"It seems you have a study session (%d cards) from %@ which you never finished. Would you like to reload those cards now?;1" = 
+"Scheinbar hast du ein Lern-Session (%d Karten) vom %@ nicht beendet. Möchtest du diese fortsetzen?";
+
+"%d minutes;0" = 
+"%d Minute";
+
+"%d minutes;1" = 
+"%d Minuten";
+
+"%1.2f hours;0" = 
+"%1.2f Stunde";
+
+"%1.2f hours;1" = 
+"%1.2f Stunden";
+
+"%d hours;0" = 
+"%d Stunde";
+
+"%d hours;1" = 
+"%d Stunden";
+
+"%d days;0" = 
+"%d Tag";
+
+"%d days;1" = 
+"%d Tage";
+
+"%d months;0" = 
+"%d Monat";
+
+"%d months;1" = 
+"%d Monate";
+
+"%d duplicate cards found in \"%@.\" You can now merge them with already existing cards in this collection.;0" = 
+"%d doppelte Karte gefunden in \"%@.\" Du kannst sie nun mit einer bestehenden Karte aus dieser Sammlung zusammenführen.";
+
+"%d duplicate cards found in \"%@.\" You can now merge them with already existing cards in this collection.;1" = 
+"%d doppelte Karten gefunden in \"%@.\" Du kannst sie nun mit bestehenden Karten aus dieser Sammlung zusammenführen.";
+
+"Successfully imported %d cards.;0" = 
+"Erfolgreich %d Karte importiert.";
+
+"Successfully imported %d cards.;1" = 
+"Erfolgreich %d Karten importiert.";
+
+"%d cards due;0" = 
+"%d Karte fällig";
+
+"%d cards due;1" = 
+"%d Karten fällig";
+
+"%d cards lapsed;0" = 
+"%d Karte durchgefallen";
+
+"%d cards lapsed;1" = 
+"%d Karten durchgefallen";
+
+"%d sets;0" = 
+"%d Kartensatz";
+
+"%d sets;1" = 
+"%d Kartensätze";
+
+"The free version of FlashCards++ has a limit of 150 cards. You can become a Subscriber for unlimited cards, or you can import the first %d cards in this set.;0" = 
+"The free version of FlashCards++ has a limit of 150 cards. You can become a Subscriber for unlimited cards, or you can import the first %d card in this set.";
+
+"The free version of FlashCards++ has a limit of 150 cards. You can become a Subscriber for unlimited cards, or you can import the first %d cards in this set.;1" = 
+"The free version of FlashCards++ has a limit of 150 cards. You can become a Subscriber for unlimited cards, or you can import the first %d cards in this set.";
+
+"Import First %d Cards;0" = 
+"Import First %d Card";
+
+"Import First %d Cards;1" = 
+"Import First %d Cards";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"You now have %d of %d Subscriptions available for your students.;0" =
+"You now have %d of %d Subscription available for your students.";
+"You now have %d of %d Subscriptions available for your students.;1" =
+"You now have %d of %d Subscriptions available for your students.";
+
+"%d Matches;0" = 
+"%d Identische";
+
+"%d Matches;1" = 
+"%d Identische";
+
+"%d Duplicates;0" = 
+"%d Doppelte";
+
+"%d Duplicates;1" = 
+"%d Doppelte";
+
+"%1.1f Secs;0" = 
+"%1.1f Sek.";
+
+"%1.1f Secs;1" = 
+"%1.1f Sek.";
+
+"%1.1f Seconds;0" = 
+"%1.1f Sekunde";
+
+"%1.1f Seconds;1" = 
+"%1.1f Sekunden";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"%d users;0" = 
+"%d Benutzer";
+
+"%d users;1" = 
+"%d Benutzer";
+
+"Your set \"%@\" (%d terms) has been uploaded successfully.;0" = 
+"Ihre Kartensatz \"%@\" (%d Karte) werde erfolgreich hochgeladet.";
+
+"Your set \"%@\" (%d terms) has been uploaded successfully.;1" = 
+"Ihre Kartensatz \"%@\" (%d Karten) werde erfolgreich hochgeladet.";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

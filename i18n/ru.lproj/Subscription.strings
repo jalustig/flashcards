@@ -1,0 +1,199 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"Subscription" = 
+"Подписка";
+
+"Create Account" = 
+"Создать Аккаунт";
+
+"I already have an account" = 
+"У меня уже есть аккаунт";
+
+"Please enter an email address." = 
+"Пожалуйста, введите ваш email.";
+
+"Please enter a password of at least 4 characters." = 
+"Пожалуйста, введите пароль минимум 4 символа.";
+
+"Please enter a valid email address." = 
+"Пожалуйста, введите корректный email.";
+
+"Your email addresses do not match." = 
+"Ваши mail не совпадают.";
+
+"Your passwords do not match." = 
+"Ваши пароли не совпадают.";
+
+"Thank you for registering. You can log in on your personal devices to use your subscription." = 
+"Спасибо за регистрацию. Для использования подписки вам необходимо выполнить вход на устройстве.";
+
+"You have been logged in successfully." = 
+"Вход выполнен успешно.";
+
+"However, your FlashCards++ subscription expired on %@." = 
+"К сведению: ваша подписка на FlashCards++ оканчивается %@.";
+
+"Create a FlashCards++ account to use your Subscription on your personal devices. We will not share your email address." = 
+"Для работы с Подпиской на ваших устройствах создайте аккаунт FlashCards++. Мы не распространяем информацию о email адресах.";
+
+"Already have a FlashCards++ subscription? Log in to activate your subscription." = 
+"Уже есть аккаунт подписки FlashCards++? Выполните Вход для её активации.";
+
+"Your subscription expires in two weeks." = 
+"Ваша подписка заканчивается через 2 недели.";
+
+"Your subscription expires in one week." = 
+"Ваша подписка заканчивается через неделю.";
+
+"Your subscription expires in three days." = 
+"Ваша подписка заканчивается через 3 дня.";
+
+"Your subscription expires tomorrow." = 
+"Ваша подписка заканчивается завтра.";
+
+"Learn More About Subscriptions" = 
+"Узнать больше о Подписке";
+
+"Purchase Failed" = 
+"Покупка не удалась";
+
+"Sorry, your Subscription purchase failed: Cannot connect to iTunes Store. Please try again. %@" = 
+"Извините, вам не удалось приобрести Подписку: Не удалось соединиться с iTunes Store. Попробуйте ещё раз. %@";
+
+"Processing Purchase" = 
+"Обработка покупки";
+
+"Log Out" = 
+"Выйти";
+
+"You have been logged out successfully." = 
+"Вы успешно вышли.";
+
+"Log Out All Devices" = 
+"Выйти на всех устройствах";
+
+"All devices associated with this account have been logged out." = 
+"Выполнен выход на всех устройствах, связанных с аккаунтом.";
+
+"Subscribers support the continued development of new features for FlashCards++ and can use text-to-speech features offline." = 
+"Подписчики постоянно помогают совершенствовать функционал FlashCards++ и могут использовать функцию text-to-speech оффлайн.";
+
+"Your subscription will be suspended on this device when you log out." = 
+"При Выходе ваша подписка на этом устройстве будет приостановлена.";
+
+"Sorry, the App Store cannot be reached now for Subscriptions." = 
+"Извините, App Store не доступен сейчас для подписки.";
+
+"However, you can try the offline text-to-speak function while you are offline, and then subscribe if you would like when you are connected to the internet again." = 
+"Для сведения: вы можете попробовать функцию text-to-speak оффлайн и при желании подписаться, когда будете подключены к Интернету.";
+
+"Free Trial Ended" = 
+"Бесплатный пробный период окончен";
+
+"You are now re-connected to the internet, so your free trial of the offline text-to-speech feature has concluded. If you would like to continue to use this feature offline, please consider supporting FlashCards++ by becoming a Subscriber. Thank you." = 
+"Вы сейчас переподключены к Интернету, ваш пробный период оффлайн функции text-to-speech окончен. Если вы хотите продолжить её использование, пожалуйста, подумайте о приобретении подписки на FlashCards++. Спасибо.";
+
+"Activate Trial" = 
+"Активировать пробный период";
+
+"Subscribe: 3 Months" = 
+"Подписаться на 3 месяца";
+
+"Subscribe: 6 Months" = 
+"Подписаться на 6 месяцев";
+
+"Subscribe: 12 Months" = 
+"Подписаться на 12 месяцев";
+
+"Lifetime Subscription" = 
+"Lifetime Subscription";
+
+"Already a Subscriber? Log In" = 
+"Уже есть подписка? Выполните вход";
+
+"Your one-time trial of the offline text-to-speech function has begun. When you re-connect to the internet, you will be returned to this screen. I hope that you choose to support FlashCards++ by becoming a Subscriber. Thank you." = 
+"Начался ваш пробный период оффлайн функции text-to-speech. Когда вы переподключитесь к Интернету, вы снова попадёте в это меню. Я надеюсь, что вы решите стать подписчиком FlashCards++. Спасибо.";
+
+"Sorry, your Subscription purchase failed. Please try again. %@" = 
+"Извините, не удалось приобрести подписку. Попробуйте ещё раз. %@";
+
+"Thank you for subscribing." = 
+"Спасибо за подписку.";
+
+"Your subscription will continue until %@." = 
+"Ваша подписка действительна до %@.";
+
+"Purchase Successful" = 
+"Покупка выполнена успешно";
+
+"Learn About Subscriptions" = 
+"Learn About Subscriptions";
+
+"The free version of FlashCards++ has a limit of %d cards. You can become a Subscriber for unlimited cards." = 
+"The free version of FlashCards++ has a limit of %d cards. You can become a Subscriber for unlimited cards.";
+
+"The sets you are importing contain images. Attaching photos to flash cards is only available to FlashCards++ subscribers. You can become a Subscriber to download these images, or you can continue and just import the text." = 
+"The sets you are importing contain images. Attaching photos to flash cards is only available to FlashCards++ subscribers. You can become a Subscriber to download these images, or you can continue and just import the text.";
+
+"The Text-to-Speech function is only available to FlashCards++ Subscribers." = 
+"The Text-to-Speech function is only available to FlashCards++ Subscribers.";
+
+"The free version of FlashCards++ has a limit of %d cards. You currently have %d cards total. Because your Subscription has ended and you chose not to renew it, you can view your cards, but at this time you cannot study them. Please delete some cards, renew your Subscription, or Log In to restore your subscription. Thank you for your support. --Jason, Developer of FlashCards++" = 
+"The free version of FlashCards++ has a limit of %d cards. You currently have %d cards total. Because your Subscription has ended and you chose not to renew it, you can view your cards, but at this time you cannot study them. Please delete some cards, renew your Subscription, or Log In to restore your subscription. Thank you for your support. --Jason, Developer of FlashCards++";
+
+"The free version of FlashCards++ allows you to create cards with text only. To add photos to your cards, you must be a FlashCards++ subscriber." = 
+"The free version of FlashCards++ allows you to create cards with text only. To add photos to your cards, you must be a FlashCards++ subscriber.";
+
+"The free version of FlashCards++ allows you to back up your flash card database to Dropbox. However, restoring these backups is a feature reserved for FlashCards++ Subscribers." = 
+"The free version of FlashCards++ allows you to back up your flash card database to Dropbox. However, restoring these backups is a feature reserved for FlashCards++ Subscribers.";
+
+"The free version of FlashCards++ allows you to create cards with text only. To add recorded audio to your cards, you must be a FlashCards++ subscriber." = 
+"The free version of FlashCards++ allows you to create cards with text only. To add recorded audio to your cards, you must be a FlashCards++ subscriber.";
+
+"The free version of FlashCards++ allows you to download cards from Quizlet. FlashCards++ also have the ability to automatically sync your cards with these websites, but this feature is only available to Subscribers." =
+"The free version of FlashCards++ allows you to download cards from Quizlet. FlashCards++ also have the ability to automatically sync your cards with these websites, but this feature is only available to Subscribers.";
+
+"You have a FlashCards++ Subscription but have not yet created an account. By creating an account, you will be able to use your FlashCards++ subscription on your other iOS devices. Even if you only have one iOS device, creating an account will ensure that you can restore your purchase if you ever delete or re-install FlashCards++." = 
+"You have a FlashCards++ Subscription but have not yet created an account. By creating an account, you will be able to use your FlashCards++ subscription on your other iOS devices. Even if you only have one iOS device, creating an account will ensure that you can restore your purchase if you ever delete or re-install FlashCards++.";
+
+"Your FlashCards++ Subscription will expire on %@." = 
+"Your FlashCards++ Subscription will expire on %@.";
+
+"There was an error processing your purchase: %@" = 
+"There was an error processing your purchase: %@";
+
+"Subscribers support the continued development of new features for FlashCards++, can have an unlimited number of cards, and have access to advanced FlashCards++ features like automatic sync, adding images to cards, and text-to-speech." = 
+"Subscribers support the continued development of new features for FlashCards++, can have an unlimited number of cards, and have access to advanced FlashCards++ features like automatic sync, adding images to cards, and text-to-speech.";
+
+"Automatically syncing flash cards between devices, e.g. iPhone and iPad, is only available to Subscribers. Please log in to your FlashCards++ account, or subscribe to support FlashCards++ and sync your flash cards between your devices." = 
+"Automatically syncing flash cards between devices, e.g. iPhone and iPad, is only available to Subscribers. Please log in to your FlashCards++ account, or subscribe to support FlashCards++ and sync your flash cards between your devices.";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"You just opted not to renew your FlashCards++ Subscription. I'm always striving to make this app the best that it can be for my customers. Can you please tell me why you are choosing not to renew your Subscription? Thanks -- Jason, FlashCards++ Developer" = 
+"You just opted not to renew your FlashCards++ Subscription. I'm always striving to make this app the best that it can be for my customers. Can you please tell me why you are choosing not to renew your Subscription? Thanks -- Jason, FlashCards++ Developer";
+
+"When your Subscription expires, automatic syncing will no longer work." = 
+"When your Subscription expires, automatic syncing will no longer work.";
+
+"When your Subscription expires, you will be limited to %d cards. Also, you cannot add images or audio to your cards, or sync with other devices and websites." = 
+"When your Subscription expires, you will be limited to %d cards. Also, you cannot add images or audio to your cards, or sync with other devices and websites.";
+
+"%d of %d Complete" = 
+"%d of %d Complete";
+
+"You do not have any in-app purchases to validate." = 
+"You do not have any in-app purchases to validate.";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

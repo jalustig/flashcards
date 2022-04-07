@@ -1,0 +1,256 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"%d of %d" = 
+"%1$d von %2$d";
+
+"    Flip to Back    " = 
+"Drehen";
+
+"    Flip to Front    " = 
+"Drehen";
+
+"< Prev" = 
+"< Zurück";
+
+"Next >" = 
+"Vor >";
+
+"No Score" = 
+"Ohne";
+
+"1: Fail" = 
+"1: Falsch";
+
+"2: Almost" = 
+"2: Fast";
+
+"3: Barely" = 
+"3: Kaum";
+
+"4: OK" = 
+"4: OK";
+
+"5: Easy!" = 
+"5: Einfach";
+
+"Next" = 
+"Nächste";
+
+"View Results" = 
+"Ergebnisse ansehen";
+
+"Study Cards With Scores < 4" = 
+"Lerne Karten mit Ergebnis < 4";
+
+"Return to Card Set" = 
+"Zurück zum Kartensatz";
+
+"Return to Collection" = 
+"Zurück zur Sammlung";
+
+"Next Round" = 
+"Nächste Runde";
+
+"Study Again" = 
+"Erneut lernen";
+
+"All Cards" = 
+"Alle Karten";
+
+"All Lapsed" = 
+"All durchgefallenen";
+
+"Are You Done Studying?" = 
+"Fertig mit Lernen?";
+
+"Back" = 
+"Rückseite";
+
+"Front" = 
+"Vorderseite";
+
+"Begin New Session" = 
+"Neue Lern-Session";
+
+"Begin Studying" = 
+"Lernen";
+
+"Begin Test" = 
+"Test";
+
+"Continue Studying" = 
+"Lernen fortsetzen";
+
+"Edit" = 
+"Bearbeiten";
+
+"Finish Test" = 
+"Test beenden";
+
+"First Side Shown" = 
+"Erste Seite";
+
+"Study Mode" = 
+"Lern-Modus";
+
+"Study Order" = 
+"Lern-Reihenfolge";
+
+"Type of Cards" = 
+"Art der Karten";
+
+"Number of Cards" = 
+"Anzahl Karten";
+
+"It seems you have not finished studying all of your cards." = 
+"Es sieht so aus, als wärest du mit dem Lernen nicht fertig.";
+
+"Saved Study Session Found" = 
+"Gespeicherte Session gefunden";
+
+"Load Saved Cards (Study)" = 
+"Fortsetzen (Lernen)";
+
+"Load Saved Cards (Test)" = 
+"Fortsetzen (Test)";
+
+"Next Card" = 
+"Nächste Karte";
+
+"Previous Card" = 
+"Vorherige Karte";
+
+"No Cards Found" = 
+"Keine Karten gefunden";
+
+"Only 15" = 
+"Nur 15";
+
+"Only New" = 
+"Nur neue";
+
+"Random" = 
+"Zufall";
+
+"Random %d" = 
+"%d zufällige";
+
+"Related" = 
+"Verwandt";
+
+"Results" = 
+"Ergebnisse";
+
+"Linear" = 
+"Linear";
+
+"Smart" = 
+"Smart";
+
+"Random Order" = 
+"Durcheinender";
+
+"Speak Text" = 
+"Text sprechen";
+
+"Stats" = 
+"Stats";
+
+"Study" = 
+"Lernen";
+
+"Note: Text-to-speech is limited to the first 100 characters. For any cards longer than 100 characters -- including this one -- text-to-speech will been truncated." = 
+"Note: Text-to-speech is limited to the first 100 characters. For any cards longer than 100 characters -- including this one -- text-to-speech will been truncated.";
+
+"Auto-Audio" = 
+"Auto-Audio";
+
+"Auto-Browse" = 
+"Auto-Browse";
+
+"Auto-Browse with Audio" = 
+"Auto-Browse with Audio";
+
+"Manual Flip" = 
+"Manuell drehen";
+
+"Manual" = 
+"Manual";
+
+"Automatically move from one card to the next, and text-to-speech automatically reads both sides." = 
+"Automatically move from one card to the next, and text-to-speech automatically reads both sides.";
+
+"Automatically move from one card to the next." = 
+"Automatically move from one card to the next.";
+
+"FlashCards++ learns which cards are easier or more difficult for you and presents the more difficult ones more frequently as you study." = 
+"FlashCards++ learns which cards are easier or more difficult for you and presents the more difficult ones more frequently as you study.";
+
+"Fail" = 
+"Falsch";
+
+"Almost" = 
+"Fast";
+
+"Barely" = 
+"Kaum";
+
+"OK" = 
+"OK";
+
+"Easy!" = 
+"Einfach!";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"Round %d\n" = 
+"Runde %d\n";
+
+"Test Results\n" = 
+"Testergebnisse\n";
+
+"\nAverage Interval: %@" = 
+"\nMittleres Intervall: %@";
+
+"\nAverage Score: %@" = 
+"\nDurchschnittl. Bewertung: %@";
+
+"\nNo scores recorded" = 
+"\nKeine Ergebnisse aufgezeichnet";
+
+"\nPercent Passed: %@" = 
+"\nProzent bestanden: %@";
+
+"\nPercent Skipped: %@" = 
+"\nProzent durchgefallen: %@";
+
+"\nSmart Study Ratio: %@" = 
+"\n'Smart Study' Quotient: %@";
+
+"You may also choose to re-study your cards again by tapping \"Study Again\" below." = 
+"Du kannst die Karten erneut lernen indem du \"Erneut lernen\" drückst.";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"There are no cards in this card set, add some cards to begin studying." = 
+"Keine Karten in diesem Kartensatz, füge zunächst Karten hinzu um zu lernen.";
+
+"There are no cards in this set which need to be tested at this time." = 
+"Keine Karten in diesem Kartensatz, die gerate abgefragt werden müssen.";
+
+"There are no cards which need to be studied with Spaced Repetition at this time." = 
+"Keine Karten, die mit 'Spaced Repetition' gelernt werden müssen.";
+
+"There are no lapsed cards which need to be studied at this time." = 
+"Keine durchgefallenen Karten gelernt werden müssen.";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

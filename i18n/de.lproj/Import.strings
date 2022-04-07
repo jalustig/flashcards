@@ -1,0 +1,514 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"Saving" = 
+"Speichern";
+
+"Completing Authentication" = 
+"Authentifizierung fertigen";
+
+"My Quizlet Sets" =
+"Meine Kartensätze";
+
+"Browse Quizlet Sets" = 
+"Kartensatz durchsuchen";
+
+"Search Quizlet Sets" =
+"Kartensatz suchen";
+
+"Download Set" = 
+"Kartensatz runterladen";
+
+"Downloading Sets" = 
+"Kartensätze werden runtergeladen";
+
+"My Groups" = 
+"Meine Gruppen";
+
+"My Quizlet Groups" = 
+"Meine Quizlet-Gruppen";
+
+"Search Groups" = 
+"Gruppen durchsuchen";
+
+"Search Quizlet Groups" = 
+"Quizlet-Gruppen durchsuchen";
+
+"Hosted on Dropbox" = 
+"In deiner Dropbox";
+
+"You have previously imported the card set \"%@\"." = 
+"You have previously imported the card set \"%@\".";
+
+"Excel or CSV (Spreadsheet) Files" = 
+"Excel- oder CSV- (Tabellen-) Dateien";
+
+"Downloading Cards" = 
+"Lade Karten runter";
+
+"Downloading Groups" = 
+"Lade Gruppen runter";
+
+"Downloading Images" = 
+"Lade Bilder runter";
+
+"No .XSL or .CSV Files Found" = 
+"Keine Excel- oder CSV-Dateien gefunden";
+
+"Import" = 
+"Import";
+
+"Import Now" = 
+"Importieren";
+
+"Importing Cards" = 
+"Importiere Karten";
+
+"Reverse Front & Back" = 
+"Seiten tauschen";
+
+"Alphabetical" = 
+"Alphabetisch";
+
+"Most Recent" = 
+"Most Recent";
+
+"Highest Rated" = 
+"Highest Rated";
+
+"Best Match" = 
+"Best Match";
+
+"Most Studied" = 
+"Meist gelernte";
+
+"Studied Sets" = 
+"Gelernte";
+
+"Favorite Sets" = 
+"Liebsten";
+
+"My Sets" = 
+"Meine Kartensätze";
+
+"Return to Card Set" = 
+"Zurück zum Kartensatz";
+
+"Return to Collection" = 
+"Zurück zur Sammlung";
+
+"Return to Dropbox" = 
+"Zurück zum Dropbox";
+
+"Return to My Sets" = 
+"Zurück zur meine Sätze";
+
+"Return to Search" = 
+"Zurück zur Suche";
+
+"Return to Group" = 
+"Zurück zur Gruppe";
+
+"Edit Cards" = 
+"Karten bearbeiten";
+
+"Study Now" = 
+"Lernen";
+
+"Log in to Quizlet" = 
+"Bei Quizlet einloggen";
+
+"Login to Access Private Card Sets" = 
+"Einloggen, um auf private Kartensätze zuzugreifen";
+
+"Login to Access Private Groups" = 
+"Einloggen um privaten Gruppen beizutreten";
+
+"Logout (%@)" = 
+"Ausloggen (%@)";
+
+"No Results Found" = 
+"Keine Ergebnisse gefunden";
+
+"Processing Duplicates" = 
+"Doppelte werden bearbeitet";
+
+"Check for Duplicates" = 
+"Suche nach doppelten";
+
+"Mark Cards Related?" = 
+"Verwandt";
+
+"Merge Card?" = 
+"Zusammenfügen";
+
+"Merge + Edit" = 
+"Bearbeiten";
+
+"Current Card" = 
+"Aktuelle Karte";
+
+"New Card" = 
+"Neue Karte";
+
+"Current" = 
+"Aktuell";
+
+"New" = 
+"Neu";
+
+"Tap to Cancel" = 
+"Tap to Cancel";
+
+"Checking Quizlet Plus" = 
+"Checking Quizlet Plus";
+
+"Syncing Data" = 
+"Syncing Data";
+
+"FlashCards++ Sets" = 
+"FlashCards++ Sets";
+
+"FlashCards++ Collections" = 
+"FlashCards++ Collections";
+
+"Subscribe to Online Changes" = 
+"Subscribe to Online Changes";
+
+"Would you like to turn Sync on for this already-existing set, import these cards into this already-existing set without turning on Sync, or would you like to create a new card set?" = 
+"Would you like to turn Sync on for this already-existing set, import these cards into this already-existing set without turning on Sync, or would you like to create a new card set?";
+
+"Would you like to Subscribe to online changes for this already-existing set, import these cards into this already-existing set without Subscribing to online changes, or would you like to create a new card set? NOTE: If you subscribe to online changes, any changes you have made locally will be erased." = 
+"Would you like to Subscribe to online changes for this already-existing set, import these cards into this already-existing set without Subscribing to online changes, or would you like to create a new card set? NOTE: If you subscribe to online changes, any changes you have made locally will be erased.";
+
+"You have set this card set to be Subscribed to %@. Any changes made online will be automatically downloaded to your device. Because of this, you cannot edit or import cards to this Card Set." = 
+"You have set this card set to be Subscribed to %@. Any changes made online will be automatically downloaded to your device. Because of this, you cannot edit or import cards to this Card Set.";
+
+"Don't Import This Set" = 
+"Don't Import This Set";
+
+"Set Previously Imported" = 
+"Set Previously Imported";
+
+"Sync With Existing Set" = 
+"Sync With Existing Set";
+
+"You have set this card set to be Subscribed to %@. Any changes made online will be automatically downloaded to your device. Because of this, you cannot edit or import cards to this Card Set." = 
+"You have set this card set to be Subscribed to %@. Any changes made online will be automatically downloaded to your device. Because of this, you cannot edit or import cards to this Card Set.";
+
+"You have chosen to sync the current card and the new card set with %@. By merging these cards, any changes you make to either card will be uploaded automatically to both of the original card sets on %@." = 
+"You have chosen to sync the current card and the new card set with %@. By merging these cards, any changes you make to either card will be uploaded automatically to both of the original card sets on %@.";
+
+"You have chosen to sync the new card set with %@." = 
+"You have chosen to sync the new card set with %@.";
+
+"You have chosen to sync the current card with %@." = 
+"You have chosen to sync the current card with %@.";
+
+"By merging these cards, any changes you make will be uploaded automatically to the internet." = 
+"By merging these cards, any changes you make will be uploaded automatically to the internet.";
+
+"Please select at least one set to import" = 
+"Please select at least one set to import";
+
+"Refreshing Authentication" = 
+"Refreshing Authentication";
+
+"Downloading Images: %d of %d" = 
+"Downloading Images: %1$d of %2$d";
+
+"Find Online Card Matches" = 
+"Find Online Card Matches";
+
+"Save and Proceed to Next Card" = 
+"Save and Proceed to Next Card";
+
+"Save and Import Cards" = 
+"Save and Import Cards";
+
+"Card Doesn't Exist On Web" = 
+"Card Doesn't Exist On Web";
+
+"Local Card: %d of %d" = 
+"Local Card: %1$d of %2$d";
+
+"Match with Card on the Web" = 
+"Match with Card on the Web";
+
+"Best Matches:" = 
+"Best Matches:";
+
+"Other Potential Matches:" = 
+"Other Potential Matches:";
+
+"Merging" = 
+"Merging";
+
+"Some of the cards in the set \"%@\" aren't matched up with cards saved on %@. Please match your local cards with the cards on the internet, so that they can be kept in sync." = 
+"Some of the cards in the set \"%1$@\" aren't matched up with cards saved on %2$@. Please match your local cards with the cards on the internet, so that they can be kept in sync.";
+
+"Log in to import card sets, upload and share cards on Quizlet, and access your groups. You can now access both public and private groups and sets." = 
+"Einloggen, um Kartensatz zu importieren, Karten zu hochladen und freigeben, und Ihre Gruppen zugreifen. Sie können nun sowohl öffentliche als auch private Gruppen und Sets.";
+
+"Select Collection" = 
+"Wählen Sammlung";
+
+"Other Topic" = 
+"Anderes Thema";
+
+"Current Collections" = 
+"Aktuelle Sammlungen";
+
+"Import Multiple" = 
+"Importieren mehrerer";
+
+"Import One" = 
+"Import einen Satz";
+
+"Import Selected" =
+"Importieren ausgewählten";
+
+"Import All" =
+"Importieren alle";
+
+"Import as Separate Sets" = 
+"Importieren als getrennte Sätze";
+
+"Please select at least one set to import." = 
+"Please select at least one set to import.";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"Duplicate Set Found" = 
+"Doppelter Kartensatz gefunden";
+
+"You already have a card set entitled \"%@\". Would you like to import these cards into this already-existing set, or would you like to create a new card set?" = 
+"Ein Kartensatz mit dem Namen \"%@\" ist bereits vorhanden. Möchtest du die Karten in den bestehenden Kartensatz importieren oder einen neuen Kartensatz anlegen?";
+
+"Create New Set" = 
+"Neuen Kartensatz anlegen";
+
+"Import to Existing Set" = 
+"In bestehenden Kartensatz importieren";
+
+"Created On" = 
+"Erstellt";
+
+"Creator" = 
+"Ersteller";
+
+"Folders" = 
+"Ordner";
+
+"Go To Parent Folder" = 
+"Gehe zu übergeordnetem Ordner";
+
+"Home Folder" = 
+"Startordner";
+
+"Return to Home Folder" = 
+"Zurück zum Startordner";
+
+"Your search term must be at least two characters in length." = 
+"Dein Suchbegriff muss mindestens zwei Zeichen lang sein.";
+
+"Your username must be at least two characters in length." = 
+"Dein Benutzername muss mindestens zwei Zeichen lang sein.";
+
+"At this time, password-protected card sets cannot be synced with Quizlet." = 
+"At this time, password-protected card sets cannot be synced with Quizlet.";
+
+"Group Password" = 
+"Gruppen-Passwort";
+
+"Join Group" = 
+"Gruppe beitreten";
+
+"Joining Group" = 
+"Der Gruppe beitreten";
+
+"Leave Group" = 
+"Gruppe verlassen";
+
+"Leaving Group" = 
+"Die Gruppe verlassen";
+
+"No Sets In Group" = 
+"Keine Kartensätze in dieser Gruppe";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"Tag: %@" = 
+"Tag: %@";
+
+"Topics" = 
+"Themen";
+
+"The password you entered is not valid. Please enter the group's password (case-sensitive) to join:" = 
+"Das Passwort ist ungültig. Bitte gib das Passwort für die Gruppe (Groß- und Kleinschreibung beachten) ein um beizutreten:";
+
+"The password you entered is not valid. Please enter the set's password (case-sensitive) to access:" = 
+"Das Passwort ist ungültig. Bitte gib das Passwort für den Kartensatz (Groß- und Kleinschreibung beachten) ein um darauf zuzugreifen:";
+
+"This group does not exist." = 
+"Diese Gruppe existiert nicht.";
+
+"This group was either deleted by its owner or because it had inappropriate content." = 
+"Diese Gruppe wurde entweder von ihrem Besitzer oder aufgrund unangemessener Inhalte gelöscht.";
+
+"This is a \"private\" card set and is password-protected. Please enter the set's password (case-sensitive) to access:" = 
+"Dies ist ein \"privater\" passwortgeschützter Kartensatz. Gib bitte das Passwort ein (Groß- und Kleinschreibung beachten) um darauf zuzugreifen.";
+
+"Set Password" = 
+"Passwort setzen";
+
+"This is a \"private\" group and is password-protected. Please enter the group's password (case-sensitive) to join:" = 
+"Dies ist eine \"private\" passwortgeschützte Gruppe. Gib bitte das Passwort ein (Groß- und Kleinschreibung beachten) um beizutreten:";
+
+"This is a \"private\" group. Please log in to Quizlet to access or join this group." = 
+"Dies ist eine \"private\" Gruppe. Logge dich bei Quizlet ein , um auf diese Gruppe zuzugreifen oder ihr beizutreten.";
+
+"This is a \"private\" group. You do not have access to this group, and at this time password-protected groups are not supported." = 
+"Dies ist eine \"private\" Gruppe. Sie haben keinen Zugang zu dieser Gruppe, und derzeit Gruppen durch ein Passwort geschützt werden nicht unterstützt.";
+
+"This set does not exist." = 
+"Dieser Kartensatz existiert nicht.";
+
+"This file exceeds the maximum file size for processing (8 megabytes). Please select a smaller file." = 
+"Diese Datei überschreitet die maximal zulässige Dateigröße (8 MB). Bitte wähle eine kleinere Datei aus.";
+
+"This set was either deleted by its owner or because it had inappropriate content." = 
+"Dieser Kartensatz wurde entweder von ihrem Besitzer oder aufgrund unangemessener Inhalte gelöscht.";
+
+"This user does not exist; make sure you did not misspell the name." = 
+"Ubekannter Benutzer - stell sicher, dass du dich nicht verschrieben hast.";
+
+"You may only join a maximum of 8 Quizlet groups (you have 8). Please remove some before adding new ones, or subscribe to the Quizlet PLUS service to have unlimited groups. (This is a limitation of Quizlet, not FlashCards++, please consult the FAQ on www.Quizlet.com.)" = 
+"Du kannst maximal 8 Gruppen beitreten (du bist bereits 8 Gruppen beigetreten). Verlasse zunächst andere Gruppen oder mache ein Upgrade auf Quizlet PLUS, um unbegrenzt Gruppen beizutreten. (Dies ist eine Einschränkung von Quizlet, nicht von FlashCards++, siehe auch FAQ auf Quizlet.com)";
+
+"You have been invited to join this group. Would you like to join?" = 
+"Du wurdes eingeladen dieser Gruppe beizutreten. Möchtest du beitreten?";
+
+"You have joined this group successfully." = 
+"Du bist dieser Gruppe erfolgreich beigetreten.";
+
+"You have left this group successfully." = 
+"Du hast diese Grupper erfolgreich verlassen.";
+
+"The is a \"private\" group. Please enter a quick message to the group to ask to join:" = 
+"Dies ist eine \"private\" Gruppe. Gib bitte eine kurze Nachricht an die Gruppe ein, um um Zugang zu bitten:";
+
+"Your Message" = 
+"Deine Nachricht";
+
+"The administrator of this group has been notified of your application." = 
+"Der Administrator dieser Gruppe wurde über deine Anwendung informiert.";
+
+"Due to technical difficulties or site maintenance, access to private Quizlet sets and groups is not currently available. It will be available again shortly." = 
+"Due to technical difficulties or site maintenance, access to private Quizlet sets and groups is not currently available. It will be available again shortly.";
+
+"There has been an error with your Quizlet authentication; please re-authenticate with Quizlet." = 
+"There has been an error with your Quizlet authentication; please re-authenticate with Quizlet.";
+
+"There was an error reading your data file, please ensure that it has not been corrupted: %@ (%d)" = 
+"There was an error reading your data file, please ensure that it has not been corrupted: %1$@ (%2$d)";
+
+"# Cards" = 
+"# Karten";
+
+"Choose Spreadsheet" = 
+"Tabellen auswählen";
+
+"Description" = 
+"Beschreibung";
+
+"Your Email Address" = 
+"Deine Email-Adresse";
+
+"Your Quizlet Username" = 
+"Dein Quizlet Benutzername";
+
+"An administrator of this group has removed you." = 
+"Du wurdest von einem Administrator dieser Gruppe entfernt.";
+
+"Added to group %@" = 
+"Zur Gruppe %@ hinzugefügt";
+
+"Please log in to Quizlet to access or join this group." = 
+"Logge dich bitte ein, um auf diese Gruppe zuzugreifen oder ihr beizutreten.";
+
+"Processing File" = 
+"Datei wird bearbeitet";
+
+"Validating Purchase Receipts" = 
+"Validating Purchase Receipts";
+
+"Compressing Database" = 
+"Compressing Database";
+
+"Import Without Images" = 
+"Import Without Images";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+
+"Back of Card:" = 
+"Kartenrückseite:";
+
+"Back Side" = 
+"Kartenrückseite";
+
+"Excel or CSV Files" = 
+"Excel- oder CSV-Dateien";
+
+"Don't Merge" = 
+"Nicht zusammenfügen";
+
+"Download Cards" = 
+"Karten runterladen";
+
+"Duplicate Cards Found" = 
+"Doppelte Karten gefunden";
+
+"Error Downloading Flashcards" = 
+"Fehler beim runterladen der Karten";
+
+"Front Side" = 
+"Vorderseite";
+
+"Fronts of Card:" = 
+"Vorderseite der Karte:";
+
+"Import Success!" = 
+"Import erfolgreich!";
+
+"Merge" = 
+"Zusammenfügen";
+
+"No card sets were found; this username may not be valid. Please check your internet connection, and make sure your card sets are marked as 'public' (otherwise, they will not show up in the API).\n\nError data: %@" = 
+"Keine Kartensätze gefunden; der Benutzername könnte falsch sein. Überprüfe bitte auch deine Internetverbindung und stelle sicher, dass deine Kartensätze als 'öffentlich' markiert sind (anderenfalls können sie über die API nicht gefunden werden).\n\nFehler: %@";
+
+"Quizlet" = 
+"Quizlet";
+
+"Reverse Fromt & Back" = 
+"Seiten tauschen";
+
+"Unresolved error parsing API query: %@" = 
+"Nicht aufgelöster API Fehler: %@";
+
+"Logout from Quizlet (%@)" = 
+"Aus Quizlet ausloggen (%@)";
+
+"Group Deleted" = 
+"Gruppe gelöscht";
+
+"Set Deleted" = 
+"Kartensatz gelöscht";
+

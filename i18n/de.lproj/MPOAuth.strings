@@ -1,0 +1,48 @@
+/* error */
+"All subclasses of MPOAuthAuthenticationMethod are required to implement -authenticate" = "All subclasses of MPOAuthAuthenticationMethod are required to implement -authenticate";
+
+/* No comment provided by engineer. */
+"Failed to allocate memory" = "Failed to allocate memory";
+
+/* error */
+"Incorrect number of oauth authorization methods" = "Incorrect number of oauth authorization methods";
+
+/* No comment provided by engineer. */
+"Item already exists for %@" = "Item already exists for %@";
+
+/* No comment provided by engineer. */
+"Keychain Access Not Currently Available" = "Keychain Access Not Currently Available";
+
+/* No comment provided by engineer. */
+"Keychain duplicate item exception" = "Keychain duplicate item exception";
+
+/* No comment provided by engineer. */
+"Keychain memory error" = "Keychain memory error";
+
+/* No comment provided by engineer. */
+"Keychain Not Available" = "Keychain Not Available";
+
+/* No comment provided by engineer. */
+"Keychain parameter error" = "Keychain parameter error";
+
+/* error */
+"Not Implemented" = "Not Implemented";
+
+/* No comment provided by engineer. */
+"One or more parameters passed to the function were not valid from %@" = "One or more parameters passed to the function were not valid from %@";
+
+/* No comment provided by engineer. */
+"The requested HTTP method, %@, is not supported" = "The requested HTTP method, %@, is not supported";
+
+/* No comment provided by engineer. */
+"The signature method \"%@\" is not currently support by MPOAuthConnection" = "The signature method \"%@\" is not currently support by MPOAuthConnection";
+
+/* error */
+"Unable to load without valid credentials" = "Unable to load without valid credentials";
+
+/* error */
+"Unable to load, credentials contain no consumer key" = "Unable to load, credentials contain no consumer key";
+
+/* No comment provided by engineer. */
+"Unsupported Signature Method" = "Unsupported Signature Method";
+

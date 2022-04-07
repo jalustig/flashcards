@@ -1,0 +1,115 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"FlashCards++" = 
+"FlashCards++";
+
+"OK" = 
+"OK";
+
+"Cancel" = 
+"Отмена";
+
+"Updating Database" = 
+"Обновление базы данных";
+
+"May take a minute on large databases." = 
+"Для больших баз данных может занять около минуты.";
+
+"Options" = 
+"Настройки";
+
+"Are You Sure?" = 
+"Вы уверены?";
+
+"Your message has been sent successfully." = 
+"Ваше сообщение было успешно отправлено.";
+
+"Loading..." = 
+"Загрузка...";
+
+"Uploading..." = 
+"Закачка...";
+
+"FlashCards++ (Merge Sets)" = 
+"FlashCards++ (объединение коллекций)";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"Other" = 
+"Другое";
+
+"E-Factor" = 
+"Фактор E";
+
+"E-Factors" = 
+"Фактор E";
+
+"Log in" = 
+"Вход";
+
+"Downloading Images" = 
+"Скачивание изображений";
+
+"Search" = 
+"Поиск";
+
+"Type" = 
+"Тип";
+
+"Log In" = 
+"Вход";
+
+"Log In Now" = 
+"Войти";
+
+"Search Results" = 
+"Результаты поиска";
+
+"Thank you for Following!" = 
+"Thank you for Following!";
+
+"You are now following us on Twitter!" = 
+"You are now following us on Twitter!";
+
+"You currently do not have any Twitter accounts." = 
+"You currently do not have any Twitter accounts.";
+
+"Select Twitter Account" = 
+"Select Twitter Account";
+
+"Post to Facebook" = 
+"Post to Facebook";
+
+"Post to Twitter" = 
+"Post to Twitter";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"# Cards" = 
+"# карточек";
+
+"You are not currently online. Sync will complete when your internet connection is available." = 
+"Нет подключения к Интернету. Синхронизация будет завершена при доступном интернет-соединении.";
+
+"You are not currently subscribed to Quizlet Plus, Quizlet's premium service. You can add images to flash cards, but they will not be uploaded to Quizlet." = 
+"Вы не подписаны на Quizlet Plus, Quizlet является расширенной функцией. Вы сможете добавлять изображения в карточки, но они не будут закачаны на Quizlet.";
+
+"Quit" = 
+"Quit";
+
+"Restore Original Database" = 
+"Restore Original Database";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+
+"FlashCards++ Lite" = 
+"FlashCards++ Lite";
+

@@ -1,0 +1,184 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"Error" = 
+"Fehler";
+
+"No pronunciation found in speech database." = 
+"Keine Aussprache in Rede Datenbank gefunden.";
+
+"This text-to-speech file has not yet been downloaded from the internet. It will be available when you have a working internet connection." = 
+"This text-to-speech file has not yet been downloaded from the internet. It will be available when you have a working internet connection.";
+
+"FlashCards++ has attempted to find the text-to-speech file for this text, but no pronunciation was found in speech database." = 
+"FlashCards++ has attempted to find the text-to-speech file for this text, but no pronunciation was found in speech database.";
+
+"Sorry, you cannot currently make in-app purchases." = 
+"Sorry, you cannot currently make in-app purchases.";
+
+"Error: %@" = 
+"Fehler: %@";
+
+"Error: %@ (%d)" = 
+"Fehler: %1$@ (%2$d)";
+
+"Error: %@ (%@)" = 
+"Fehler: %1$@ (%2$@)";
+
+"You are not connected to the internet." = 
+"Keine Verbindung zum Internet.";
+
+"No internet connection" = 
+"Keine Verbindung zum Internet";
+
+"Try again once you have an internet connection." = 
+"Versuchen noch einmal, als Sie eine Verbindung zum Internet haben.";
+
+"This feature will only work with an active internet connection." = 
+"This feature will only work with an active internet connection.";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"You have lost internet connectivity. Sync was canceled." =
+"You have lost internet connectivity. Sync was canceled.";
+
+"It appears that your FlashCards++ database has been corrupted. You can load a previous backup, reset your data to the initial install, or quit the app.\n\n%@" = 
+"It appears that your FlashCards++ database has been corrupted. You can load a previous backup, reset your data to the initial install, or quit the app.\n\n%@";
+
+"Unresolved error saving data: %@, %@" = 
+"Unresolved error saving data: %@, %@";
+
+"Please turn off Auto-Audio." = 
+"Please turn off Auto-Audio.";
+
+"You are not currently logged in to Quizlet. Any sets you have synced with Quizlet will not sync until you log in to Quizlet on this device." =
+"You are not currently logged in to Quizlet. Any sets you have synced with Quizlet will not sync until you log in to Quizlet on this device.";
+
+"You must be connected to the internet to create a new account or log in." = 
+"You must be connected to the internet to create a new account or log in.";
+
+"Please turn off Auto-Audio." = 
+"Please turn off Auto-Audio.";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"It appears that your backup location (\"%@\") is not a directory. Please select a new location for backups." = 
+"Der Ort für deine Backups (\"%@\") scheint kein Verzeichnis zu sein. Bitte einen neuen Ort für deine Backups aussuchen.";
+
+"Thank you for sending an error report. We will work to fix the error as quickly as possible and will be in touch if we need more information to track it down. To find the bug more quickly, please tell us exactly what you did before you got this error message:" = 
+"Danke für das Einsenden des Fehlerberichtes. Wir werden den Fehler soschnell wie möglich beheben und melden uns falls wir weitere Informationen brauchen. Um den Fehler schneller zu finden ist es wichtig zu wissen, was du getan hast bevor es zu diesem Fehler kam:";
+
+"Error creating initial data store: %@, %@" = 
+"Fehler beim erstellen des 'initial data store': %1$@, %2$@";
+
+"Error downloading data: %@, %@" = 
+"Fehler beim Runterladen der Daten: %1$@, %2$@";
+
+"Error opening data source: %@, %@" = 
+"Fehler beim Öffnen der Datenquelle: %1$@, %2$@";
+
+"There was an error reading your data file, please ensure that it has not been corrupted: %@ (%d)" = 
+"Unbekannter Fehler beim bearbeiten deiner Daten-Datei. Bitte stell sicher, dass sie nicht korrumpiert wurde: %1$@ (%2$d)\n\n%3$@";
+
+"Error: the file was empty." = 
+"Fehler: Leere Datei.";
+
+"There has been an error with your Quizlet authentication; please re-authenticate with Quizlet." = 
+"Gibt es ein Fehler mit Ihren Quizlet Einloggen. Bitte einloggen Sie, um Quizlet wieder.";
+
+"This is a \"private\" card set and is password-protected. To access this set, find this set on Quizlet.com to enter the password." = 
+"Dies ist ein \"privat\" Kartensatz und ist durch ein Passwort geschützt. Für den Zugriff auf dieses Set, finden es auf Quizlet.com, das Passwort einzugeben.";
+
+"To use text-to-speech, select the language on the front and back side of your cards in the Collection settings." = 
+"To use text-to-speech, select the language on the front and back side of your cards in the Collection settings.";
+
+"You must be connected to the internet to log out." = 
+"You must be connected to the internet to log out.";
+
+"No Internet Connection" = 
+"No Internet Connection";
+
+"Quizlet Error" =
+"Quizlet Error";
+
+"The connection to Quizlet timed out." = 
+"The connection to Quizlet timed out.";
+
+"Connection Error" = 
+"Connection Error";
+
+"Quizlet Authentication will only work with an active internet connection." = 
+"Quizlet Authentication will only work with an active internet connection.";
+
+"Your mobile device is not configured to send email." = 
+"Your mobile device is not configured to send email.";
+
+"Error info:" = 
+"Fehler Info:";
+
+"Error: Directory Not Found" = 
+"Fehler: Verzeichnis nicht gefunden";
+
+"Error: File Not Found" = 
+"Fehler: Datei nicht gefunden";
+
+"Invalid CSV format on line #%lu immediately after \"%@\"" = 
+"Ungültiges CSV Format in Zeile #%1$lu, nach \"%2$@\"";
+
+"The directory \"%@\" could not be found in your Dropbox.\n\nError info: %@ %@" = 
+"Das Verzeichnis \"%1$@\" konnte in deiner Dropbox nicht gefunden werden.\n\nDetails: %2$@ %3$@";
+
+"The file \"%@\" could not be found.\n\nError info: %@ %@" = 
+"Die Datei \"%1$@\" konnte nicht gefunden werden.\n\nDetails: %2$@ %3$@";
+
+"A file or directory named \"%@\" already exists in this location in your Dropbox.\n\nError info: %@ %@" = 
+"Eine Datei oder ein Verzeichnis namens \"%1$@\" existiert an dieser Stelle in deiner Dropbox bereits.\n\nDetails: %2$@ %3$@";
+
+"An error occurred sending your message: %@ %@" = 
+"Beim Senden deiner Nachricht ist ein Fehler aufgetreten: %1$@ %2$@";
+
+"Error checking the file path:" = 
+"Fehler beim überprüfen des Dateipfades:";
+
+"Error downloading data: %@ %@" = 
+"Fehler beim Runterladen der Daten : %1$@ %2$@";
+
+"Error loading the list of backup files:" = 
+"Error loading the list of backup files:";
+
+"Error: file not found.\n\nError info: %@ %@" = 
+"Ein Fehler ist aufgetreten: Datei nicht gefunden.\n\nDetails: %1$@ %2$@";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+
+"An error occurred loading the list of backup files:" = 
+"Fehler beim Laden der Liste der Backup-Dateien:";
+
+"You are not connected to the internet..\n\nError info: %@ %@" = 
+"Ein Fehler ist aufgetreten: Du hast keine Verbindung zum Internet.\n\nDetails: %1$@ %2$@";
+
+"File Format Error" = 
+"Dateiformat-Fehler";
+
+"Not a Valid CSV File" = 
+"Ungültige CSV-Datei";
+
+"The file you have selected is an Excel file, not a CSV file. Please re-save this file as a CSV file and refresh, then you can import to FlashCards++." = 
+"Bei der Datei, die du ausgewählt hats, handelt es sich um eine Excel-Datei und nicht um eine CSV-Datei. Speichere die Datei erneut als CSV-Datei und versuche es nochmal.";
+
+"Error parsing card set. Please check your internet connection, and make sure your card sets are marked as 'public' (otherwise, they will not show up in the Quizlet API).\n\nError data: %@, %@" = 
+"Fehler beim Parsen des Kartensatzes. Bitte prüfe deine Internetverbindung und stelle sicher, dass deine Kartensätze als 'öffentlich' gekennzeichnet sind. (Anderenfalls sind sie über die Quizlet-API nicht verfügbar).\n\nDetails: %1$@, %2$@";
+
+"Error parsing card set: %@, %@" = 
+"Fehler beim Parsen des Kartensatzes: %1$@, %2$@";
+
+"Your CSV file is not formatted properly. Please make sure that you have entered a value in each row in both Column A (the front value) and Column B (the back value)." = 
+"Deine CSV-Datei ist nicht korrekt formatiert. Überprüfe bitte ob du für jede Karte Spalte A (Vorderseite) und Spalte B (Rückseite) ausgefüllt hast.";
+

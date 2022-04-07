@@ -1,0 +1,119 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"Syncing: Quizlet" = 
+"Syncing: Quizlet";
+
+"Syncing: FlashCards++" = 
+"Syncing: FlashCards++";
+
+"Preparing to Sync" = 
+"Подготовка к синхронизации";
+
+"Replacing Sync Data" = 
+"Замена данных синхронизации";
+
+"Do Not Sync" = 
+"Не синхронизировать";
+
+"Download and Sync" = 
+"Скачать и синхронизировать";
+
+"Upload New Master Database" = 
+"Закачать новую Мастер базу данных";
+
+"Turn On Sync" = 
+"Включить синхронизацию";
+
+"You already uploaded flash cards for automatic sync. If you sync your %@ with this previously uploaded master database, ALL flash cards on your %@ will be replaced with this data. If you want, you can upload your %@'s flash cards as a new master sync database instead." = 
+"Вы уже закачали карточки для автоматической синхронизации. Если вы синхронизируете свой %1$@ с этой предыдуще закаченной мастер базой данных, ВСЕ карточки вашего %2$@ будут заменены на эти данные. Если хотите, вы можете закачать ваши %3$@ карточки в качестве Новой мастер базы данных.";
+
+"As a FlashCards++ Subscriber, you can automatically sync all your data between your devices, e.g. iPhone and iPad. Would you like to turn on automatic sync? After the initial sync is complete, you can log in on your other devices to sync them with your FlashCards++ data." = 
+"Как подписчик FlashCards++ вы можете автоматически синхронизировать данные между своими устройствами, например, iPhone и iPad. Хотели бы вы включить авто-синхронизацию? По завершению первичной синхронизации вы можете выполнить Вход на другом устройстве для его синхронизации с данными FlashCards++.";
+
+"Sync FlashCards++ Data" = 
+"Синхронизировать данные FlashCards++";
+
+"Automatically Sync Data" = 
+"Синхронизировать данные автоматически";
+
+"Turn Off Sync" = 
+"Выключить синхронизацию";
+
+"Downloading Database" = 
+"Скачивание базы данных";
+
+"Uploading Database" = 
+"Закачивание базы данных";
+
+"It appears that your FlashCards++ sync data has been removed from the server. What would you like to do?" = 
+"Видимо, ваши данные FlashCards++ были удалены с сервера. Что вы хотите сделать?";
+
+"Your FlashCards++ database has been uploaded." = 
+"Ваша база данных FlashCards++ была закачана.";
+
+"Turn on automatic sync on your other devices to begin syncing your flash cards." = 
+"Включите авто-синхронизацию на вашем устройстве для обновления карточек.";
+
+/* eg. 'Automatically Sync with iPhone' or 'Automatically Sync with iPad' */
+"Automatically Sync With %@" = 
+"Автоматически синхронизировать с %@";
+
+"You last uploaded your flash card database to the sync server a while ago." = 
+"You last uploaded your flash card database to the sync server a while ago.";
+
+"%@ Would you like to upload a new copy? It will speed up sync and serve as a backup." = 
+"%@ Would you like to upload a new copy? It will speed up sync and serve as a backup.";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"Your FlashCards++ Subscription has expired. Please renew your Subscription to continue to sync your flash cards with your other iOS devices." = 
+"Your FlashCards++ Subscription has expired. Please renew your Subscription to continue to sync your flash cards with your other iOS devices.";
+
+"Are you sure you want to turn off sync? Any changes you make will not automatically be synced with the FlashCards++ server." = 
+"Вы уверены, что хотите Выключить синхронизацию? Любые дальнейшие изменения не будут синхронизированы с сервером FlashCards++ автоматически.";
+
+"Turn Off On This Device Only" = 
+"Выключить только на этом устройстве";
+
+"Turn Off On All Devices" = 
+"Выключить на всех устройствах";
+
+"Automatic Sync has been disabled for all devices, and sync data has been removed from the FlashCards++ web server." = 
+"Автоматическая синхронизация была отключена для всех устройств, данные синхронизации были удалены с веб-сервера FlashCards++.";
+
+"3 Days" = 
+"3 Days";
+
+"7 Days" = 
+"7 Days";
+
+"30 Days" = 
+"30 Days";
+
+"Remind Me In..." = 
+"Remind Me In...";
+
+"Learn More" = 
+"Learn More";
+
+"Automatic Sync has been disabled on this device, but the connection to the web server failed." = 
+"Automatic Sync has been disabled on this device, but the connection to the web server failed.";
+
+"It appears that your FlashCards++ sync data has been removed from the server, or your current sync files do not match the server. This may occur when you replace the master database from another device. Automatic Sync has been disabled, to turn it on again, go to the Settings screen." = 
+"It appears that your FlashCards++ sync data has been removed from the server, or your current sync files do not match the server. This may occur when you replace the master database from another device. Automatic Sync has been disabled, to turn it on again, go to the Settings screen.";
+
+"Saving Changes: %1.2f%%" = 
+"Saving Changes: %1.2f%%";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

@@ -1,0 +1,229 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+"# Cards Lapsed" = 
+"# Durchgefallene Karten";
+
+"# Cards Memorized" = 
+"# Gemerkte Karten";
+
+"# Cards Pending" = 
+"# Ausstehende Karten";
+
+"# Cards Studied" = 
+"# Gelernte Karten";
+
+"# Cases" = 
+"# Cases";
+
+"# Days" = 
+"# Days";
+
+"# Lapses" = 
+"# Durchgefallen";
+
+"# Memorized / Day" = 
+"# Erfolgreich gelernt / Tag";
+
+"# Repetitions" = 
+"# Wiederholungen";
+
+"Are you sure you want to reset the matrix of Optimal Factors? This matrix has been adjusted to match the knowledge stored in this Collection and your individual study habits." = 
+"Sicher, dass du die Matrix der optimalen Faktoren zurücksetzen möchtest? Sie wurde dem Datenbestand in dieser Sammlung und deinen persönlichen Lerngewohnheiten angepasst.";
+
+"Are you sure you want to reset the statistics for this Card Set? Doing this will remove your entire study history and cannot be undone." = 
+"Sicher, dass du die Statistik für dieses Kartenset zurücksetzen möchtest? Dies löscht die gesamte Lern-Historie und kann nicht rückgängig gemacht werden.";
+
+"Are you sure you want to reset the statistics for this Collection? Doing this will remove your entire study history and cannot be undone." = 
+"Sicher, dass du die Statistik für dieses Sammlung zurücksetzen möchtest? Dies löscht die gesamte Lern-Historie und kann nicht rückgängig gemacht werden.";
+
+"Avg. Interval" = 
+"Mittleres Intervall";
+
+"Avg. Lapses / Card" = 
+"Mittl. durchgefallen / Karte";
+
+"Avg. Repetition Delay" = 
+"Mittl. Wiederholungsverzögerung";
+
+"Avg. Repetition Time" = 
+"Mittl. Wiederholungszeit";
+
+"Avg. Repetitions" = 
+"Mittl. Wiederholungen";
+
+"Avg. Scores" = 
+"Mittl. Ergebnisse";
+
+"Burden" = 
+"Last";
+
+"Calculating Statistics..." = 
+"Berechne Statistiken...";
+
+"Card Statistics" = 
+"Karten Statistik";
+
+"Cards Due By Day" = 
+"Fällige Karten nach Tagen";
+
+"Cards Lapsed" = 
+"Durchgefallene Karten";
+
+"Cards Lapsed By Day" = 
+"Durchgefallene Karten nach Tagen";
+
+"Cards Lapsed By Month" = 
+"Durchgefallene Karten nach Monaten";
+
+"Cards Lapsed By Week" = 
+"Durchgefallene Karten nach Wochen";
+
+"Cards Studied" = 
+"Gelernte Karten";
+
+"Cards Studied By Day" = 
+"Gelernte Karten nach Tagen";
+
+"Cards Studied By Month" = 
+"Gelernte Karten nach Monaten";
+
+"Cards Studied By Week" = 
+"Gelernte Karten nach Wochen";
+
+"Date" = 
+"Datum";
+
+"Date Created" = 
+"Erstellungsdatum";
+
+"Don't Reset" = 
+"Nicht zurücksetzen";
+
+"E-Factors (All Cards)" = 
+"E-Faktoren (Alle Karten)";
+
+"E-Factors (Lapsed Only)" = 
+"E-Faktoren (Nur durchgefallene)";
+
+"E-Factors (Memorized Only)" = 
+"E-Faktoren (Nur gemerkte)";
+
+"First Day" = 
+"Erster Tag";
+
+"Future" = 
+"Zukunft";
+
+"General Statistics" = 
+"Allgemene Statistik";
+
+"Lapsed" = 
+"Durchgefallen";
+
+"Lapsed By Day" = 
+"Durchgefallene nach Tagen";
+
+"Last Repetition" = 
+"Letzte Wiederholung";
+
+"Memorized" = 
+"Gemerkte";
+
+"Month Ending" = 
+"Monat";
+
+"Next Repetition" = 
+"Nächste Wiederholung";
+
+"Next Week" = 
+"Nächste Woche";
+
+"Not Memorized" = 
+"Nicht gemerkt";
+
+"Optimal Factors" = 
+"Optimale Faktoren";
+
+"Optimal Factors (OF-Matrix)" = 
+"Optimale Faktoren (OF-Matrix)";
+
+"Repetition Scores" = 
+"Wiederholungs-Ergebnisse";
+
+"Repetitions" = 
+"Wiederholungen";
+
+"Reset All Statistics" = 
+"Gesamte Statistik zurücksetzen";
+
+"Reset Statistics?" = 
+"Statistik zurücksetzen?";
+
+"Reset Optimal Factor Matrix" = 
+"OF-Matrix zurücksetzen";
+
+"Rest of" = 
+"Rest des";
+
+"Retention Rate" = 
+"Effektive Lernrate";
+
+"Speed" = 
+"Geschwindigkeit";
+
+"Statistics" = 
+"Statistiken";
+
+"Studied By Day" = 
+"Gelernt nach Tagen";
+
+"The matrix of Optimal Factors has been reset to its default settings." = 
+"Die Matrix der Optimalen Faktoren wurde auf ihre Standardwerte zurückgesetzt.";
+
+"The statistics have been reset to their default settings." = 
+"Die Statistiken wurde auf ihre Standardwerte zurückgesetzt.";
+
+"Today" = 
+"Heute";
+
+"Total" = 
+"Gesamt";
+
+"Total Repetition Time" = 
+"Gesamte Wiederholungs-Zeit";
+
+"Week Ending" = 
+"Wochen";
+
+"Workload" = 
+"Zeitaufwand";
+
+"Yes, Reset" = 
+"Ja, zurücksetzen";
+
+"Last Modified" = 
+"Letzte Änderung";
+
+"By Day" = 
+"By Day";
+
+"By Week" = 
+"By Week";
+
+"By Month" = 
+"By Month";
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+

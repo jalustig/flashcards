@@ -1,0 +1,241 @@
+/**********************************************/
+/* PRIORITY 1 */
+/**********************************************/
+
+"Settings" = 
+"Настройки";
+
+"Study Settings" = 
+"Настройки обучения";
+
+"Swipe to Next Card" = 
+"Листать на следующую";
+
+"Text Justification" = 
+"Выравнивание текста";
+
+"Center" = 
+"Центр";
+
+"Left" = 
+"Влево";
+
+"Right" = 
+"Вправо";
+
+"Background Color" = 
+"Цвет фона";
+
+"Black" = 
+"Чёрный";
+
+"Blue" = 
+"Синий";
+
+"Brown" = 
+"Коричневый";
+
+"Cyan" = 
+"Голубой";
+
+"Gray" = 
+"Серый";
+
+"Green" = 
+"Зелёный";
+
+"Orange" = 
+"Оранжевый";
+
+"Purple" = 
+"Пурпурный";
+
+"Red" = 
+"Красный";
+
+"White" = 
+"Белый";
+
+"Yellow" = 
+"Жёлтый";
+
+"Text Size" = 
+"Размер текста";
+
+"Small" = 
+"Малый";
+
+"Normal" = 
+"Нормальный";
+
+"Large" = 
+"Большой";
+
+"Extra Large" = 
+"Больной XL";
+
+"Extra-Extra Large" = 
+"Большой XXL";
+
+"Display As Index Card" = 
+"Display As Index Card";
+
+"Go To Next On Score" = 
+"Go To Next On Score";
+
+"Renew Subscription" = 
+"Обновить подписку";
+
+"Use Cellular Data" = 
+"Использовать мобильный интернет";
+
+"Ignore Parentheses" = 
+"Игнор. скобки";
+
+"Log In to Restore Purchases" = 
+"Войти для восстановления покупок";
+
+"Active" = 
+"Активно";
+
+"Inactive" = 
+"Неактивно";
+
+"Subscribe" = 
+"Подписаться";
+
+"Active Until" = 
+"Активно до";
+
+"Reset Cache" = 
+"Очистка кэша";
+
+"Reset All Settings" = 
+"Сброс Всех настроек";
+
+"Reset Settings" = 
+"Сброс настроек";
+
+"Advanced Settings" = 
+"Расширенные настройки";
+
+"Are you sure you want to reset all settings? You will be logged out of Dropbox and Quizlet. If you are a FlashCards++ Subscriber, you will need to log in again to restore your subscription. All of your flash card and study data will remain." =
+"Вы уверены, что хотите сбросить все настройки? Вы будете отвязаны от Dropbox и Quizlet. Если вы подписаны на FlashCards++, то для восстановления подписки вам необходимо выполнить вход заново. Все ваши карточки и данные занятий сохраняются.";
+
+"Your settings have been reset." = 
+"Ваши настройки были сброшены.";
+
+"Your Account" = 
+"Ваш аккаунт";
+
+"Text-to-Speech" = 
+"Text-to-Speech";
+
+"FlashCards++ will use cellular data to cache offline text-to-speech data." = 
+"FlashCards++ будет использовать мобильную связь для кэширования данных text-to-speech.";
+
+"FlashCards++ will only use a wifi connection to cache offline text-to-speech data." = 
+"FlashCards++ будет использовать только Wi-Fi соединение для кэширования данных text-to-speech.";
+
+"Create Account" = 
+"Создать аккаунт";
+
+"Name" = 
+"Имя";
+
+"Subscription Status" = 
+"Состояние подписки";
+
+"Status" = 
+"Состояние";
+
+"Deleting Cache..." = 
+"Удаление кэша...";
+
+"No Cards" = 
+"Нет карточек";
+
+"Calculating..." = 
+"Подсчёт...";
+
+"%d of %d Cached" = 
+"%d из %d закэшированы";
+
+"Reset Text-To-Speech Cache" = 
+"Сбросить кэш Text-To-Speech";
+
+"Are you sure you want to reset the text-to-speech cache?" = 
+"Вы уверены, что хотите сбросить кэш text-to-speech?";
+
+"Do you want to log out of your FlashCards++ account?" = 
+"Вы хотите выйти из вашего аккаунта FlashCards++?";
+
+"Optimizing Database" = 
+"Оптимизация базы данных";
+
+"Optimize Database" = 
+"Оптимизировать базу данных";
+
+"Are you sure you want to optimize your database? It is highly recommended that you first make a backup, just in case." = 
+"Are you sure you want to optimize your database? It is highly recommended that you first make a backup, just in case.";
+
+/**********************************************/
+/* PRIORITY 2 */
+/**********************************************/
+
+"Auto-Browse Speed" = 
+"Скорость авто-просмотра";
+
+"Import Settings" = 
+"Импортировать настройки";
+
+"Merge Exact Matches" = 
+"Объединить полные совпадения";
+
+"General Settings" = 
+"Общие настройки";
+
+"Display Badge" = 
+"Отображать эмблему";
+
+"Auto-correct Text" = 
+"Автокоррекция текста";
+
+"Auto-capitalize Text" = 
+"Авто с большой буквы";
+
+"Text Font" = 
+"Шрифт текста";
+
+"Reset Exact Match Statistics" = 
+"Сброс статистики полных совпадений";
+
+"Enter Code" = 
+"Enter Code";
+
+"Validate In-App Purchase Receipts" = 
+"Validate In-App Purchase Receipts";
+
+"Completely Disable Sync" = 
+"Completely Disable Sync";
+
+"Checking Code" = 
+"Checking Code";
+
+"Code accepted. FlashCards++ will now be usable without a subscription, because you purchased the app before it was available for free." = 
+"Code accepted. FlashCards++ will now be usable without a subscription, because you purchased the app before it was available for free.";
+
+"Invalid code." = 
+"Invalid code.";
+
+"This will disable Automatic Sync on all your devices and remove all sync data from this device. Your currently existing flash cards and card sets will not be affected." = 
+"This will disable Automatic Sync on all your devices and remove all sync data from this device. Your currently existing flash cards and card sets will not be affected.";
+
+/**********************************************/
+/* PRIORITY 3 */
+/**********************************************/
+
+/**********************************************/
+/* PRIORITY END */
+/**********************************************/
+
